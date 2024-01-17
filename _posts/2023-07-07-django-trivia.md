@@ -14,7 +14,7 @@ Round one: In what city was the first DjangoCon US held?
 
 ## Come join us at DjangoCon US for some Django trivia!
 
-This year we will be hosting a virtual trivia contest. The prizes are a $100 donation made to a charity of your choice and having your name(s), a link of your choosing and short statement emblazoned permanently [here](https://2023.djangocon.us/trivia/)! You can use this page to advertise yourself, your business, your side-project, or whatever you'd like [^1].
+This year we will be hosting a virtual trivia contest. The prizes are a $100 donation made to a charity of your choice and having your name(s), a link of your choosing and short statement emblazoned permanently [here](https://2024.djangocon.us/trivia/)! You can use this page to advertise yourself, your business, your side-project, or whatever you'd like [^1].
 
 ### Logistics:
 

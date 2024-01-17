@@ -2,7 +2,8 @@ title: DjangoCon US
 url: "https://2024.djangocon.us"
 author : DjangoCon US
 description: |
-  DjangoCon US 2024 conference will take place in Fall, 2024.
+  DjangoCon US 2024 conference will take place in Durham, NC
+  from September 22-27, 2024!
 enforce_ssl: "2024.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
@@ -109,14 +110,14 @@ sponsors_email: "sponsors@djangocon.us"
 visa_email: "visas@djangocon.us"
 
 # Our DjangoCon US links
-cfp_application: "https://pretalx.com/djangocon-us-2023/cfp"
-hotel_reservation_link: "https://www.marriott.com/en-us/hotels/rducv-durham-marriott-city-center/overview/"
+cfp_application: "https://pretalx.com/djangocon-us-2024/cfp"
+hotel_reservation_link: ""
 # slack_link: "https://djangoconus2022.herokuapp.com"
-merchandise_link: "https://django.threadless.com/designs/djangocon-us-2023/mens/t-shirt/regular?variation=front&color=lemon"
+merchandise_link: ""
 opportunity_grant_application: "https://forms.gle/LamfHzoXULdv63h18"
 slack_link: ""
 sponsorship_prospectus: ""
-ticket_link: "https://ti.to/defna/djangocon-us-2023"
+ticket_link: "https://ti.to/defna/djangocon-us-2024"
 # youtube_link: ""
 
 github: [metadata]

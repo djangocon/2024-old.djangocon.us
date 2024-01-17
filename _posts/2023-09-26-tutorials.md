@@ -60,7 +60,7 @@ Learn from some of the brightest minds in the field
 
 🚀 Don't miss out on this incredible opportunity to grow your skills and network with the Django community!
 
-For more information and updates, visit our [website](https://2023.djangocon.us/tutorials/).
+For more information and updates, visit our [website](https://2024.djangocon.us/tutorials/).
 
 Tutorials are a separate registration and are $199 per session. Buy tutorial tickets before they sell out! [Buy your ticket](https://ti.to/defna/djangocon-us-2023) today.
 
