@@ -124,6 +124,7 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
     .logo {
       width: 25rem;
       color: var(--color-logo);
+      margin-bottom: 10px;
     }
 
     .conf-locdate {
@@ -299,6 +300,7 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
       font-size: 1.1rem;
     }
 
+
     @media (min-width: 520px) {
       :root {
         --font-size  : 17px;
@@ -339,8 +341,7 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
 <div class="page">
   <div class="siteUpper">
     <header class="siteHeader">
-
-      <svg class="logo"><title>DjangoCon.US</title><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
+      <img class="logo" src="{{ "/static/img/logo.svg" | relative_url }}" alt="DC US {{ site.conf_year }} | Durham" />
       <h1 class="conf-locdate">Durham Convention Center in Durham, North Carolina &ndash; September 22-27, 2024</h1>
       <h2 class="conf-description">Join us for five days of inspiration, education, and networking opportunities.</h2>
       <p>
@@ -349,7 +350,6 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
             href="https://emails.djangocon.us/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g"
             class="button mailingList">Join our mailing list</a>
       </p>
-      </div>
     </header>
     <main class="siteMain">
       <div class="featuresBlock">

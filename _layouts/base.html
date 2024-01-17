@@ -26,6 +26,8 @@
 
     <div class="off-canvas-wrapper">
       <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        {% comment %}
+        disable navigation until we have the 2024 site ready
         <div
           class="off-canvas position-right"
           id="offCanvasRight"
@@ -35,9 +37,13 @@
               {% include nav.html %}
             </ul>
         </div>
+        {% endcomment %}
 
         <div class="off-canvas-content" data-off-canvas-content>
+          {% comment %}
+          disable title until we have the 2024 site ready
           {% include titlebar.html %}
+          {% endcomment %}
 
           <main>
             {{ content }}
