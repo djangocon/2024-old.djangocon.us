@@ -10,7 +10,7 @@ category: talks
 date: 2023-10-16 10:40:00-04:00
 end_date: 2023-10-16 11:05:00-04:00
 group: talks
-image: https://2023.djangocon.us//static/img/social/presenters/philip-james.png
+image: https://2024.djangocon.us//static/img/social/presenters/philip-james.png
 layout: session-details
 permalink: /talks/automate-your-city-data-with-python/
 presenter_slugs:

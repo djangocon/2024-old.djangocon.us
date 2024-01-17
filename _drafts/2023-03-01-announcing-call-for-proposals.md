@@ -22,9 +22,9 @@ TODO: Update opportunity graph form and remove comments
 Plus there are perks! Presenters get free admission to DjangoCon US! Grants to assist with your travel and lodging expenses are available as well. Fill out the [Opportunity Grant](https://docs.google.com/forms/d/1yc1HqqcJwi669vxTTs1daJbTeiNYwqM2h3gIgqbpWVE/viewform) form by May 15th, 2023. Decision notifications will be sent by June 28, 2023.
 {% endcomment %}
 
-For more information on talk and tutorial formats, please check out our [speaker information page](https://2023.djangocon.us/speaking/).
+For more information on talk and tutorial formats, please check out our [speaker information page](https://2024.djangocon.us/speaking/).
 
-We want everyone attending DjangoCon US to feel safe, welcome, and included. To that end, we have a [Code of Conduct](https://2023.djangocon.us/conduct/) for all speakers and attendees.
+We want everyone attending DjangoCon US to feel safe, welcome, and included. To that end, we have a [Code of Conduct](https://2024.djangocon.us/conduct/) for all speakers and attendees.
 
 If you have questions feel free [to contact us](mailto:hello@djangocon.us).
 
