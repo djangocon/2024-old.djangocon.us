@@ -1,5 +1,5 @@
 ---
-description: Resources to support DjangoCon US 2023 speakers
+description: Resources to support DjangoCon US 2024 speakers
 heading: Speaker Resources
 layout: default
 permalink: /speaking/speaker-resources/
@@ -8,7 +8,7 @@ title: Speaker Resources
 
 ## Information for Speakers
 
-{% comment %}* The Speaker Green Room will be in <strong>Santa Fe 4</strong> on Sunday-Wednesday.{% endcomment %}
+* The Speaker Green Room will be in <strong>Meeting Room 2</strong> on Monday-Wednesday.
 * Please be in your presentation room at least 15 minutes before your talk to meet your session chair.
 * A Quiet Room will be available for attendees and speakers on all conference days.
 * We reserve the right to ask for a draft of your slides/notes not more than 3 weeks in advance of the presentation for review. This draft will not be shared with anyone outside the program and code of conduct teams.
