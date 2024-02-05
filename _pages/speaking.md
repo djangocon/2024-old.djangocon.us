@@ -14,11 +14,12 @@ Our Call for Proposals is now closed.
 Decision notifications will be sent by June 28th, 2023.
 {% endcomment %}
 
-Our Call for Proposals is now closed and all decision notifications have been sent.
-
 {% comment %}
+Our Call for Proposals is now closed and all decision notifications have been sent.
+{% endcomment %}
+
 Our <a href="{{ site.cfp_application }}">Call for Proposals (CFP)</a> is now open!
-Submit your talk or tutorial proposal by May 15, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes), and encourage your friends and colleagues to do the same.
+Submit your talk or tutorial proposal by April 24, 2024 at [12 PM EDT](https://time.is/1200PM_24_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes), and encourage your friends and colleagues to do the same.
 
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
@@ -37,9 +38,9 @@ Need help with your proposal? We've got mentors and helpful tips on our [Speaker
 
 ### COVID-19
 
-Please see our <a href="/covid/">COVID-19 Policy</a> for more information.
+Our COVID-19 Policy for 2024 is still being finalized. You can refer to our <a href="https://2023.djangocon.us/covid/">COVID-19 Policy from 2023</a> for more information until then.
 
-At this time, we are planning on most presenters being in Durham to present their talks in person. Things may always change depending on how the pandemic progresses over the year. As in 2022, we will have a handful of online-exclusive talks that will air during the in-person breaks and meals.
+At this time, we are planning on most presenters being in Durham to present their talks in person. Things may always change depending on how things progress over the year. As in 2022 and 2023, we will have a handful of online-exclusive talks that will air during the in-person breaks and meals.
 
 Please indicate your format preference (in-person or online) as part of your proposal.
 
@@ -49,7 +50,7 @@ Please indicate your format preference (in-person or online) as part of your pro
 
 We'll choose a selection of talks and tutorials that we feel add to the most enjoyable and engaging program for our attendees. Volunteers from the Django community are invited to help us pick talks, and we rely heavily on them to help us select interesting and beneficial ones for our attendees. Community volunteers and conference organizers will review anonymized submissions and collectively decide which ones to accept.
 
-### Talks (October 16th, 17th, &amp; 18th)
+### Talks (September 23rd, 24th, &amp; 25th)
 
 Length: 25 minutes or 45 minutes
 
@@ -61,40 +62,38 @@ If you're a first-timer - don't fret! We would love to be remembered as the conf
 
 Here are some examples of what has been accepted over the last couple of years:
 
+-   [DjangoCon US 2023 Talks](https://2023.djangocon.us/talks/)
 -   [DjangoCon US 2022 Talks](https://2022.djangocon.us/talks/)
 -   [DjangoCon US 2021 Talks](https://2021.djangocon.us/talks/)
 -   [DjangoCon US 2019 Talks](https://2019.djangocon.us/talks/)
--   [DjangoCon US 2018 Talks](https://2018.djangocon.us/talks/)
 
 #### Online talks
 
-Just like in 2022, most talks will be in-person, and we will have several online-exclusive talks that air during breaks in the in-person session. These will air across all three talk days (Monday through Wednesday). Please indicate your preference for online or in-person in your submissions. There's a required question in pretalx asking your preference.
+Just like in 2022 and 2023, most talks will be in-person, and we are planning to have several online-exclusive talks that air during breaks in the in-person session. These will air across all three talk days (Monday through Wednesday). Please indicate your preference for online or in-person in your submissions. There's a required question in pretalx asking your preference.
 
-### Deep Dive Talks (October 18th)
+### Deep Dive Talks (September 25th)
 
 This year, we will be curating a deep dive day to focus on exploring Django and Django-adjacent topics in detail.
 Deep dive day is meant to follow in the footsteps of [Django Under the Hood](https://djangounderthehood.com/) and will provide a range of topics presented in-depth, targeting varying levels of Django experience.
 Talks of this nature will mix community submissions and personal invitations.
 If you believe your talk is a good fit, please indicate so on your submission to our CFP by choosing the "deep dive" tag!
 
-### Tutorials (October 8)
+### Tutorials (September 22nd)
 
 -   Length: 3-3.5 hours
--   Format: online
-
-Due to venue availability constraints, we're doing tutorials exclusively online for 2023. Each tutorial session will likely have one main virtual classroom and breakout rooms for attendees to work together. We will also have the attendee chat in which you'll have a private channel to discuss with your attendees. Teaching assistants are welcome; just let the organizers know beforehand so we invite them to the right places.
+-   Format: in-person
 
 We’re open to all kinds of ideas, especially ones we haven’t thought of! Technical tutorials tend to be more popular, but we welcome all topics! Tutorials can be targeted at any experience level, just be sure to indicate clearly what you expect your students to already know or have experience with in your proposal!
 
-Still unsure if you should submit? Not only will we cover your DjangoCon ticket, but _tutorials are compensated_! However, they do not include the price of your travel or lodging. If you need help with these costs, fill out the <a href="{{site.opportunity_grant_application}}">opportunity grant</a> form by May 15, 2023. Decision notifications will be sent by June 28, 2023.
+Still unsure if you should submit? Not only will we cover your DjangoCon US ticket, but _tutorials are compensated_! However, they do not include the price of your travel or lodging. If you need help with these costs, fill out the <a href="{{site.opportunity_grant_application}}">opportunity grant</a> form by April 24, 2024. Decision notifications will be sent by June 14, 2024.
 
 #### New Expectations for Tutorials
 
-In order to streamline the tutorial process, we're going to offer volunteer staffed office hours for tutorial attendees to help them get their machine set up. Tutorial presenters are not required to participate in these office hours. We will require that all tutorials include a setup guide by October 1st. This guide is what will be followed during the office hours.
+In order to streamline the tutorial process, we're going to offer volunteer staffed office hours for tutorial attendees to help them get their machine set up. Tutorial presenters are not required to participate in these office hours. We will require that all tutorials include a setup guide by September 8th. This guide is what will be followed during the office hours.
 
 The setup guide should include a step confirming that the setup has been complete. For example, if the tutorial requires a working Django application, having the user create a superuser, run `runserver`, then log into the Django Administration site would suffice. The goal here is to uncover and resolve setup issues so that the tutorial's time can be spent on content. A thorough example for a setup guide [can be found here](https://github.com/tim-schilling/debug-tutorial/#getting-setup).
 
-### Lightning Talks :zap: (October 16th, 17th, &amp; 18th)
+### Lightning Talks :zap: (September 23rd, 24th, &amp; 25th)
 
 Not up for a full-on talk or tutorial? Looking to give your first talk at a conference?
 Lightning talks are talks under 5 minutes with or without slides on almost any topic you want!
@@ -107,11 +106,10 @@ As we have in the past, this year, we have set aside up to $500 per speaker to h
 In order to maximize the amount we can provide, we ask that speakers who will be reimbursed by their employer decline the assistance offered so it can be spread out among speakers who do not receive travel reimbursement.
 Receipts for travel expenses will be required.
 
-{% comment %}
 If $500 will not cover your expenses, we encourage you to apply for an <a href= "{{site.opportunity_grant_application}}">opportunity grant</a>, but we cannot guarantee it will be awarded to you.
 
-Opportunity grant applications close at the end of the day on May 15, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes). We will send decision notifications by June 28, 2023.
-{% endcomment %}
+Opportunity grant applications close on April 24, 2024 at [12 PM EDT](https://time.is/1200PM_24_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes). We will send decision notifications by June 14, 2024.
+
 
 ### Online speaker gear reimbursement
 
@@ -119,6 +117,6 @@ If you are speaking online, we are pleased to offer up to $500 for recording gea
 
 ## Pre-conference information
 
-You will have the option to upload a rough transcript of your talk approximately two weeks before the conference to give the captioning team a chance to train on any jargon you might use in your talk. This is by no means required but it will provide a more accessible experience to your audience.
+You will have the option to upload a rough transcript of your talk approximately three weeks before the conference to give the captioning team a chance to train on any jargon you might use in your talk. This is by no means required but it will provide a more accessible experience to your audience.
 
 The organizing team reserves the right to request a review of draft slides at any point up to the start of the conference for any reason including but not limited to content, messaging quality, and more. Failure to provide these slides in a timely manner may result in your removal from the program. We understand that the slides are draft quality and will not be shared outside the program and code of conduct teams.
