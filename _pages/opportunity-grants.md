@@ -8,14 +8,14 @@ permalink: /opportunity-grants/
 title: Opportunity Grants
 ---
 
+Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until April 24, 2024 at [12 PM EDT](https://time.is/1200PM_24_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes).
+
 {% comment %}
-Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until May 15th, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes).
+Our opportunity grant application window is now closed. All decision notifications have been sent.
 {% endcomment %}
 
-Our opportunity grant application window is now closed. All decision notifications have been sent.
-
 {% comment %}
-Our opportunity grant application window is now closed. All decision notifications will be sent by June 28th, 2023.
+Our opportunity grant application window is now closed. All decision notifications will be sent by June 14th, 2024.
 {% endcomment %}
 If you have any questions, feel free to reach out to the opportunity grants team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
 
@@ -24,7 +24,7 @@ If you have any questions, feel free to reach out to the opportunity grants team
 ## Diversity Sponsorships
 
 Your organization can help increase diversity at DjangoCon US by contributing to the Opportunity Grant Fund.
-Please check out our [Sponsorship Information](/sponsors/information/) page for more information.
+{% comment %}Please check out our [Sponsorship Information](/sponsors/information/) page for more information.{% endcomment %}Please <a href="mailto:{{site.sponsors_email}}">e-mail us to ask about sponsorship opportunities</a>.
 
 <br>
 
@@ -40,11 +40,11 @@ We feel the wording "opportunity grants" makes a positive shift towards being a 
 
 ### When will I find out whether I've received an opportunity grant?
 
-{% comment %}
-You will be notified by July 8th, 2023.
-{% endcomment %}
+You will be notified by June 14, 2024.
 
+{% comment %}
 You should have received your notification. If you haven't, please email the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
+{% endcomment %}
 
 ### Do I need to be a speaker, a first-time attendee, or a member of an underrepresented group to receive an opportunity grant?
 
