@@ -77,7 +77,7 @@ For other emergencies or additional costs, we will review the recipient's needs 
 
 ### How To Donate
 
-[Become a Sponsor](/sponsors/information/)! You or your company can sponsor at a specific level or sponsor a particular need, such as wifi, meals, or sprints.
+Become a Sponsor! You or your company can sponsor at a specific level or sponsor a particular need, such as wifi, meals, or sprints.
 Contact our <a href="mailto:{{site.sponsors_email}}">sponsorship chair</a> directly to find out how you can sponsor us.
 
 You may also donate directly to the Opportunity Grant Fund by buying an extra ticket for an attendee who couldn't otherwise afford it when you purchase your ticket. Alternatively, you can add a dollar amount of your choosing.
