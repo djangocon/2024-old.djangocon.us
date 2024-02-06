@@ -24,7 +24,6 @@ Submit your talk or tutorial proposal by April 24, 2024 at [12 PM EDT](https://t
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
 <a href="{{site.cfp_application}}" class="button">Submit a Proposal</a>
-{% endcomment %}
 
 ## Why Speak at DjangoCon US?
 
