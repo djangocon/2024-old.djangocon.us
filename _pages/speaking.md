@@ -39,7 +39,7 @@ Need help with your proposal? We've got mentors and helpful tips on our [Speaker
 
 Our COVID-19 Policy for 2024 is still being finalized. You can refer to our <a href="https://2023.djangocon.us/covid/">COVID-19 Policy from 2023</a> for more information until then.
 
-At this time, we are planning on most presenters being in Durham to present their talks in person. Things may always change depending on how things progress over the year. As in 2022 and 2023, we will have a handful of online-exclusive talks that will air during the in-person breaks and meals.
+At this time, we are planning on most presenters being in Durham to present their talks in person. Things may always change depending on how the situation progresses over the year as well as availability of online platforms and organizer decisions. As in 2022 and 2023, we are currently planning to have a handful of online-exclusive talks that will air during the in-person breaks and meals, but in the event that we do not have a live-streamed component, we will give you the option to speak in-person instead if your talk is chosen for an online slot.
 
 Please indicate your format preference (in-person or online) as part of your proposal.
 
