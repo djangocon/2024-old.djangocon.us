@@ -4,7 +4,7 @@ alias social := screenshots
 
 # Replace DOMAIN with your Netlify link if our templates are not deployed yet.
 
-DOMAIN := "https://2023.djangocon.us"
+DOMAIN := "https://2024.djangocon.us"
 IMAGE_SIZE := "1200x630"
 
 # IMAGE_SIZE := "1024x512"
@@ -14,8 +14,9 @@ IMAGE_SIZE := "1200x630"
     just --list
 
 @bootstrap:
-    pip install -r ./bin/requirements.in
-    playwright install
+    python -m pip install --upgrade pip uv
+    uv pip install --requirement ./bin/requirements.in
+    python -m playwright install
 
 @build:
     docker-compose build
@@ -27,7 +28,10 @@ IMAGE_SIZE := "1200x630"
     just --fmt --unstable
 
 @lint:
-    pre-commit run --all-files
+    python -m pre_commit run --all-files
+
+@lock:
+    uv pip compile --output-file ./bin/requirements.txt ./bin/requirements.in
 
 @logs *ARGS:
     docker-compose logs {{ ARGS }}
@@ -35,9 +39,6 @@ IMAGE_SIZE := "1200x630"
 @screenshots:
     python bin/process.py generate-shots > ./shots.yml
     shot-scraper multi --no-clobber ./shots.yml
-
-@test:
-    bundle exec rake test
 
 @start *ARGS:
     just up --detach {{ ARGS }}
@@ -48,7 +49,9 @@ IMAGE_SIZE := "1200x630"
 @up *ARGS:
     docker-compose up {{ ARGS }}
 
+@test:
+    bundle exec rake test
+
 @update:
-    rm -f ./bin/requirements.txt
-    pip install -r ./bin/requirements.in
-    pip-compile ./bin/requirements.in
+    uv pip install --requirement ./bin/requirements.in
+    just lock
