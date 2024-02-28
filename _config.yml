@@ -86,7 +86,7 @@ twitter:
   username: djangocon
 
 # This is the default logo that people see with opengraph
-logo: /static/img/social/share.jpg
+logo: /static/img/social/share.png
 
 # Frontmatter fallback settings
 # This is the default logo that people see on blog posts
@@ -94,7 +94,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /static/img/social/share.jpg
+      image: /static/img/social/share.png
   - scope:
       path: "_presenters"
       type: presenters
