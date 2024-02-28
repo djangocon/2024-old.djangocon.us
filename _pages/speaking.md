@@ -35,9 +35,9 @@ Need help with your proposal? We've got mentors and helpful tips on our [Speaker
 -   Share your discoveries with a large audience.
 -   Give back to the Django community!
 
-### COVID-19
+### Public Health / COVID-19
 
-Please see our <a href="/covid/">COVID-19 Policy</a> for more information.
+Please see our <a href="/public-health/">Public Health Policy</a> for more information.
 
 At this time, we are planning on most presenters being in Durham to present their talks in person. Things may always change depending on how the pandemic progresses over the year. As in 2022, we will have a handful of online-exclusive talks that will air during the in-person breaks and meals.
 
