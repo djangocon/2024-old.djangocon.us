@@ -4,6 +4,8 @@ heading: Speaking at DjangoCon US
 layout: default
 permalink: /speaking/
 title: Speaking at DjangoCon US
+redirect_from:
+- /Applications
 ---
 
 {% comment %}
