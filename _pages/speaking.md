@@ -35,9 +35,9 @@ Need help with your proposal? We've got mentors and helpful tips on our [Speaker
 -   Share your discoveries with a large audience.
 -   Give back to the Django community!
 
-### COVID-19
+### Public Health / COVID-19
 
-Our COVID-19 Policy for 2024 is still being finalized. You can refer to our <a href="https://2023.djangocon.us/covid/">COVID-19 Policy from 2023</a> for more information until then.
+Please see our <a href="/public-health/">Public Health Policy</a> for more information.
 
 At this time, we are planning on most presenters being in Durham to present their talks in person. Things may always change depending on how the situation progresses over the year as well as availability of online platforms and organizer decisions. As in 2022 and 2023, we are currently planning to have a handful of online-exclusive talks that will air during the in-person breaks and meals, but in the event that we do not have a live-streamed component, we will give you the option to speak in-person instead if your talk is chosen for an online slot.
 
