@@ -1,7 +1,7 @@
 ---
 author: Jason Judkins
 category: General
-date: 2024-02-28 06:00:00
+date: 2024-03-09 06:00:00
 layout: post
 image: /static/img/blog/speaker_cfp.png
 post_photo_url: /static/img/blog/speaker_cfp.jpg
