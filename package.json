@@ -1,0 +1,24 @@
+{
+  "name": "durham.djangocon.us",
+  "version": "1.0.0",
+  "description": "DjangoCon.us conference website built on 11ty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/djangocon/durham.djangocon.us.git"
+  },
+  "keywords": [
+    "django",
+    "djangocon",
+    "conference"
+  ],
+  "author": "DEFNA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djangocon/durham.djangocon.us/issues"
+  },
+  "homepage": "https://github.com/djangocon/durham.djangocon.us#readme"
+}
