@@ -16,9 +16,10 @@ layout: default
       {%- for organizer in collections.organizers -%}
         {% assign photo = "src/content/organizers/" | append: organizer.data.photo %}
         <li class="space-y-3">
-          {% image photo, "./dist/organizers", "/organizers/", organizer.data.name, "(min-width: 30em) 50vw, 100vw", "block" %}
+          {% image photo, "./dist/organizers", "/organizers/", organizer.data.name, "(min-width: 30em) 50vw, 100vw", "organizer-photo" %}
           <h2 class="text-3xl font-medium">{{ organizer.data.name }}</h2>
           <p class="text-gray-700">{{ organizer.data.role }}</p>
+          <span class="object-cover"></span>
         </li>
       {%- endfor -%}
     </ul>
