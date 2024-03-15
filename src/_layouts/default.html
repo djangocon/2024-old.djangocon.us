@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <meta name="author" content="DjangoCon US" />
+  <meta name="description" content="{{ meta.description }}" />
+  
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:description" content="{{ meta.description }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:site_name" content="DjangoCon US" />
+  <meta property="og:image" content="{{ site.url }}/assets/img/social/share.jpg" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:image" content="{{ site.url }}/assets/img/social/share.jpg" />
+  <meta property="twitter:title" content="Organizers" />
+  <meta name="twitter:site" content="@djangocon" />
+  <meta name="twitter:creator" content="@DjangoCon US" />
+  
+  <meta property="fb:app_id" content="280981518972848" />
+
+
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body class="bg-gray-50">
+  <header class="bg-white">
+    <nav class="container px-4">
+      <ul class="lg:flex lg:gap-4">
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="/about">About</a>
+          <ul>
+            <li><a href="/organizers">Organizers</a></li>
+          </ul>
+        </li>
+        <li><a href="/venue">Venue</a></li>
+        <li><a href="/schedule">Schedule</a></li>
+        <li><a href="/sponsors">Sponsors</a></li>
+        <li><a href="/news">News</a></li>
+        <li><a href="#">Buy Tickets</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container px-4">
+    {{ content }}
+  </div>
+</body>
+</html>
