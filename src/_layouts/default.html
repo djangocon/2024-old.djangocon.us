@@ -8,7 +8,7 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <meta name="author" content="DjangoCon US" />
   <meta name="description" content="{{ meta.description }}" />
-  
+
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:description" content="{{ meta.description }}" />
@@ -22,7 +22,7 @@
   <meta property="twitter:title" content="Organizers" />
   <meta name="twitter:site" content="@djangocon" />
   <meta name="twitter:creator" content="@DjangoCon US" />
-  
+
   <meta property="fb:app_id" content="280981518972848" />
 
 
@@ -31,10 +31,17 @@
 </head>
 
 <body class="bg-gray-50">
-  <header class="bg-white">
-    <nav class="container px-4">
-      <ul class="lg:flex lg:gap-4">
-        <li><a href="/">Home</a></li>
+  <header class="bg-white py-4">
+    <nav class="container px-4 mx-auto">
+      <ul class="flex flex-col gap-2 lg:flex-row lg:gap-8">
+        <li aria-hidden="true" class="lg:mr-auto">
+          <a
+            href="/"
+            aria-label="Go to homepage">
+            <img src="/assets/img/theme/logo.svg" alt="DjangoCon US" class="h-16">
+          </a>
+        </li>
+        <li class="lg:sr-only"><a href="/">Home</a></li>
         <li>
           <a href="/about">About</a>
           <ul>
@@ -50,8 +57,8 @@
     </nav>
   </header>
 
-  <div class="container px-4">
-    {{ content }}
-  </div>
+  {% block content %}
+    {{- content -}}
+  {% endblock %}
 </body>
 </html>

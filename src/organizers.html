@@ -1,3 +1,21 @@
 ---
 title: Organizers
+layout: default
 ---
+
+<div class="py-12">
+  <div class="container px-4 mx-auto">
+    <h1 class="text-4xl font-bold mb-4">{{ title }}</h1>
+    <p class="text-xl">There is no "I" in DjangoCon US. Thank you to all our volunteers who make DjangoCon US happen!</p>
+  </div>
+</div>
+
+<div class="container px-4 mx-auto">
+  <ul class="grid grid-cols-3 gap-8">
+    {%- for organizer in collections.organizers -%}
+      <li class="">
+        <h2>{{ organizer.data.name }}</h2>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
