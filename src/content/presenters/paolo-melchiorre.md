@@ -6,7 +6,7 @@ layout: presenter
 mastodon: https://fosstodon.org/@paulox
 name: Paolo Melchiorre
 permalink: /presenters/paolo-melchiorre/
-photo_url: /static/img/presenters/paolo-melchiorre.jpg
+photo: paolo-melchiorre.jpg
 pronouns: he/him
 slug: paolo-melchiorre
 twitter: pauloxnet

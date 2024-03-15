@@ -1,8 +1,7 @@
 ---
 github: petergrand
-layout: default
 name: Peter Grandstaff
-photo_url: /static/img/organizers/peter-grandstaff.jpg
+photo: peter-grandstaff.jpg
 role: DEFNA President, Conference Chair, Venue Chair
 twitter: pgrandstaff
 website: https://tworock.io/

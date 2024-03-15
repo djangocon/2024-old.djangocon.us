@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://hola-soy-milk.online/@ramon
 name: Ramón Huidobro
 permalink: /presenters/ramon-huidobro/
-photo_url: /static/img/presenters/ramon-huidobro.jpeg
+photo: ramon-huidobro.jpeg
 pronouns: he/him
 slug: ramon-huidobro
 twitter: hola_soy_milk

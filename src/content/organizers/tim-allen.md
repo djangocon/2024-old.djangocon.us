@@ -1,9 +1,9 @@
 ---
 github: FlipperPA
-layout: default
+
 mastodon: https://fosstodon.org/@FlipperPA
 name: Tim Allen
-photo_url: /static/img/organizers/tallen.jpg
+photo: tim-allen.jpg
 role: Social Chair
 twitter: FlipperPA
 website: https://PyPhilly.org/

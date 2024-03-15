@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://cloudisland.nz/@coderanger
 name: Noah Kantrowitz
 permalink: /presenters/noah-kantrowitz/
-photo_url: /static/img/presenters/noah-kantrowitz.jpeg
+photo: noah-kantrowitz.jpeg
 slug: noah-kantrowitz
 twitter: kantrn
 website: null

@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://mastodon.online/@bajoranengineer
 name: Dawn Wages
 permalink: /presenters/dawn-wages/
-photo_url: /static/img/presenters/dawn-wages.jpeg
+photo: dawn-wages.jpeg
 slug: dawn-wages
 twitter: null
 website: null

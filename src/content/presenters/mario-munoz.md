@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://fosstodon.org/@pythonbynight
 name: Mario Munoz
 permalink: /presenters/mario-munoz/
-photo_url: /static/img/presenters/mario-munoz.png
+photo: mario-munoz.png
 slug: mario-munoz
 twitter: PythonByNight
 website: null

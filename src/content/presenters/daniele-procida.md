@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://mastodon.online/@EvilDMP
 name: Daniele Procida
 permalink: /presenters/daniele-procida/
-photo_url: /static/img/presenters/daniele-procida.jpeg
+photo: daniele-procida.jpeg
 slug: daniele-procida
 twitter: null
 website: null

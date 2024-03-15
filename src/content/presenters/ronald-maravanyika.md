@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Ronald Maravanyika
 permalink: /presenters/ronald-maravanyika/
-photo_url: ''
+photo: ''
 pronouns: he/him
 slug: ronald-maravanyika
 twitter: ronn_zw

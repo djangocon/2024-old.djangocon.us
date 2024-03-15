@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Nikolay Samokhvalov
 permalink: /presenters/nikolay-samokhvalov/
-photo_url: ''
+photo: ''
 slug: nikolay-samokhvalov
 twitter: samokhvalov
 website: null

@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Elizabeth Christensen
 permalink: /presenters/elizabeth-christensen/
-photo_url: /static/img/presenters/elizabeth-christensen.png
+photo: elizabeth-christensen.png
 slug: elizabeth-christensen
 twitter: sqlliz
 website: null

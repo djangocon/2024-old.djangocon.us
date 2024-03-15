@@ -5,7 +5,7 @@ hidden: false
 layout: presenter
 name: Jay Miller
 permalink: /presenters/jay-miller/
-photo_url: /static/img/presenters/jay-miller.jpg
+photo: jay-miller.jpg
 pronouns: he/them
 slug: jay-miller
 twitter: kjaymiller

@@ -1,3 +1,6 @@
+const Image = require('@11ty/eleventy-img');
+const path = require('path');
+
 module.exports = (config) => {
   /*
    * Setup collections
@@ -24,7 +27,8 @@ module.exports = (config) => {
    * Setup passthrough file copy
    * https://www.11ty.dev/docs/copy/
    */
-  config.addPassthroughCopy('src/assets/img/**/*');
+  config.addPassthroughCopy("src/assets/img/**/*");
+  //config.addPassthroughCopy({"src/content/organizers/*.+(jpg|jpeg|png|webp)": "organizers/"});
 
   /*
    * Custom watch targets
@@ -35,6 +39,37 @@ module.exports = (config) => {
   /*
    * Misc config
   */
+  config.addLiquidShortcode("image", async function(
+    src,
+    outputDir,
+    urlPath,
+    alt,
+    sizes,
+    classes = "") {
+      let metadata = await Image(src, {
+        widths: [300, 600],
+        formats: ["webp"],
+        outputDir,
+        urlPath,
+        filenameFormat: function (id, src, width, format, options) {
+          // Get the original filename without the extension
+          const originalFilename = path.basename(src, path.extname(src));
+
+          // Return the new filename
+          return `${originalFilename}-${width}.${format}`;
+        },
+      });
+
+      let imageAttributes = {
+        class: classes,
+        alt,
+        sizes,
+        loading: "lazy",
+        decoding: "async",
+      };
+
+    return Image.generateHTML(metadata, imageAttributes);
+  });
 
   return {
     dir: {

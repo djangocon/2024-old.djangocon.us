@@ -1,8 +1,8 @@
 ---
 github: davidfischer
 hidden: true
-layout: default
+
 name: David Fischer
-photo_url: /static/img/organizers/davidfischer.jpg
+photo: david-fischer.jpg
 role: Onsite Coordinator
 ---

@@ -1,9 +1,9 @@
 ---
 github: jcjudkins
-layout: default
+
 mastodon: https://fosstodon.org/@jjudkins
 name: Jason Judkins
-photo_url: /static/img/organizers/jason-judkins.jpg
+photo: jason-judkins.jpg
 role: Marketing Chair, Community Chair, Social Events co-chair
 twitter: jjudkins77
 ---

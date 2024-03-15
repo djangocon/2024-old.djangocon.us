@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://fosstodon.org/@_chrismay
 name: Chris May
 permalink: /presenters/chris-may/
-photo_url: /static/img/presenters/chris-may.jpeg
+photo: chris-may.jpeg
 pronouns: he/him
 slug: chris-may
 twitter: _chrismay

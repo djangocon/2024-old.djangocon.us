@@ -1,9 +1,9 @@
 ---
 github: mclarknc
-layout: default
+
 mastodon: https://mastodon.social/@mdc
 name: Michael Clark
-photo_url: /static/img/organizers/mclark.png
+photo: michael-clark.png
 role: Code of Conduct Committee Co-chair
 twitter: ''
 website: ''

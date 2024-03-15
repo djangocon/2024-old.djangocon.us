@@ -3,7 +3,7 @@ layout: default
 
 name: Pure Soul
 hidden: false
-photo_url: "/static/img/places/pure-soul.png"
+photo: "pure-soul.png"
 location: "4125 Durham-Chapell Hill Blvd"
 distance: "4.5 miles away"
 map: "https://goo.gl/maps/kkAHRkiJzGdoJNHn9"

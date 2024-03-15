@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://mastodon.social/@sheenarbw
 name: Sheena O'Connell
 permalink: /presenters/sheena-o-connell/
-photo_url: /static/img/presenters/sheena.jpeg
+photo: sheena.jpeg
 pronouns: she/her
 slug: sheena-o-connell
 twitter: sheena_oconnel

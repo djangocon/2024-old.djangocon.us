@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://mastodon.social/@marcgibbons
 name: Marc Gibbons
 permalink: /presenters/marc-gibbons/
-photo_url: /static/img/presenters/marc-gibbons.jpeg
+photo: marc-gibbons.jpeg
 pronouns: he/him
 slug: marc-gibbons
 twitter: null

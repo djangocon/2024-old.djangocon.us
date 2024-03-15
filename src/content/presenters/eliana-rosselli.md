@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Eliana Rosselli
 permalink: /presenters/eliana-rosselli/
-photo_url: /static/img/presenters/eliana-rosselli.png
+photo: eliana-rosselli.png
 pronouns: she/her
 slug: eliana-rosselli
 twitter: null

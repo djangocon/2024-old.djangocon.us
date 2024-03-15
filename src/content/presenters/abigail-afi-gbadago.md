@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Abigail Afi Gbadago
 permalink: /presenters/abigail-afi-gbadago/
-photo_url: /static/img/presenters/abigail-gbadago.jpeg
+photo: abigail-gbadago.jpeg
 slug: abigail-afi-gbadago
 twitter: afi_maame
 website: null

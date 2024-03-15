@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Dara Silvera
 permalink: /presenters/dara-silvera/
-photo_url: /static/img/presenters/dara-silvera.jpeg
+photo: dara-silvera.jpeg
 slug: dara-silvera
 twitter: null
 website: null

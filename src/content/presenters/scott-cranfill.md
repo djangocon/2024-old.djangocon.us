@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Scott Cranfill
 permalink: /presenters/scott-cranfill/
-photo_url: /static/img/presenters/scott-cranfill.jpeg
+photo: scott-cranfill.jpeg
 pronouns: he/him
 slug: scott-cranfill
 twitter: null

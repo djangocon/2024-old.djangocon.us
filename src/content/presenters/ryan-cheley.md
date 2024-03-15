@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://mastodon.social/@ryancheley
 name: Ryan Cheley (he/him)
 permalink: /presenters/ryan-cheley/
-photo_url: /static/img/presenters/ryan-cheley.jpeg
+photo: ryan-cheley.jpeg
 slug: ryan-cheley
 twitter: null
 website: https://www.ryancheley.com

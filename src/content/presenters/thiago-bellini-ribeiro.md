@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Thiago Bellini Ribeiro
 permalink: /presenters/thiago-bellini-ribeiro/
-photo_url: /static/img/presenters/thiago-bellini-ribeiro.jpeg
+photo: thiago-bellini-ribeiro.jpeg
 pronouns: he/him
 slug: thiago-bellini-ribeiro
 twitter: _bellini666

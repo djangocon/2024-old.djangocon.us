@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://fosstodon.org/@cheukting_ho
 name: Cheuk Ting Ho
 permalink: /presenters/cheuk-ting-ho/
-photo_url: /static/img/presenters/cheuk-ting-ho.jpeg
+photo: cheuk-ting-ho.jpeg
 pronouns: she/her
 slug: cheuk-ting-ho
 twitter: cheukting_ho

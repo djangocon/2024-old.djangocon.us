@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-screen">
 
 <head>
   <meta charset="utf-8">
@@ -30,24 +30,20 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
-<body class="bg-gray-50">
+<body class="bg-gray-50 h-screen flex flex-col">
   <header class="bg-white py-4">
     <nav class="container px-4 mx-auto">
-      <ul class="flex flex-col gap-2 lg:flex-row lg:gap-8">
+      <ul class="flex flex-col gap-2 lg:flex-row lg:gap-8 lg:items-center">
         <li aria-hidden="true" class="lg:mr-auto">
           <a
             href="/"
             aria-label="Go to homepage">
-            <img src="/assets/img/theme/logo.svg" alt="DjangoCon US" class="h-16">
+            <img src="/assets/img/logo.svg" alt="DjangoCon US" class="h-16">
           </a>
         </li>
         <li class="lg:sr-only"><a href="/">Home</a></li>
-        <li>
-          <a href="/about">About</a>
-          <ul>
-            <li><a href="/organizers">Organizers</a></li>
-          </ul>
-        </li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/organizers">Organizers</a></li>
         <li><a href="/venue">Venue</a></li>
         <li><a href="/schedule">Schedule</a></li>
         <li><a href="/sponsors">Sponsors</a></li>
@@ -57,8 +53,21 @@
     </nav>
   </header>
 
-  {% block content %}
-    {{- content -}}
-  {% endblock %}
+  <div class="flex-1">
+    {% block content %}
+      {{- content -}}
+    {% endblock %}
+  </div>
+
+  <footer class="bg-gray-200">
+    <div class="container px-4 mx-auto py-8">
+      <small class="text-center text-xs">
+        &copy; 2024 DjangoCon US
+        · Design by <a href="http://yupgup.com/">YupGup</a>
+        · Presented by <a href="https://www.defna.org/">DEFNA</a>
+        · <a href="/colophon/">Colophon</a>
+      </small>
+    </div>
+  </footer>
 </body>
 </html>

@@ -4,7 +4,7 @@ layout: presenter
 mastodon: https://mastodon.world/@adriennefranke
 name: Adrienne Franke
 permalink: /presenters/adrienne-franke/
-photo_url: /static/img/organizers/adrienne.jpg
+photo: /static/img/organizers/adrienne.jpg
 slug: adrienne-franke
 title: null
 twitter: adriennefranke

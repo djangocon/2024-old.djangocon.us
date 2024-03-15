@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://mastodon.yupgup.com/@michael
 name: Michael Trythall
 permalink: /presenters/michael-trythall/
-photo_url: /static/img/presenters/michael-trythall.jpg
+photo: michael-trythall.jpg
 slug: michael-trythall
 twitter: null
 website: https://lincolnloop.com/

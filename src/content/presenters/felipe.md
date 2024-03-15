@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Felipe de Morais
 permalink: /presenters/felipe-de-morais/
-photo_url: /static/img/presenters/felipe.jpeg
+photo: felipe.jpeg
 pronouns: he/him
 slug: felipe
 twitter: felipedemorais_

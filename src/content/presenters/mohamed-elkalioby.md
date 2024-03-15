@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Mohamed ElKalioby
 permalink: /presenters/mohamed-elkalioby/
-photo_url: ''
+photo: ''
 slug: mohamed-elkalioby
 twitter: null
 website: null

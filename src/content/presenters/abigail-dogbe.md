@@ -6,7 +6,7 @@ layout: presenter
 linkedin: abigail-mesrenyame-dogbe
 name: Abigail Mesrenyame Dogbe
 permalink: /presenters/abigail-dogbe/
-photo_url: /static/img/blog/Dogbe_Abigail-DSC07499-1.jpg
+photo: /static/img/blog/Dogbe_Abigail-DSC07499-1.jpg
 slug: abigail-dogbe
 twitter: MesrenyameDogbe
 website: null

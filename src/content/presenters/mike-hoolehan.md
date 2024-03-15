@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Mike Hoolehan
 permalink: /presenters/mike-hoolehan/
-photo_url: /static/img/presenters/mike-hoolehan.jpg
+photo: mike-hoolehan.jpg
 pronouns: he/him
 slug: mike-hoolehan
 twitter: null

@@ -1,8 +1,7 @@
 ---
 github: noahalorwu
-layout: default
 name: Noah Alorwu
-photo_url: /static/img/organizers/noah.jpg
+photo: noah-alorwu.jpg
 role: Onsite Coordinator, Visa Support
 twitter: plasmadray
 ---

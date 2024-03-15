@@ -3,7 +3,7 @@ layout: default
 
 name: Neomonde Mediterranean
 hidden: false
-photo_url: "/static/img/places/neomonde.png"
+photo: "neomonde.png"
 location: "202 Corcoran St"
 distance: "2 blocks (0.1 miles) away"
 map: "https://goo.gl/maps/jwbJcR6EAQ3y1zG46"

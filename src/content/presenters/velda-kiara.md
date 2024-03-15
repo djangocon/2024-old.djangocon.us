@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Velda Kiara
 permalink: /presenters/velda-kiara/
-photo_url: ''
+photo: ''
 pronouns: she/her
 slug: velda-kiara
 twitter: VeldaKiara

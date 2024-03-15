@@ -5,7 +5,7 @@ layout: presenter
 mastodon: https://fosstodon.org/@jameswalters
 name: James Walters
 permalink: /presenters/james-walters/
-photo_url: /static/img/presenters/james-walters.png
+photo: james-walters.png
 pronouns: he/him
 slug: james-walters
 twitter: null

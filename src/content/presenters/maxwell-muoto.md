@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Maxwell Muoto
 permalink: /presenters/maxwell-muoto/
-photo_url: /static/img/presenters/maxwell-muoto.jpeg
+photo: maxwell-muoto.jpeg
 slug: maxwell-muoto
 twitter: maxmuoto
 website: null

@@ -3,19 +3,24 @@ title: Organizers
 layout: default
 ---
 
-<div class="py-12">
+<div class="py-6">
   <div class="container px-4 mx-auto">
-    <h1 class="text-4xl font-bold mb-4">{{ title }}</h1>
+    <h1 class="mb-4 text-4xl font-bold">{{ title }}</h1>
     <p class="text-xl">There is no "I" in DjangoCon US. Thank you to all our volunteers who make DjangoCon US happen!</p>
   </div>
 </div>
 
-<div class="container px-4 mx-auto">
-  <ul class="grid grid-cols-3 gap-8">
-    {%- for organizer in collections.organizers -%}
-      <li class="">
-        <h2>{{ organizer.data.name }}</h2>
-      </li>
-    {%- endfor -%}
-  </ul>
+<div class="py-6">
+  <div class="container px-4 mx-auto">
+    <ul class="grid gap-8 grid-cols-123">
+      {%- for organizer in collections.organizers -%}
+        {% assign photo = "src/content/organizers/" | append: organizer.data.photo %}
+        <li class="space-y-3">
+          {% image photo, "./dist/organizers", "/organizers/", organizer.data.name, "(min-width: 30em) 50vw, 100vw", "block" %}
+          <h2 class="text-3xl font-medium">{{ organizer.data.name }}</h2>
+          <p class="text-gray-700">{{ organizer.data.role }}</p>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
 </div>

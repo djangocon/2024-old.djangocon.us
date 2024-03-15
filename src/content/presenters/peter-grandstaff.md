@@ -5,7 +5,7 @@ mastodon: null
 name: Peter Grandstaff
 override_schedule_title: Opening and Closing Remarks
 permalink: /presenters/peter-grandstaff/
-photo_url: /static/img/organizers/peter-grandstaff.jpg
+photo: /static/img/organizers/peter-grandstaff.jpg
 slug: peter-grandstaff
 title: null
 twitter: pgrandstaff

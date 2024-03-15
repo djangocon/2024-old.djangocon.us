@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Victor Ogunjobi
 permalink: /presenters/victor-ogunjobi/
-photo_url: /static/img/presenters/victor-ogunjobi.jpeg
+photo: victor-ogunjobi.jpeg
 slug: victor-ogunjobi
 twitter: chemicopy_
 website: null

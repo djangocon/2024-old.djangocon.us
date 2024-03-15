@@ -4,7 +4,7 @@ github: ''
 layout: presenter
 name: Andrew Knight
 permalink: /presenters/andrew-knight/
-photo_url: /static/img/blog/andy_django_profile_zoom_small.jpg
+photo: /static/img/blog/andy_django_profile_zoom_small.jpg
 slug: andrew-knight
 twitter: AutomationPanda
 website: https://automationpanda.com/

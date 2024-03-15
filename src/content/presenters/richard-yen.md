@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Richard Yen
 permalink: /presenters/richard-yen/
-photo_url: /static/img/presenters/richard-yen.jpg
+photo: richard-yen.jpg
 slug: richard-yen
 twitter: null
 website: null

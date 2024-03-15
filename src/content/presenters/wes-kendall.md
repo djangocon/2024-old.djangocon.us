@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Wes Kendall
 permalink: /presenters/wes-kendall/
-photo_url: /static/img/presenters/wes-kendall.jpeg
+photo: wes-kendall.jpeg
 slug: wes-kendall
 twitter: null
 website: null

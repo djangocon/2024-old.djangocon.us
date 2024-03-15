@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Pavel Sviridov
 permalink: /presenters/pavel-sviridov/
-photo_url: /static/img/presenters/pavel-sviridov.jpeg
+photo: pavel-sviridov.jpeg
 pronouns: he/his
 slug: pavel-sviridov
 twitter: sviridov_pavel

@@ -5,7 +5,7 @@ layout: presenter
 mastodon: null
 name: Thibaud Colas
 permalink: /presenters/thibaud-colas/
-photo_url: ''
+photo: ''
 slug: thibaud-colas
 twitter: thibaud_colas
 website: null
