@@ -1,7 +1,6 @@
 ---
 hidden: false
 instagram: MesrenyameDogbe
-layout: presenter
 linkedin: abigail-mesrenyame-dogbe
 name: Abigail Mesrenyame Dogbe
 permalink: /presenters/abigail-dogbe/

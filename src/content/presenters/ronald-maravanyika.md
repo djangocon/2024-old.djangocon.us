@@ -1,7 +1,6 @@
 ---
 company: ZimboPy
 hidden: false
-layout: presenter
 name: Ronald Maravanyika
 permalink: /presenters/ronald-maravanyika/
 photo: ""

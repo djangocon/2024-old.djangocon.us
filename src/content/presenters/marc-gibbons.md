@@ -1,7 +1,6 @@
 ---
 company: Marc Gibbons
 hidden: false
-layout: presenter
 name: Marc Gibbons
 permalink: /presenters/marc-gibbons/
 photo: marc-gibbons.jpeg

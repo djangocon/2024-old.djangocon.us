@@ -1,10 +1,8 @@
 ---
-layout: presenter
 name: Adrienne Franke
 permalink: /presenters/adrienne-franke/
 photo: /static/img/organizers/adrienne.jpg
 slug: adrienne-franke
-title: null
 social:
     twitter: adriennefranke
     website: https://adriennefranke.com

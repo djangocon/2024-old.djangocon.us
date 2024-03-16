@@ -1,7 +1,6 @@
 ---
 company: Microsoft, Wagtail CMS Core Team, PSF Board
 hidden: false
-layout: presenter
 name: Dawn Wages
 permalink: /presenters/dawn-wages/
 photo: dawn-wages.jpeg

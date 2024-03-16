@@ -1,7 +1,6 @@
 ---
 company: NASA Jet Propulsion Laboratory
 hidden: false
-layout: presenter
 name: Scott Cranfill
 permalink: /presenters/scott-cranfill/
 photo: scott-cranfill.jpeg

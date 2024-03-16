@@ -1,7 +1,6 @@
 ---
 company: CTO at BLB Ventures
 hidden: false
-layout: presenter
 name: Thiago Bellini Ribeiro
 permalink: /presenters/thiago-bellini-ribeiro/
 photo: thiago-bellini-ribeiro.jpeg

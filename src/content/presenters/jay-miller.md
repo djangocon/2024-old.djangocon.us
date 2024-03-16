@@ -1,7 +1,6 @@
 ---
 company: Microsoft
 hidden: false
-layout: presenter
 name: Jay Miller
 permalink: /presenters/jay-miller/
 photo: jay-miller.jpg

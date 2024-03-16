@@ -1,7 +1,6 @@
 ---
 company: Octobot
 hidden: false
-layout: presenter
 name: Eliana Rosselli
 permalink: /presenters/eliana-rosselli/
 photo: eliana-rosselli.png

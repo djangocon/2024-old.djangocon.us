@@ -1,7 +1,6 @@
 ---
 company: Author of Robust Python
 hidden: false
-layout: presenter
 name: Pat Viafore
 permalink: /presenters/pat-viafore/
 photo: pat-viafore.png

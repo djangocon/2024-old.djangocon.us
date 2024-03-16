@@ -1,7 +1,6 @@
 ---
 company: null
 hidden: false
-layout: presenter
 name: Mohamed ElKalioby
 permalink: /presenters/mohamed-elkalioby/
 photo: ""

@@ -1,7 +1,6 @@
 ---
 company: Everyday Superpowers
 hidden: false
-layout: presenter
 name: Chris May
 permalink: /presenters/chris-may/
 photo: chris-may.jpeg

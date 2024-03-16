@@ -1,7 +1,6 @@
 ---
 company: Vinta Software
 hidden: false
-layout: presenter
 name: Flávio Juvenal
 permalink: /presenters/flavio-juvenal/
 photo: flavio-juvenal.jpg

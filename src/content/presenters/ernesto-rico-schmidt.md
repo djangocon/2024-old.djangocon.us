@@ -1,7 +1,6 @@
 ---
 company: Radio Helsinki in Graz, Austria
 hidden: false
-layout: presenter
 name: Ernesto Rico Schmidt
 permalink: /presenters/ernesto-rico-schmidt/
 photo: ernesto-rico-schmidt.jpeg

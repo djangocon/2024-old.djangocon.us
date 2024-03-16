@@ -1,7 +1,6 @@
 ---
 company: Django Girls Ghana
 hidden: false
-layout: presenter
 name: Abigail Afi Gbadago
 permalink: /presenters/abigail-afi-gbadago/
 photo: abigail-gbadago.jpeg

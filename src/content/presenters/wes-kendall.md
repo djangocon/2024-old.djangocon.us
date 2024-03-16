@@ -1,7 +1,6 @@
 ---
 company: Standard Metrics
 hidden: false
-layout: presenter
 name: Wes Kendall
 permalink: /presenters/wes-kendall/
 photo: wes-kendall.jpeg

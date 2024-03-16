@@ -1,7 +1,6 @@
 ---
 company: Geomagical Labs/IKEA
 hidden: false
-layout: presenter
 name: Noah Kantrowitz
 permalink: /presenters/noah-kantrowitz/
 photo: noah-kantrowitz.jpeg

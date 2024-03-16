@@ -1,7 +1,6 @@
 ---
 company: Umuzi
 hidden: false
-layout: presenter
 name: Sheena O'Connell
 permalink: /presenters/sheena-o-connell/
 photo: sheena.jpeg

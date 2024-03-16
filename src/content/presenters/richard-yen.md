@@ -1,7 +1,6 @@
 ---
 company: EnterpriseDB
 hidden: false
-layout: presenter
 name: Richard Yen
 permalink: /presenters/richard-yen/
 photo: richard-yen.jpg

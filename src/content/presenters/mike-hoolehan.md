@@ -1,7 +1,6 @@
 ---
 company: StarHeight Media
 hidden: false
-layout: presenter
 name: Mike Hoolehan
 permalink: /presenters/mike-hoolehan/
 photo: mike-hoolehan.jpg

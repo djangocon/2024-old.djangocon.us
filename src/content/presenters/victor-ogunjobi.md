@@ -1,7 +1,6 @@
 ---
 company: Code Warriors
 hidden: false
-layout: presenter
 name: Victor Ogunjobi
 permalink: /presenters/victor-ogunjobi/
 photo: victor-ogunjobi.jpeg

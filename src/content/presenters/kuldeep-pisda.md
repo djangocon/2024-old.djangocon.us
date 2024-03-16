@@ -1,7 +1,6 @@
 ---
 company: Goldcast Inc
 hidden: false
-layout: presenter
 name: Kuldeep Pisda
 permalink: /presenters/kuldeep-pisda/
 photo: kuldeep-pisda.jpeg

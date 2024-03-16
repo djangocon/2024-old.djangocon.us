@@ -1,7 +1,6 @@
 ---
 company: Six Feet Up
 hidden: false
-layout: presenter
 name: Calvin Hendryx-Parker
 override_schedule_title: Powering Energy Storage Beyond Excel
 permalink: /presenters/calvin-hendryx-parker/

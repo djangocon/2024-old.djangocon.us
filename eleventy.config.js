@@ -6,6 +6,10 @@ module.exports = (eleventyConfig) => {
     Setup collections
     https://www.11ty.dev/docs/collections/
   */
+  eleventyConfig.addCollection("posts", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/content/posts/*.md");
+  });
+
   eleventyConfig.addCollection("places", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/content/places/*.md");
   });

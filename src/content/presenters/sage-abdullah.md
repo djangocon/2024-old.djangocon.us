@@ -1,7 +1,6 @@
 ---
 company: Torchbox
 hidden: false
-layout: presenter
 name: Sage Abdullah
 permalink: /presenters/sage-abdullah/
 photo: sage-abdullah.jpeg

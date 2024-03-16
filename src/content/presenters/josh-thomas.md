@@ -1,7 +1,6 @@
 ---
 company: The Westervelt Company
 hidden: false
-layout: presenter
 name: Josh Thomas
 permalink: /presenters/josh-thomas/
 photo: josh-thomas.png

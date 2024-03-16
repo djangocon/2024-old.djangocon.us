@@ -1,7 +1,6 @@
 ---
 company: Python Software Foundation
 hidden: false
-layout: presenter
 name: Deb Nicholson
 permalink: /presenters/deb-nicholson/
 photo: deb-nicholson.jpg

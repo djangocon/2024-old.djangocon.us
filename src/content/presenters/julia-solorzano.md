@@ -1,6 +1,5 @@
 ---
 hidden: false
-layout: presenter
 name: Julia Solórzano
 permalink: /presenters/julia-solorzano/
 photo: /static/img/blog/julia-solorzano.JPG

@@ -1,7 +1,6 @@
 ---
 company: AfroPython
 hidden: false
-layout: presenter
 name: Felipe de Morais
 permalink: /presenters/felipe-de-morais/
 photo: felipe.jpeg

@@ -1,7 +1,6 @@
 ---
 company: Canonical
 hidden: false
-layout: presenter
 name: Daniele Procida
 permalink: /presenters/daniele-procida/
 photo: daniele-procida.jpeg

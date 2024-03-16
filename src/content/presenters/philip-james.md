@@ -1,7 +1,6 @@
 ---
 company: Crowdalert
 hidden: false
-layout: presenter
 name: Philip James
 permalink: /presenters/philip-james/
 photo: philip-james.png

@@ -1,7 +1,6 @@
 ---
 company: Postgres.ai
 hidden: false
-layout: presenter
 name: Nikolay Samokhvalov
 permalink: /presenters/nikolay-samokhvalov/
 photo: ""

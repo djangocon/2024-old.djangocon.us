@@ -1,7 +1,6 @@
 ---
 company: Torchbox
 hidden: false
-layout: presenter
 name: Thibaud Colas
 permalink: /presenters/thibaud-colas/
 photo: ""

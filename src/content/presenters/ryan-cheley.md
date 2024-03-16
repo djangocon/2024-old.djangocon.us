@@ -1,7 +1,6 @@
 ---
 company: Desert Oasis Healthcare
 hidden: false
-layout: presenter
 name: Ryan Cheley (he/him)
 permalink: /presenters/ryan-cheley/
 photo: ryan-cheley.jpeg

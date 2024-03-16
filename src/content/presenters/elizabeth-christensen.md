@@ -1,7 +1,6 @@
 ---
 company: Crunchy Data
 hidden: false
-layout: presenter
 name: Elizabeth Christensen
 permalink: /presenters/elizabeth-christensen/
 photo: elizabeth-christensen.png

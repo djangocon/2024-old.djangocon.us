@@ -1,7 +1,6 @@
 ---
 company: Anaconda
 hidden: false
-layout: presenter
 name: Cheuk Ting Ho
 permalink: /presenters/cheuk-ting-ho/
 photo: cheuk-ting-ho.jpeg

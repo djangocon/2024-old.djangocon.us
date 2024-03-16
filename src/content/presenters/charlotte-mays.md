@@ -1,7 +1,6 @@
 ---
 company: None currently
 hidden: false
-layout: presenter
 name: Charlotte Mays
 permalink: /presenters/charlotte-mays/
 photo: charlotte-mays.jpeg

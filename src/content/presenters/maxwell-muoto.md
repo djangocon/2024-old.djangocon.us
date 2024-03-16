@@ -1,7 +1,6 @@
 ---
 company: Standard Metrics
 hidden: false
-layout: presenter
 name: Maxwell Muoto
 permalink: /presenters/maxwell-muoto/
 photo: maxwell-muoto.jpeg

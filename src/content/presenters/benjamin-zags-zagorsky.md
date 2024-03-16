@@ -1,7 +1,6 @@
 ---
 company: Zagaran, Inc.
 hidden: false
-layout: presenter
 name: Benjamin "Zags" Zagorsky
 permalink: /presenters/benjamin-zags-zagorsky/
 photo: benjamin-zags-zagorsky.jpg

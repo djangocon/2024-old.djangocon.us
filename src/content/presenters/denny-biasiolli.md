@@ -1,7 +1,6 @@
 ---
 company: Fingerprint Compliance Services Ltd.
 hidden: false
-layout: presenter
 name: Denny Biasiolli
 permalink: /presenters/denny-biasiolli/
 photo: denny-biasiolli.jpeg

@@ -1,7 +1,6 @@
 ---
 company: Octobot
 hidden: false
-layout: presenter
 name: Dara Silvera
 permalink: /presenters/dara-silvera/
 photo: dara-silvera.jpeg

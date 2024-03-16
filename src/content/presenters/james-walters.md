@@ -1,7 +1,6 @@
 ---
 company: Unique Management Services
 hidden: false
-layout: presenter
 name: James Walters
 permalink: /presenters/james-walters/
 photo: james-walters.png

@@ -1,7 +1,6 @@
 ---
 company: Lincoln Loop
 hidden: false
-layout: presenter
 name: Michael Trythall
 permalink: /presenters/michael-trythall/
 photo: michael-trythall.jpg

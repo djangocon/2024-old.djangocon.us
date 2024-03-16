@@ -1,7 +1,6 @@
 ---
 company: Open Source Community Africa Nairobi
 hidden: false
-layout: presenter
 name: Velda Kiara
 permalink: /presenters/velda-kiara/
 photo: ""

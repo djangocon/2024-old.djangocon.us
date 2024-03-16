@@ -1,7 +1,6 @@
 ---
 company: TripleTen
 hidden: false
-layout: presenter
 name: Pavel Sviridov
 permalink: /presenters/pavel-sviridov/
 photo: pavel-sviridov.jpeg

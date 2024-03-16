@@ -1,7 +1,6 @@
 ---
 company: NA
 hidden: false
-layout: presenter
 name: Drishti Jain
 permalink: /presenters/drishti-jain/
 photo: drishti-jain.jpeg

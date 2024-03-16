@@ -1,7 +1,6 @@
 ---
 company: Echodot
 hidden: false
-layout: presenter
 name: Stephen Mitchell
 permalink: /presenters/stephen-mitchell/
 photo: stephen-mitchell.jpg

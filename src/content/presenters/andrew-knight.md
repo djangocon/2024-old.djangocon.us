@@ -1,6 +1,5 @@
 ---
 company: ""
-layout: presenter
 name: Andrew Knight
 permalink: /presenters/andrew-knight/
 photo: /static/img/blog/andy_django_profile_zoom_small.jpg

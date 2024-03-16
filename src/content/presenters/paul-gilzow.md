@@ -1,7 +1,6 @@
 ---
 company: Platform.sh
 hidden: false
-layout: presenter
 name: Paul Gilzow
 override_schedule_title: "Introduction to GitHub Actions: Understanding Key
     Terms and Building Your First GitHub Action"

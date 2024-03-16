@@ -1,7 +1,6 @@
 ---
 company: Consultant
 hidden: false
-layout: presenter
 name: Ramón Huidobro
 permalink: /presenters/ramon-huidobro/
 photo: ramon-huidobro.jpeg

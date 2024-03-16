@@ -1,6 +1,5 @@
 ---
 company: Decisio Health
-layout: presenter
 name: Kojo Idrissa
 override_schedule_title: Welcome and Orientation
 permalink: /presenters/kojo-idrissa/

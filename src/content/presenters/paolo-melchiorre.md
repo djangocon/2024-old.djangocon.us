@@ -1,7 +1,6 @@
 ---
 company: 20tab
 hidden: false
-layout: presenter
 name: Paolo Melchiorre
 permalink: /presenters/paolo-melchiorre/
 photo: paolo-melchiorre.jpg

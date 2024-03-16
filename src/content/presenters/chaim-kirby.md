@@ -1,7 +1,6 @@
 ---
 company: Django Software Foundation
 hidden: false
-layout: presenter
 name: Chaim Kirby
 permalink: /presenters/chaim-kirby/
 slug: chaim-kirby

@@ -1,7 +1,6 @@
 ---
 company: Python By Night
 hidden: false
-layout: presenter
 name: Mario Munoz
 permalink: /presenters/mario-munoz/
 photo: mario-munoz.png

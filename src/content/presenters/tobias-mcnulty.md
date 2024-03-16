@@ -1,7 +1,6 @@
 ---
 company: Caktus Group
 hidden: false
-layout: presenter
 name: Tobias McNulty
 permalink: /presenters/tobias-mcnulty/
 photo: tobias-mcnulty.jpeg

@@ -1,5 +1,4 @@
 ---
-layout: presenter
 name: Natalia Bidart
 permalink: /presenters/natalia-bidart/
 photo: natalia-bidart.jpg
