@@ -1,5 +1,7 @@
-const Image = require('@11ty/eleventy-img');
 const path = require('path');
+
+const Image = require('@11ty/eleventy-img');
+const markdownIt = require("markdown-it");
 
 module.exports = (eleventyConfig) => {
   /*
@@ -75,6 +77,27 @@ module.exports = (eleventyConfig) => {
       };
 
     return Image.generateHTML(metadata, imageAttributes);
+  });
+
+  /*
+    Filters
+  */
+  eleventyConfig.addFilter("markdown", function(content = "") {
+    let markdown = markdownIt({
+      html: true,
+      breaks: true,
+      linkify: true
+    });
+
+    return markdown.render(content);
+  });
+
+  /*
+    Misc configuration
+  */
+  eleventyConfig.setFrontMatterParsingOptions({
+    excerpt: true,
+    excerpt_separator: "<!-- excerpt -->"
   });
 
   return {

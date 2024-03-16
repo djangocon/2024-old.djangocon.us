@@ -11,7 +11,7 @@ This project requires Node v20 or greater.
 This project uses Liquid for templating. As such, you may wish to install syntax highlighting for Liquid in your text editor.
 
 * VS Code: [Liquid Language Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid)
-* [Liquid documentation](https://shopify.github.io/liquid/)
+* [Liquid documentation](https://liquidjs.com/)
 
 Build and watch for local changes by running:
 

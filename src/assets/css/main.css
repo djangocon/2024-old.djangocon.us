@@ -1,6 +1,11 @@
 @import "tailwindcss/base";
+
 @import "tailwindcss/components";
+@import "components/_buttons.css";
+
 @import "tailwindcss/utilities";
+
+
 
 @layer base {
   /*
@@ -59,4 +64,8 @@
     @apply h-full w-full;
     content: '';
   }
+}
+
+.prose a {
+  @apply link;
 }

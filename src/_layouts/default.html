@@ -14,11 +14,11 @@
   <meta property="og:description" content="{{ meta.description }}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:site_name" content="DjangoCon US" />
-  <meta property="og:image" content="{{ site.url }}/assets/img/social/share.jpg" />
+  <meta property="og:image" content="{{ site.domain }}/assets/img/social/share.jpg" />
   <meta property="og:type" content="website" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:image" content="{{ site.url }}/assets/img/social/share.jpg" />
+  <meta property="twitter:image" content="{{ site.domain }}/assets/img/social/share.jpg" />
   <meta property="twitter:title" content="Organizers" />
   <meta name="twitter:site" content="@djangocon" />
   <meta name="twitter:creator" content="@DjangoCon US" />
@@ -33,7 +33,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
-<body>
+<body{% if templateClass %} class="{{ templateClass }}"{% endif %}>
   <header class="py-4 bg-white">
     <nav class="container px-4 mx-auto">
       <ul class="flex flex-col gap-2 lg:flex-row lg:gap-8 lg:items-center">
@@ -51,7 +51,7 @@
         <li><a href="/schedule">Schedule</a></li>
         <li><a href="/sponsors">Sponsors</a></li>
         <li><a href="/news">News</a></li>
-        <li><a href="#">Buy Tickets</a></li>
+        <li><a href="#" class="button">Buy Tickets</a></li>
       </ul>
     </nav>
   </header>
@@ -63,12 +63,12 @@
   </div>
 
   <footer class="bg-gray-200">
-    <div class="container px-4 py-8 mx-auto">
-      <small class="text-xs text-center">
+    <div class="container grid px-4 py-8 mx-auto place-items-center">
+      <small class="text-sm text-center">
         &copy; {% year %} DjangoCon US
-        · Design by <a href="http://yupgup.com/">YupGup</a>
-        · Presented by <a href="https://www.defna.org/">DEFNA</a>
-        · <a href="/colophon/">Colophon</a>
+        · Design by <a href="http://yupgup.com/" class="link">YupGup</a>
+        · Presented by <a href="https://www.defna.org/" class="link">DEFNA</a>
+        · <a href="/colophon/" class="link">Colophon</a>
       </small>
     </div>
   </footer>

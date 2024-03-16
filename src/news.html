@@ -3,10 +3,32 @@ title: News
 layout: default
 ---
 
-<ul>
-  {% for post in collections.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.data.title }}</a>
-    </li>
-  {% endfor %}
-  </ul>
+<div class="py-6">
+  <div class="max-w-[45rem] px-4 mx-auto">
+    <ol class="space-y-4 divide-y" reversed>
+      {%- for post in collections.posts reversed -%}
+        {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
+          {% assign heading_size = 'lg:text-3xl' %}
+          {% if forloop.first %}
+            {% assign heading_size = 'lg:text-4xl' %}
+          {% endif %}
+
+          <li>
+            <article class="py-6">
+              <time
+                class="block mb-2 text-sm tracking-wide text-gray-600 uppercase"
+                datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+              <h2 class="text-2xl font-heading {{ heading_size }}"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
+
+              {%- if post.data.page.excerpt -%}
+                <div class="mt-4 text-xl prose">
+                  {{ post.data.page.excerpt | markdown }}
+                </div>
+              {%- endif -%}
+            </article>
+          </li>
+        {% endunless %}
+      {%- endfor -%}
+    </ol>
+  </div>
+</div>

@@ -5,7 +5,7 @@ layout: default
 
 <div class="pt-16 pb-6">
   <div class="container px-4 mx-auto">
-    <h1 class="mb-4 text-4xl font-bold lg:text-6xl">{{ title }}</h1>
+    <h1 class="mb-4 text-4xl font-bold font-heading lg:text-6xl">{{ title }}</h1>
     <p class="text-xl">There is no "I" in DjangoCon US. Thank you to all our volunteers who make DjangoCon US happen!</p>
   </div>
 </div>
@@ -14,11 +14,11 @@ layout: default
   <div class="container px-4 mx-auto">
     <ul class="grid gap-8 grid-cols-123 lg:gap-16">
       {%- for organizer in collections.organizers -%}
-        {% assign photo = "src/content/organizers/" | append: organizer.data.photo %}
+        {% assign photo = 'src/content/organizers/' | append: organizer.data.photo %}
         <li class="organizer">
-          {% image photo, "./dist/organizers", "/organizers/", organizer.data.name, "(min-width: 1024px) 300px, 600px", "organizer-photo" %}
-          <h2 class="mb-2 text-xl font-medium lg:text-2xl">{{ organizer.data.name }}</h2>
-          <p class="mb-2 text-gray-700">{{ organizer.data.role }}</p>
+          {% image photo, './dist/organizers', '/organizers/', organizer.data.name, '(min-width: 1024px) 300px, 600px', 'organizer-photo' %}
+          <h2 class="mb-2 text-xl font-heading lg:text-2xl">{{ organizer.data.name }}</h2>
+          <p class="mb-2 text-gray-600">{{ organizer.data.role }}</p>
 
           {% if organizer.data.social %}
             <ul class="flex flex-wrap gap-4">
