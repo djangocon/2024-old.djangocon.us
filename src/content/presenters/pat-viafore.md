@@ -2,14 +2,15 @@
 company: Author of Robust Python
 hidden: false
 layout: presenter
-mastodon: null
 name: Pat Viafore
 permalink: /presenters/pat-viafore/
 photo: pat-viafore.png
 pronouns: he/him
 slug: pat-viafore
-twitter: PatViaforever
-website: null
+social:
+    twitter: PatViaforever
+    website: null
+    mastodon: null
 ---
 
 Pat Viafore has been in the industry for over 15 years, working on various systems such as lightning detection systems, operating systems, and virtualization.  He focuses on testing, software engineering, and developer experience.

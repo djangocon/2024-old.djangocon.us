@@ -2,13 +2,14 @@
 company: Canonical
 hidden: false
 layout: presenter
-mastodon: https://mastodon.online/@EvilDMP
 name: Daniele Procida
 permalink: /presenters/daniele-procida/
 photo: daniele-procida.jpeg
 slug: daniele-procida
-twitter: null
-website: null
+social:
+    twitter: null
+    website: null
+    mastodon: https://mastodon.online/@EvilDMP
 ---
 
 I am a Director of Engineering at Canonical, where I lead documentation practice. I enjoy helping organise community conferences for Python and Django, and helping people and open-source projects improve their documentation.

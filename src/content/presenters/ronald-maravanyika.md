@@ -2,14 +2,15 @@
 company: ZimboPy
 hidden: false
 layout: presenter
-mastodon: null
 name: Ronald Maravanyika
 permalink: /presenters/ronald-maravanyika/
-photo: ''
+photo: ""
 pronouns: he/him
 slug: ronald-maravanyika
-twitter: ronn_zw
-website: null
+social:
+    twitter: ronn_zw
+    website: null
+    mastodon: null
 ---
 
 Co-founder ZimboPy | DSF member | PSF contributing member | DevOps Engineer

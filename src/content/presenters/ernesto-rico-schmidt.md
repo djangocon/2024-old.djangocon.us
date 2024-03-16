@@ -2,14 +2,15 @@
 company: Radio Helsinki in Graz, Austria
 hidden: false
 layout: presenter
-mastodon: https://hachyderm.io/@eigenwijsje
 name: Ernesto Rico Schmidt
 permalink: /presenters/ernesto-rico-schmidt/
 photo: ernesto-rico-schmidt.jpeg
 pronouns: he/him
 slug: ernesto-rico-schmidt
-twitter: null
-website: https://eigenwijsje.dev
+social:
+    twitter: null
+    website: https://eigenwijsje.dev
+    mastodon: https://hachyderm.io/@eigenwijsje
 ---
 
 - Electrical Engineer

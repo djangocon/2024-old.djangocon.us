@@ -2,14 +2,15 @@
 company: Six Feet Up
 hidden: false
 layout: presenter
-mastodon: https://fosstodon.org/@calvinhp
 name: Calvin Hendryx-Parker
 override_schedule_title: Powering Energy Storage Beyond Excel
 permalink: /presenters/calvin-hendryx-parker/
 photo: calvin-hendryx-parker.jpg
 slug: calvin-hendryx-parker
-twitter: calvinhp
-website: null
+social:
+    twitter: calvinhp
+    website: null
+    mastodon: https://fosstodon.org/@calvinhp
 ---
 
 Calvin Hendryx-Parker is the co-founder and CTO of Six Feet Up, a Python and AI consulting company that makes the world a better place by using technology to accelerate the initiatives of companies that do good. Six Feet Up is a top 10 United States Custom Software Development Company according to Clutch.co.

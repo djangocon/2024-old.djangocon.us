@@ -1,13 +1,14 @@
 ---
-github: nessita
 layout: presenter
-mastodon: https://fosstodon.org/@nessita
 name: Natalia Bidart
 permalink: /presenters/natalia-bidart/
 photo: natalia-bidart.jpg
 pronouns: she/her
 slug: natalia-bidart
 title: Django Fellow
+social:
+    mastodon: https://fosstodon.org/@nessita
+    github: nessita
 ---
 
 Natalia is a Python expert with almost 15 years of experience working with Django. She graduated from the National University of Cordoba, Argentina, with a degree in Computer Science in 2007, and began her professional career in 2005 working for a Python startup before joining Canonical in 2009.

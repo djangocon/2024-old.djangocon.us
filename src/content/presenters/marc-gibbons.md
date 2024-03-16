@@ -2,14 +2,15 @@
 company: Marc Gibbons
 hidden: false
 layout: presenter
-mastodon: https://mastodon.social/@marcgibbons
 name: Marc Gibbons
 permalink: /presenters/marc-gibbons/
 photo: marc-gibbons.jpeg
 pronouns: he/him
 slug: marc-gibbons
-twitter: null
-website: null
+social:
+    twitter: null
+    website: null
+    mastodon: https://mastodon.social/@marcgibbons
 ---
 
 Marc is a full stack developer and consultant based in the Greater Toronto Area. He has been working with Django since version 1.4 was released over a decade ago. He specializes in API development and is passionate about developer quality of life.

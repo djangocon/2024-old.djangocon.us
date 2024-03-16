@@ -2,14 +2,15 @@
 company: NASA Jet Propulsion Laboratory
 hidden: false
 layout: presenter
-mastodon: null
 name: Scott Cranfill
 permalink: /presenters/scott-cranfill/
 photo: scott-cranfill.jpeg
 pronouns: he/him
 slug: scott-cranfill
-twitter: null
-website: null
+social:
+    twitter: null
+    website: null
+    mastodon: null
 ---
 
 Scott is currently a full-stack web developer at NASA's [Jet Propulsion Laboratory](https://www.jpl.nasa.gov/) (JPL), where his team uses Django to power the main JPL website, the JPL Space intranet, and a large number of other internal websites. He's also a member of the core team for [Wagtail](https://wagtail.org/), the CMS used on all of the above JPL sites, and is also a part of its accessibility subteam.

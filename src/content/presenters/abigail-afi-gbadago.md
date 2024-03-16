@@ -2,13 +2,14 @@
 company: Django Girls Ghana
 hidden: false
 layout: presenter
-mastodon: null
 name: Abigail Afi Gbadago
 permalink: /presenters/abigail-afi-gbadago/
 photo: abigail-gbadago.jpeg
 slug: abigail-afi-gbadago
-twitter: afi_maame
-website: null
+social:
+    twitter: afi_maame
+    website: null
+    mastodon: null
 ---
 
 I am Abigail Afi Gbadago; a software engineer, community builder and technical writer.

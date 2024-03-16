@@ -1,45 +1,48 @@
 const Image = require('@11ty/eleventy-img');
 const path = require('path');
 
-module.exports = (config) => {
+module.exports = (eleventyConfig) => {
   /*
-   * Setup collections
-   * https://www.11ty.dev/docs/collections/
-   */
-  config.addCollection("places", function(collectionApi) {
+    Setup collections
+    https://www.11ty.dev/docs/collections/
+  */
+  eleventyConfig.addCollection("places", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/content/places/*.md");
   });
 
-  config.addCollection("presenters", function(collectionApi) {
+  eleventyConfig.addCollection("presenters", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/content/presenters/*.md");
   });
 
-  config.addCollection("organizers", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/content/organizers/*.md");
+  eleventyConfig.addCollection("organizers", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/content/organizers/*.md").filter(item => !item.data.hidden);
   });
 
-  config.addCollection("sponsors", function(collectionApi) {
+  eleventyConfig.addCollection("sponsors", function(collectionApi) {
     // TODO: Return these organized by level
     return collectionApi.getFilteredByGlob("src/content/sponsors/*.md");
   });
 
   /*
-   * Setup passthrough file copy
-   * https://www.11ty.dev/docs/copy/
-   */
-  config.addPassthroughCopy("src/assets/img/**/*");
-  config.addPassthroughCopy("src/assets/favicons/");
-
-  /*
-   * Custom watch targets
-   * https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
-   */
-  config.addWatchTarget("src/assets/js/");
-
-  /*
-   * Shortcodes
+    Setup passthrough file copy
+    https://www.11ty.dev/docs/copy/
   */
-  config.addLiquidShortcode("image", async function(
+  eleventyConfig.addPassthroughCopy("src/assets/img/**/*");
+  eleventyConfig.addPassthroughCopy("src/assets/favicons/");
+
+  /*
+    Setup watch targets
+    https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
+  */
+  eleventyConfig.addWatchTarget("src/assets/js/");
+
+  /*
+    Shortcodes
+  */
+  eleventyConfig.addLiquidShortcode("year", () => `${new Date().getFullYear()}`);
+
+  // TODO: Accept widths or support different widths
+  eleventyConfig.addLiquidShortcode("image", async function(
     src,
     outputDir,
     urlPath,
@@ -55,7 +58,6 @@ module.exports = (config) => {
           // Get the original filename without the extension
           const originalFilename = path.basename(src, path.extname(src));
 
-          // Return the new filename
           return `${originalFilename}-${width}.${format}`;
         },
       });

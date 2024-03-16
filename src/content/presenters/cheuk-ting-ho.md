@@ -2,14 +2,15 @@
 company: Anaconda
 hidden: false
 layout: presenter
-mastodon: https://fosstodon.org/@cheukting_ho
 name: Cheuk Ting Ho
 permalink: /presenters/cheuk-ting-ho/
 photo: cheuk-ting-ho.jpeg
 pronouns: she/her
 slug: cheuk-ting-ho
-twitter: cheukting_ho
-website: null
+social:
+    twitter: cheukting_ho
+    website: null
+    mastodon: https://fosstodon.org/@cheukting_ho
 ---
 
 Before working in Developer Relations, Cheuk has been a Data Scientist in various companies which demands high numerical and programmatical skills, especially in Python. To follow her passion for the tech community, Cheuk is now the Developer Advocate at Anaconda. Cheuk also contributes to multiple Open Source libraries like Hypothesis and Pandas.

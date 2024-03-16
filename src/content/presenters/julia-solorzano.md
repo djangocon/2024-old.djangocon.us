@@ -1,13 +1,14 @@
 ---
-github: juliaelman
 hidden: false
 layout: presenter
 name: Julia Solórzano
 permalink: /presenters/julia-solorzano/
 photo: /static/img/blog/julia-solorzano.JPG
 slug: julia-solorzano
-twitter: null
-website: null
+social:
+    twitter: null
+    website: null
+    github: juliaelman
 ---
 
 Julia Solórzano is a Security Experience Supervisor is based in Durham, NC. She leads security, user experience and engineering teams, and coaches people to help them reach their full potential to create amazing things. Outside of Login.gov, her most recent work includes [Login.gov](https://login.gov),  [Department of Veterans API](https://developer.va.gov/) program and the [U.S. Web Design System](https://designsystem.digital.gov/). She is also an adjunct professor at Georgetown University where she teaches technology design and development.

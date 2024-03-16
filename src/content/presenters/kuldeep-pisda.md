@@ -2,14 +2,15 @@
 company: Goldcast Inc
 hidden: false
 layout: presenter
-mastodon: null
 name: Kuldeep Pisda
 permalink: /presenters/kuldeep-pisda/
 photo: kuldeep-pisda.jpeg
 pronouns: he/him
 slug: kuldeep-pisda
-twitter: KdPisda
-website: null
+social:
+    twitter: KdPisda
+    website: null
+    mastodon: null
 ---
 
 As someone passionate about technology, I have had the privilege of speaking at several international tech conferences, including APIDays India 2022, APISecure 2022, and DjangoCon US 2022. I was honored to have my proposal selected for DjangoCon US 2022, where I could share my insights with a global audience.

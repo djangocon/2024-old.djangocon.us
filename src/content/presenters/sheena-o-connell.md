@@ -2,14 +2,15 @@
 company: Umuzi
 hidden: false
 layout: presenter
-mastodon: https://mastodon.social/@sheenarbw
 name: Sheena O'Connell
 permalink: /presenters/sheena-o-connell/
 photo: sheena.jpeg
 pronouns: she/her
 slug: sheena-o-connell
-twitter: sheena_oconnel
-website: null
+social:
+    twitter: sheena_oconnel
+    website: null
+    mastodon: https://mastodon.social/@sheenarbw
 ---
 
 I've been programming in some form since my early teens. After high school, I went on to get an Honors degree in electrical engineering from the University of the Witwatersrand, South Africa.  I've always been drawn to software development and to teaching. I worked for a string of startups and gained a lot of experience in all aspects of software development, from requirements gathering and UX design to implementation, deployment, and monitoring.

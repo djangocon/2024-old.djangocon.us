@@ -2,13 +2,14 @@
 company: Postgres.ai
 hidden: false
 layout: presenter
-mastodon: null
 name: Nikolay Samokhvalov
 permalink: /presenters/nikolay-samokhvalov/
-photo: ''
+photo: ""
 slug: nikolay-samokhvalov
-twitter: samokhvalov
-website: null
+social:
+    twitter: samokhvalov
+    website: null
+    mastodon: null
 ---
 
 - Founder of [Postgres.ai](https://postgres.ai): automation of database testing in CI/CD, modern database monitoring for Postgres, databases in clouds. Among clients: Chewy.com, GitLab.com, Mercury.com, Miro.com.

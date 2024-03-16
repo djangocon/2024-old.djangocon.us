@@ -2,14 +2,15 @@
 company: Everyday Superpowers
 hidden: false
 layout: presenter
-mastodon: https://fosstodon.org/@_chrismay
 name: Chris May
 permalink: /presenters/chris-may/
 photo: chris-may.jpeg
 pronouns: he/him
 slug: chris-may
-twitter: _chrismay
-website: null
+social:
+    twitter: _chrismay
+    website: null
+    mastodon: https://fosstodon.org/@_chrismay
 ---
 
 Meet Chris, an experienced developer, technical coach, and advocate for creating exceptional user and team experiences. With over 25 years of industry experience, he brings a wealth of knowledge to the table and fosters effective team dynamics.

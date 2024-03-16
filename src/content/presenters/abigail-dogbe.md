@@ -1,5 +1,4 @@
 ---
-github: mesrenyamedogbe
 hidden: false
 instagram: MesrenyameDogbe
 layout: presenter
@@ -8,8 +7,10 @@ name: Abigail Mesrenyame Dogbe
 permalink: /presenters/abigail-dogbe/
 photo: /static/img/blog/Dogbe_Abigail-DSC07499-1.jpg
 slug: abigail-dogbe
-twitter: MesrenyameDogbe
-website: null
+social:
+    twitter: MesrenyameDogbe
+    website: null
+    github: mesrenyamedogbe
 ---
 
 Mesrenyame is an Open Source Community Builder, Programs Manager, and STEM Education advocate from Ghana who loves the power that Open Source can put in people’s hands. She wants to help create more awareness, through community building, advocacy, and research.

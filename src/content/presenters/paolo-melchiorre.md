@@ -1,16 +1,17 @@
 ---
 company: 20tab
-github: pauloxnet
 hidden: false
 layout: presenter
-mastodon: https://fosstodon.org/@paulox
 name: Paolo Melchiorre
 permalink: /presenters/paolo-melchiorre/
 photo: paolo-melchiorre.jpg
 pronouns: he/him
 slug: paolo-melchiorre
-twitter: pauloxnet
-website: https://www.paulox.net
+social:
+    twitter: pauloxnet
+    website: https://www.paulox.net
+    mastodon: https://fosstodon.org/@paulox
+    github: pauloxnet
 ---
 
 I’m Paolo Melchiorre, a longtime Python backend developer who contributes to the Django project and gives talks at tech conferences.

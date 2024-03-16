@@ -2,14 +2,15 @@
 company: Open Source Community Africa Nairobi
 hidden: false
 layout: presenter
-mastodon: null
 name: Velda Kiara
 permalink: /presenters/velda-kiara/
-photo: ''
+photo: ""
 pronouns: she/her
 slug: velda-kiara
-twitter: VeldaKiara
-website: null
+social:
+    twitter: VeldaKiara
+    website: null
+    mastodon: null
 ---
 
 I am a seasoned web developer with a passion for creating high-quality software solutions. With over 2 years of experience in writing Django and React, I have honed my skills in developing custom web applications that are scalable, efficient, and user-friendly. My expertise in frontend and backend web development allows them to build end-to-end solutions that meet clients' needs.

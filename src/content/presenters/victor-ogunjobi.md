@@ -2,13 +2,14 @@
 company: Code Warriors
 hidden: false
 layout: presenter
-mastodon: null
 name: Victor Ogunjobi
 permalink: /presenters/victor-ogunjobi/
 photo: victor-ogunjobi.jpeg
 slug: victor-ogunjobi
-twitter: chemicopy_
-website: null
+social:
+    twitter: chemicopy_
+    website: null
+    mastodon: null
 ---
 
 Victor Ogunjobi is a Data Scientist and Inclusivity Advocate. He currently serves as a Student Ambassador at Code Warriors, a renowned organization that provides comprehensive training and mentorship to aspiring coders.

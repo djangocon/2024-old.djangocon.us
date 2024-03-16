@@ -2,15 +2,61 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-.grid-cols-123 {
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+@layer base {
+  /*
+    h-screen and flex-col on the body allow the footer
+    to be fixed to the bottom of the viewport.
+  */
+  html,
+  body {
+    @apply h-screen;
+  }
+
+  body {
+    @apply flex flex-col;
+    @apply antialiased;
+    @apply bg-gray-50;
+    @apply text-gray-900;
+  }
+
+  .link {
+    @apply underline;
+  }
+
+  .link:hover {
+    @apply no-underline;
+  }
+
+  .reverse-link:hover {
+    @apply underline;
+  }
+
+  .font-heading {
+    @apply leading-tight font-medium;
+  }
 }
 
-.organizer-photo {
-  display: block;
-  margin-bottom: theme(spacing.3);
-  object-fit: cover;
-  object-position: top center;
-  aspect-ratio: 1 / 1;
-  width: 100%;
+@layer components {
+  .grid-cols-123 {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  }
+
+  .organizer-photo {
+    @apply block mb-3 w-full;
+    @apply object-cover;
+    @apply object-left-top;
+    aspect-ratio: 1 / 1;
+  }
+}
+
+@layer utilities {
+  *:has(> .cover) {
+    @apply relative;
+  }
+
+  .cover::before {
+    @apply absolute left-0 top-0;
+    @apply h-full w-full;
+    content: '';
+  }
 }

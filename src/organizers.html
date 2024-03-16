@@ -15,10 +15,51 @@ layout: default
     <ul class="grid gap-8 grid-cols-123 lg:gap-16">
       {%- for organizer in collections.organizers -%}
         {% assign photo = "src/content/organizers/" | append: organizer.data.photo %}
-        <li>
+        <li class="organizer">
           {% image photo, "./dist/organizers", "/organizers/", organizer.data.name, "(min-width: 1024px) 300px, 600px", "organizer-photo" %}
-          <h2 class="mb-3 text-xl font-medium lg:text-2xl">{{ organizer.data.name }}</h2>
-          <p class="mb-2 text-sm text-gray-700">{{ organizer.data.role }}</p>
+          <h2 class="mb-2 text-xl font-medium lg:text-2xl">{{ organizer.data.name }}</h2>
+          <p class="mb-2 text-gray-700">{{ organizer.data.role }}</p>
+
+          {% if organizer.data.social %}
+            <ul class="flex flex-wrap gap-4">
+              {% if organizer.data.social.github not null %}
+                <li>
+                  <a
+                    href="https://github.com/{{ organizer.data.social.github }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link">GitHub</a>
+                </li>
+              {% endif %}
+              {% if organizer.data.social.mastodon not null %}
+                <li>
+                  <a
+                    href="{{ organizer.data.social.mastodon }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link">Mastodon</a>
+                </li>
+              {% endif %}
+              {% if organizer.data.social.twitter not null %}
+                <li>
+                  <a
+                    href="https://twitter.com/{{ organizer.data.social.twitter }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link">X.com</a>
+                </li>
+              {% endif %}
+              {% if organizer.data.social.website not null %}
+                <li>
+                  <a
+                    href="{{ organizer.data.social.website }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link">Web</a>
+                </li>
+              {% endif %}
+            </ul>
+          {% endif %}
         </li>
       {%- endfor -%}
     </ul>

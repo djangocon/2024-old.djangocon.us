@@ -1,15 +1,16 @@
 ---
 company: Decisio Health
-github: kojoidrissa
 layout: presenter
-mastodon: https://fosstodon.org/@kojoidrissa
 name: Kojo Idrissa
 override_schedule_title: Welcome and Orientation
 permalink: /presenters/kojo-idrissa/
 photo: /static/img/organizers/kojo.jpg
 slug: kojo-idrissa
-twitter: kojoidrissa
-website: http://kojoidrissa.com/
+social:
+    twitter: kojoidrissa
+    website: http://kojoidrissa.com/
+    mastodon: https://fosstodon.org/@kojoidrissa
+    github: kojoidrissa
 ---
 
 Kojo Idrissa _was_ an accountant who got an MBA and taught at university in

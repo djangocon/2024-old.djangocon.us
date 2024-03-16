@@ -2,11 +2,12 @@
 company: null
 hidden: false
 layout: presenter
-mastodon: null
 name: Mohamed ElKalioby
 permalink: /presenters/mohamed-elkalioby/
-photo: ''
+photo: ""
 slug: mohamed-elkalioby
-twitter: null
-website: null
+social:
+    twitter: null
+    website: null
+    mastodon: null
 ---
