@@ -28,7 +28,7 @@ module.exports = (config) => {
    * https://www.11ty.dev/docs/copy/
    */
   config.addPassthroughCopy("src/assets/img/**/*");
-  //config.addPassthroughCopy({"src/content/organizers/*.+(jpg|jpeg|png|webp)": "organizers/"});
+  config.addPassthroughCopy("src/assets/favicons/");
 
   /*
    * Custom watch targets
@@ -37,7 +37,7 @@ module.exports = (config) => {
   config.addWatchTarget("src/assets/js/");
 
   /*
-   * Misc config
+   * Shortcodes
   */
   config.addLiquidShortcode("image", async function(
     src,
