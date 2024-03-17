@@ -24,9 +24,20 @@ module.exports = (eleventyConfig) => {
     return collectionApi.getFilteredByGlob("src/content/organizers/*.md").filter(item => !item.data.hidden);
   });
 
-  eleventyConfig.addCollection("sponsors", function(collectionApi) {
-    // TODO: Return these organized by level
-    return collectionApi.getFilteredByGlob("src/content/sponsors/*.md");
+  eleventyConfig.addCollection("sponsorsByLevel", function(collectionApi) {
+    const sponsors = collectionApi.getFilteredByGlob("src/content/sponsors/*.md");
+
+    const visibleSponsors = sponsors.filter(sponsor => !sponsor.data.hidden);
+
+    // TODO: Sort sponsors by date, ascending
+    return visibleSponsors.reduce((acc, sponsor) => {
+      const level = sponsor.data.level;
+      if (!acc[level]) {
+        acc[level] = [];
+      }
+      acc[level].push(sponsor);
+      return acc;
+    }, {});
   });
 
   /*
@@ -35,6 +46,7 @@ module.exports = (eleventyConfig) => {
   */
   eleventyConfig.addPassthroughCopy("src/assets/img/**/*");
   eleventyConfig.addPassthroughCopy("src/assets/favicons/");
+  eleventyConfig.addPassthroughCopy({ "src/content/sponsors/*.{png,jpg,jpeg,svg}": "sponsors/" });
 
   /*
     Setup watch targets

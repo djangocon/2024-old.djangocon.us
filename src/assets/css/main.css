@@ -20,7 +20,6 @@
   body {
     @apply flex flex-col;
     @apply antialiased;
-    @apply bg-gray-50;
     @apply text-gray-900;
   }
 
