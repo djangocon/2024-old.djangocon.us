@@ -46,7 +46,10 @@ module.exports = (eleventyConfig) => {
   */
   eleventyConfig.addPassthroughCopy("src/assets/img/**/*");
   eleventyConfig.addPassthroughCopy("src/assets/favicons/");
-  eleventyConfig.addPassthroughCopy({ "src/content/sponsors/*.{png,jpg,jpeg,svg}": "sponsors/" });
+  eleventyConfig.addPassthroughCopy({
+    "src/content/sponsors/*.{png,jpg,jpeg,svg}": "sponsors/",
+    "src/content/places/*.{png,jpg,jpeg,webp}": "venue/",
+  });
 
   /*
     Setup watch targets

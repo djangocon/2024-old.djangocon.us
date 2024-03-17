@@ -1,5 +1,4 @@
 ---
-layout: default
 
 name: "Cocoa Cinnamon Old North Durham"
 hidden: false

@@ -1,0 +1,270 @@
+---
+title: Venue
+description: DjangoCon US 2023 is being held at the Durham Convention Center in Durham, NC.
+layout: default
+---
+
+<header class="py-16">
+  <h1>{{ title }}</h1>
+  <a href="https://goo.gl/maps/E5Hr4WyUgtV9ujCa6">
+    <strong>Durham Convention Center</strong> <br />
+    <small>301 W Morgan St, Durham, NC 27701</small>
+  </a>
+</header>
+
+<div class="row column v-pad-bottom" id="welcome">
+  <div class="medium-7 column">
+    <h2>Welcome to Durham!</h2>
+    <p>
+      This year's venue is the Durham Convention Center! Located just 20 minutes
+      from Raleigh-Durham International Airport, the Durham Convention Center
+      provides the perfect setting.
+    </p>
+    <p>
+      Due to the combination of a Duke home football game on October 14 and
+      another tech conference right after ours, hotel space will be
+      <strong>extremely</strong> limited in 2023.
+    </p>
+  </div>
+
+
+  <div class="medium-5 column">
+    <iframe
+      class="thumbnail thumbnail-block"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.9325689361035!2d-78.90453548509521!3d35.99751418012176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace472696f63bb%3A0xab0cf88393dc3b32!2s301%20W%20Morgan%20St%2C%20Durham%2C%20NC%2027701!5e0!3m2!1sen!2sus!4v1675525268131!5m2!1sen!2sus"
+      width="600"
+      height="380"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+
+    <p>
+      <a
+        class="button"
+        href="https://maps.google.com/maps?ll=35.997514,-78.902347&z=16&t=m&hl=en&gl=US&mapclient=embed&q=301%20W%20Morgan%20St%20Durham%2C%20NC%2027701"
+        target="_blank"
+      >View Larger Map</a
+        >
+    </p>
+  </div>
+
+  <section class="section-pad theme-medium-gray" id="hotel">
+    <div class="row column">
+      <div class="medium-6 column hide-for-small-only">
+        <img
+          class="thumbnail thumbnail-block"
+          src="/assets/img/venue/durham-marriott-exterior.jpeg"
+          alt="Exterior photo of Durham Marriott City Center"
+        />
+      </div>
+      <div class="medium-6 column">
+        <h2>Staying at the Durham Marriott City Center</h2>
+        <p>
+          Our group rate has expired, but there are still rooms at the hotel.
+          Please don't wait to book your room!
+        </p>
+        <ul>
+          <li>Free Wi-Fi</li>
+          <li>Room for hallway hacking</li>
+          <li>In the middle of downtown</li>
+        </ul>
+
+
+      {% comment %}
+        <p>
+          ATTENTION!: If you try to book and it says the capacity is full, please
+          call the hotel to try to book your room.
+        </p>
+      {% endcomment %}
+        <p>
+          <a href="{{ site.hotel_reservation_link }}" class="button"
+          >Book a Room</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+    <section class="section-pad theme-medium-gray" id="other-hotels">
+      <div class="row column">
+        <div class="medium-6 column">
+          <h2>Other Hotel Options</h2>
+
+          {% comment %}
+          <p>
+            Our room block at the Marriott is almost completely sold out, so check
+            out these other nearby options!
+          </p>
+          {% endcomment %}
+
+          <ul class="list-split">
+            <li>
+              Closest option: <br /><a
+                href="https://www.21cmuseumhotels.com/durham/"
+              >21c Museum and Hotel</a
+                ><br />$350/night
+              </li>
+              <li>
+                Most inexpensive and walkable option: <br /><a
+                  href="https://www.unscriptedhotels.com/"
+                >Unscripted Durham</a
+                  ><br />$226/night
+                </li>
+                <li>
+                  Inexpensive and close (but not walkable) option: <br /><a
+                    href="https://www.ihg.com/holidayinnexpress/hotels/us/en/durham/rduhm/hoteldetail"
+                  >Holiday Inn Express Durham</a
+                    ><br />$151/night
+                  </li>
+                  <li>
+                    Nearest Hilton brand option: <br /><a
+                      href="https://www.hilton.com/en/hotels/rdumcgi-hilton-garden-inn-durham-university-medical-center/"
+                    >Hilton Garden Inn Durham/University Medical Center</a
+                      ><br />$191/night
+                    </li>
+                  </ul>
+                  <p>All rates are "the last time we checked" and may be outdated.</p>
+                </div>
+                <div class="medium-6 column hide-for-small-only">
+                  <img
+                    class="thumbnail thumbnail-block"
+                    src="/assets/img/venue/unscripted-exterior.jpeg"
+                    alt="Exterior photo of the Unscripted Hotel in Durham"
+                  />
+                </div>
+              </div>
+            </section>
+
+            <div class="section-pad theme-light-gray" id="places">
+              <div class="row column v-pad-bottom">
+                <h2 class="text-center">Around Durham</h2>
+                <p class="text-center lead column large-10 large-centered">
+                  Public transportation is available via the
+                  <a href="https://gotriangle.org/maps-schedules/gotriangle">GoTriangle</a>
+                  and
+                  <a href="https://gotriangle.org/maps-schedules/godurham">GoDurham</a>
+                  systems which includes transit via bus to/from the Raleigh-Durham
+                  International Airport and the Durham Station (approximately 1/4 mile walk
+                  from the station to the hotel). Popular ride sharing services are also
+                  available. While you're cruising around town, be sure to check out our
+                  favorite spots:
+                </p>
+              </div>
+
+              {% comment %}
+                Beginning of Places Around Durham.
+
+                To update the information
+                in this section, please see: `src/content/places`
+              {% endcomment %}
+
+              <section>
+                {% for places in collections.places %}
+                  <div class="column column-block">
+                    <div class="media-object stack-for-small attraction">
+                      <div class="media-object-section hide-for-small-only">
+                        <a href="{{ places.data.website }}" target="_blank">
+                          <img
+                            src="{{ places.data.photo }}"
+                            alt="Photo of {{ places.data.name }}"
+                          />
+                        </a>
+                      </div>
+                      <div class="media-object-section">
+                        <h3 class="attraction-name">
+                          <a href="{{ places.data.website }}" target="_blank">{{ places.data.name }}</a>
+                        </h3>
+                        <p class="attraction-description">
+                          <strong>Website:</strong>
+                          <a href="{{ places.data.website }}" target="_blank"> {{ places.data.name }}</a
+                            ><br />
+                            <strong>Distance:</strong>
+                            <span class="label">{{ places.data.distance }} </span><br />
+                            <strong>Address:</strong>
+                            <a href="{{ places.data.map }}" target="_blank">{{ places.data.location }}</a>
+                            <br />
+                            <i>{{ places.data.description }}</i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                {% endfor %}
+              </section>
+
+            </div>
+
+
+
+
+            <div id="accessibility">
+              <div class="row">
+                <div class="column medium-5">
+                  <h2>An Accessible Experience</h2>
+                  <p>
+                    We're working with the staff at the Durham Convention Center to
+                    accommodate the diverse needs of our attendees.
+                  </p>
+                  <p>
+                    Are we missing something?
+                    <strong
+                    ><a href="mailto:{{site.contact_us_email}}">Let us know</a>.</strong
+                      >
+                    </p>
+                  </div>
+
+                  <div class="column medium-6">
+                    <div class="callout">
+                      <ul>
+                        <li>There is step-free access to all parts of the venue.</li>
+                        <li>All public restrooms have accessible stalls.</li>
+                        <li>
+                          The convention center does not provide gender-neutral restrooms.
+                          Please use the restroom for the gender with which you identify.
+                        </li>
+                        <li>
+                          Service animals are welcome, and there is a grassy area outside the
+                          hotel and convention center where they can be walked.
+                        </li>
+                        <li>
+                          The Quiet Room will be available on all conference days. This room
+                          is not for socializing.
+                        </li>
+                        <li>
+                          A Lactation Room will be available as needed Sunday-Wednesday. {%
+                          comment %}A refrigerator will be available in that room.
+                          <a href="/news/lactation-room/"
+                          >Read more about using the lactation room</a
+                            >{% endcomment %}.
+                          </li>
+
+
+
+                          {% comment %}
+          <li>
+            <a href="http://www.aasandiego.org/">Attend a recovery meeting</a>.
+            There are many recovery meetings near the conference hotel,
+            <a
+              href="https://www.google.com/maps/d/u/0/viewer?mid=1r2z9yZ5RPpGGhdOry7cHbwjZomA&ll=32.77259901952868%2C-117.14099820222603&z=14"
+              >which can be seen on a map here</a
+            >. These include traditional AA meetings, LBGTQ community meetings,
+            secular meetings, and more. If you need more information or want to
+            carpool to meetings, please contact
+            <a href="mailto:recovery@pyphilly.org">recovery@pyphilly.org</a>.
+            Anonymity will be maintained.
+          </li>
+          {% endcomment %}
+
+
+
+                          <li>
+                            <a href="/news/childcare-at-djangocon-us/">Sponsored childcare</a>
+                            will be provided.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
