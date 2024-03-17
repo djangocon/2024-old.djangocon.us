@@ -4,12 +4,13 @@ templateClass: view-post
 ---
 
 <article>
-  <header class="mx-auto max-w-[65ch] pt-16 pb-6">
+  <header class="mx-auto max-w-[65rem] pt-16 pb-6 text-center flex flex-col justify-center">
     <time datetime="{{ date }}" class="block mb-2 text-sm tracking-wide text-gray-600 uppercase">{{ date | date: "%B %-d, %Y" }}</time>
-    <h1 class="text-3xl font-bold font-heading lg:text-5xl">{{ title }}</h1>
+    <h1 class="text-3xl font-bold font-heading lg:text-5xl text-balance">{{ title }}</h1>
   </header>
+
   <div class="px-4 pt-6 pb-12">
-    <div class="mx-auto prose">
+    <div class="mx-auto prose prose-xl">
       {{ content }}
     </div>
   </div>

@@ -39,19 +39,16 @@
   .font-heading {
     @apply leading-tight font-medium;
   }
+
+  .icon {
+    @apply inline-block;
+    @apply align-middle;
+    @apply w-6 h-6;
+  }
 }
 
 @layer components {
-  .grid-cols-123 {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
-  }
 
-  .organizer-photo {
-    @apply block mb-3 w-full;
-    @apply object-cover;
-    @apply object-left-top;
-    aspect-ratio: 1 / 1;
-  }
 }
 
 @layer utilities {

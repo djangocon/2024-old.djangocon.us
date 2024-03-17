@@ -6,62 +6,12 @@ layout: default
 <div class="pt-16 pb-6">
   <div class="container px-4 mx-auto">
     <h1 class="mb-4 text-4xl font-bold font-heading lg:text-6xl">{{ title }}</h1>
-    <p class="text-xl">There is no "I" in DjangoCon US. Thank you to all our volunteers who make DjangoCon US happen!</p>
+    <p class="text-xl lg:text-2xl">There is no "I" in DjangoCon US. Thank you to all our volunteers who make DjangoCon US happen!</p>
   </div>
 </div>
 
 <div class="py-6">
   <div class="container px-4 mx-auto">
-    <ul class="grid gap-8 grid-cols-123 lg:gap-16">
-      {%- for organizer in collections.organizers -%}
-        {% assign photo = 'src/content/organizers/' | append: organizer.data.photo %}
-        <li class="organizer">
-          {% image photo, './dist/organizers', '/organizers/', organizer.data.name, '(min-width: 1024px) 300px, 600px', 'organizer-photo' %}
-          <h2 class="mb-2 text-xl font-heading lg:text-2xl">{{ organizer.data.name }}</h2>
-          <p class="mb-2 text-gray-600">{{ organizer.data.role }}</p>
-
-          {% if organizer.data.social %}
-            <ul class="flex flex-wrap gap-4">
-              {% if organizer.data.social.github not null %}
-                <li>
-                  <a
-                    href="https://github.com/{{ organizer.data.social.github }}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="link">GitHub</a>
-                </li>
-              {% endif %}
-              {% if organizer.data.social.mastodon not null %}
-                <li>
-                  <a
-                    href="{{ organizer.data.social.mastodon }}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="link">Mastodon</a>
-                </li>
-              {% endif %}
-              {% if organizer.data.social.twitter not null %}
-                <li>
-                  <a
-                    href="https://twitter.com/{{ organizer.data.social.twitter }}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="link">X.com</a>
-                </li>
-              {% endif %}
-              {% if organizer.data.social.website not null %}
-                <li>
-                  <a
-                    href="{{ organizer.data.social.website }}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="link">Web</a>
-                </li>
-              {% endif %}
-            </ul>
-          {% endif %}
-        </li>
-      {%- endfor -%}
-    </ul>
+    {% include 'components/organizers-grid.html' %}
   </div>
 </div>

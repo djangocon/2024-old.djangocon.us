@@ -9,6 +9,7 @@
     "serve": "concurrently -c auto npm:css:watch npm:11ty:serve",
     "build": "npm run css:build && npm run 11ty:build",
     "debug": "cross-env DEBUG=Eleventy* npm run build",
+    "clean": "node ./scripts/cleanDist.js",
     "11ty:watch": "cross-env NODE_ENV=development eleventy --watch --incremental",
     "11ty:serve": "cross-env NODE_ENV=development eleventy --serve --incremental",
     "11ty:build": "cross-env NODE_ENV=production eleventy",

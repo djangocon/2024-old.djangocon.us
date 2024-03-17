@@ -1,12 +1,12 @@
 ---
 hidden: false
-instagram: MesrenyameDogbe
-linkedin: abigail-mesrenyame-dogbe
 name: Abigail Mesrenyame Dogbe
 permalink: /presenters/abigail-dogbe/
 photo: /static/img/blog/Dogbe_Abigail-DSC07499-1.jpg
 slug: abigail-dogbe
 social:
+    linkedin: abigail-mesrenyame-dogbe
+    instagram: MesrenyameDogbe
     twitter: MesrenyameDogbe
     website: null
     github: mesrenyamedogbe

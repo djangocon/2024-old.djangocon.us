@@ -57,9 +57,9 @@
   </header>
 
   <div class="flex-1">
-    {% block content %}
+    {%- block content -%}
       {{- content -}}
-    {% endblock %}
+    {%- endblock -%}
   </div>
 
   <footer class="bg-gray-200">
@@ -72,5 +72,10 @@
       </small>
     </div>
   </footer>
+
+  {%- comment -%}
+    Social icons added as sprite
+  {%- endcomment -%}
+  {%- include 'social-icons.html' -%}
 </body>
 </html>
