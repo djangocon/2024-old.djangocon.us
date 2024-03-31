@@ -1,5 +1,5 @@
 ---
-author: DjangoCon US Communication Team
+author: DjangoCon US Communications Team
 category: General
 date: 2024-04-02 12:00:00
 image: /static/img/blog/cfp-announced-2024.png
