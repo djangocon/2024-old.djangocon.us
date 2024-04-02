@@ -17,12 +17,12 @@ title: Speaker Resources
 
 Presenters, regardless of experience, sometimes want a little help. If you’d like any help in preparing or presenting your talk, some awesome members of our community have volunteered to be speaker mentors. A mentor is an experienced presenter who has volunteered to help other presenters. For first-time presenters, non-native English speakers, under-confident or uncertain speakers, or anyone who would just appreciate another set of eyes, our mentors will be here to help. You’ll get the best results by forming a relationship with one mentor, rather than contacting several.
 
+
+* [Anna Ossowski](mailto:annabell.ossowski@gmail.com), Anna works as a Senior Community Program Manager at Github and actively volunteer across many different open source communities related to the Python Programming Language. This includes her former role on the Board of the Directors for the Python Software Foundation and as a current organizer for PyLadies in London. She’s a strong advocate for mental health and mentorship as well as supporting effective open source communities. Her newest hobby is writing and performing stand up comedy.
+
 {% comment %}
-* [Anna Ossowski](mailto:annabell.ossowski@gmail.com), Developer Relations at Elastic, Speaker, Mentor, PSF Board Member, PyCon Open Spaces + Accessibility, PyLadies London Co-Organizer.
-{% endcomment %}
 * [Eng Seng Ng](mailto:eng@energy-solution.com), Senior Engineer at Energy Solutions. Eng Seng leads the documentation and training team for a climate-change-fighting software product at Energy Solutions.
 * [Katie McLaughlin](mailto:katie+djangoconus@glasnt.com), Developer Advocate and frequent public speaker (occasional keynoter), DjangoCon AU organiser, and Secretary for the Django Software Foundation.
-{% comment %}
 * [Frank Wiles](mailto:frank@revsys.com), Former President of the Board, Django Software Foundation, Founder, REVSYS.
 * [Philip James](mailto:pjj@philipjohnjames.com), Core Contributor to the BeeWare project and Senior Software Engineer at Patreon. Philip has spoken at a number of DjangoCons and PyCons around the world.
 * [Dr. Russell Keith-Magee](mailto:russell@keith-magee.com), Founder of the BeeWare project, developing GUI tools and libraries to support the development of Python software on desktop and mobile platforms. He is also a 13 year veteran of the Django Core Team, and for 5 years, was President of the Django Software Foundation. In his day job, he wrangles data pipelines for Survata.
