@@ -50,6 +50,7 @@ module.exports = (eleventyConfig) => {
     "src/content/sponsors/*.{png,jpg,jpeg,svg}": "sponsors/",
     "src/content/places/*.{png,jpg,jpeg,webp}": "venue/",
   });
+  eleventyConfig.addPassthroughCopy("CNAME");
 
   /*
     Setup watch targets
