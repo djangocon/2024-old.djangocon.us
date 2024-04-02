@@ -1,11 +1,10 @@
 .button {
-  @apply inline-flex items-center justify-center;
-  @apply px-4 py-2;
-  @apply font-medium rounded-md;
-  @apply text-white bg-gray-900 border border-transparent;
-}
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-md;
+  @apply border-2;
+  @apply font-medium text-base;
 
-.button.secondary {
-  @apply text-gray-900 bg-transparent;
-  @apply border-gray-900;
+  border-color: var(--theme-text-color);
+
+  /* THEME-X: borders have unique rounding */
+  /*@apply border-r-4 border-b-4;*/
 }

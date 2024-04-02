@@ -3,28 +3,28 @@ const path = require('path');
 const Image = require('@11ty/eleventy-img');
 const markdownIt = require("markdown-it");
 
-module.exports = (eleventyConfig) => {
+module.exports = (config) => {
   /*
     Setup collections
     https://www.11ty.dev/docs/collections/
   */
-  eleventyConfig.addCollection("posts", function(collectionApi) {
+  config.addCollection("posts", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/content/posts/*.md");
   });
 
-  eleventyConfig.addCollection("places", function(collectionApi) {
+  config.addCollection("places", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/content/places/*.md");
   });
 
-  eleventyConfig.addCollection("presenters", function(collectionApi) {
+  config.addCollection("presenters", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/content/presenters/*.md");
   });
 
-  eleventyConfig.addCollection("organizers", function(collectionApi) {
+  config.addCollection("organizers", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/content/organizers/*.md").filter(item => !item.data.hidden);
   });
 
-  eleventyConfig.addCollection("sponsorsByLevel", function(collectionApi) {
+  config.addCollection("sponsorsByLevel", function(collectionApi) {
     const sponsors = collectionApi.getFilteredByGlob("src/content/sponsors/*.md");
 
     const visibleSponsors = sponsors.filter(sponsor => !sponsor.data.hidden);
@@ -44,27 +44,27 @@ module.exports = (eleventyConfig) => {
     Setup passthrough file copy
     https://www.11ty.dev/docs/copy/
   */
-  eleventyConfig.addPassthroughCopy("src/assets/img/**/*");
-  eleventyConfig.addPassthroughCopy("src/assets/favicons/");
-  eleventyConfig.addPassthroughCopy({
+  config.addPassthroughCopy("src/assets/img/**/*");
+  config.addPassthroughCopy("src/assets/favicons/");
+  config.addPassthroughCopy({
     "src/content/sponsors/*.{png,jpg,jpeg,svg}": "sponsors/",
     "src/content/places/*.{png,jpg,jpeg,webp}": "venue/",
   });
-  eleventyConfig.addPassthroughCopy("CNAME");
+  config.addPassthroughCopy("CNAME");
 
   /*
     Setup watch targets
     https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
   */
-  eleventyConfig.addWatchTarget("src/assets/js/");
+  config.addWatchTarget("src/assets/js/");
 
   /*
     Shortcodes
   */
-  eleventyConfig.addLiquidShortcode("year", () => `${new Date().getFullYear()}`);
+  config.addLiquidShortcode("year", () => `${new Date().getFullYear()}`);
 
   // TODO: Accept widths or support different widths
-  eleventyConfig.addLiquidShortcode("image", async function(
+  config.addLiquidShortcode("image", async function(
     src,
     outputDir,
     urlPath,
@@ -98,7 +98,7 @@ module.exports = (eleventyConfig) => {
   /*
     Filters
   */
-  eleventyConfig.addFilter("markdown", function(content = "") {
+  config.addFilter("markdown", function(content = "") {
     let markdown = markdownIt({
       html: true,
       breaks: true,
@@ -111,7 +111,7 @@ module.exports = (eleventyConfig) => {
   /*
     Misc configuration
   */
-  eleventyConfig.setFrontMatterParsingOptions({
+  config.setFrontMatterParsingOptions({
     excerpt: true,
     excerpt_separator: "<!-- excerpt -->"
   });

@@ -1,5 +1,5 @@
 ---
-title: Venue
+title: Welcome to Durham!
 description: DjangoCon US 2023 is being held at the Durham Convention Center in Durham, NC.
 layout: default
 ---
@@ -31,12 +31,12 @@ layout: default
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          class="border-4 rounded border-gray-50"
+          class="border-4 border-gray-100 rounded"
         ></iframe>
 
-        <div class="flex flex-wrap items-center justify-center gap-8 mt-4">
+        <div class="flex flex-wrap items-center justify-center gap-8 mt-6">
           <a
-            class="button secondary order-0"
+            class="button order-0"
             href="https://maps.google.com/maps?ll=35.997514,-78.902347&z=16&t=m&hl=en&gl=US&mapclient=embed&q=301%20W%20Morgan%20St%20Durham%2C%20NC%2027701"
             target="_blank">View Larger Map</a>
 
@@ -50,107 +50,126 @@ layout: default
   </div>
 </div>
 
-<div class="row column v-pad-bottom" id="welcome">
-
-
-
-  <div class="medium-5 column">
-
-
-
-    <p>
-
-    </p>
-  </div>
-
-  <section class="section-pad theme-medium-gray" id="hotel">
-    <div class="row column">
-      <div class="medium-6 column hide-for-small-only">
+<div class="py-16 bg-gray-50" id="welcome">
+  <div class="container px-4 mx-auto">
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+      <figure>
         <img
-          class="thumbnail thumbnail-block"
+          class="w-full"
           src="/assets/img/venue/durham-marriott-exterior.jpeg"
           alt="Exterior photo of Durham Marriott City Center"
         />
-      </div>
-      <div class="medium-6 column">
-        <h2>Staying at the Durham Marriott City Center</h2>
+        <figcaption>Durham Marriott City Center</figcaption>
+      </figure>
+
+      <section class="space-y-6 text-xl lg:text-2xl">
+        <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">Staying at the Durham Marriott City Center</h2>
         <p>
           Our group rate has expired, but there are still rooms at the hotel.
           Please don't wait to book your room!
         </p>
-        <ul>
-          <li>Free Wi-Fi</li>
-          <li>Room for hallway hacking</li>
-          <li>In the middle of downtown</li>
+        <ul class="flex flex-wrap gap-2">
+          <li class="badge badge-blue">🛜 Free Wi-Fi</li>
+          <li class="badge badge-blue">🧑‍💻 Room for hallway hacking</li>
+          <li class="badge badge-blue">🏙️ In the middle of downtown</li>
         </ul>
 
-
-      {% comment %}
-        <p>
-          ATTENTION!: If you try to book and it says the capacity is full, please
-          call the hotel to try to book your room.
-        </p>
-      {% endcomment %}
-        <p>
-          <a href="{{ site.hotel_reservation_link }}" class="button"
-          >Book a Room</a>
-        </p>
-      </div>
-    </div>
-  </section>
-
-    <section class="section-pad theme-medium-gray" id="other-hotels">
-      <div class="row column">
-        <div class="medium-6 column">
-          <h2>Other Hotel Options</h2>
-
-          {% comment %}
+        {% comment %}
+        <!-- TODO: Alert -->
           <p>
-            Our room block at the Marriott is almost completely sold out, so check
-            out these other nearby options!
+            ATTENTION!: If you try to book and it says the capacity is full, please
+            call the hotel to try to book your room.
           </p>
-          {% endcomment %}
+        {% endcomment %}
+        <p>
+          <a
+            href="{{ site.hotel_reservation_link }}"
+            class="button">Book a Room</a>
+        </p>
+      </section>
+    </div>
+  </div>
+</div>
 
-          <ul class="list-split">
-            <li>
-              Closest option: <br /><a
-                href="https://www.21cmuseumhotels.com/durham/"
-              >21c Museum and Hotel</a
-                ><br />$350/night
-              </li>
-              <li>
-                Most inexpensive and walkable option: <br /><a
-                  href="https://www.unscriptedhotels.com/"
-                >Unscripted Durham</a
-                  ><br />$226/night
-                </li>
-                <li>
-                  Inexpensive and close (but not walkable) option: <br /><a
-                    href="https://www.ihg.com/holidayinnexpress/hotels/us/en/durham/rduhm/hoteldetail"
-                  >Holiday Inn Express Durham</a
-                    ><br />$151/night
-                  </li>
-                  <li>
-                    Nearest Hilton brand option: <br /><a
-                      href="https://www.hilton.com/en/hotels/rdumcgi-hilton-garden-inn-durham-university-medical-center/"
-                    >Hilton Garden Inn Durham/University Medical Center</a
-                      ><br />$191/night
-                    </li>
-                  </ul>
-                  <p>All rates are "the last time we checked" and may be outdated.</p>
-                </div>
-                <div class="medium-6 column hide-for-small-only">
-                  <img
-                    class="thumbnail thumbnail-block"
-                    src="/assets/img/venue/unscripted-exterior.jpeg"
-                    alt="Exterior photo of the Unscripted Hotel in Durham"
-                  />
-                </div>
-              </div>
-            </section>
+<div class="py-16" id="welcome">
+  <div class="container px-4 mx-auto">
+    <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">Other hotel options</h2>
 
-            <div class="section-pad theme-light-gray" id="places">
-              <div class="row column v-pad-bottom">
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+      <div>
+        {% comment %}
+        <p class="alert">
+          Our room block at the Marriott is almost completely sold out, so check
+          out these other nearby options!
+        </p>
+        {% endcomment %}
+
+        <ul class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+          <li class="flex flex-col gap-4">
+            <span class="badge badge-blue">Closest option</span>
+            <br />
+            <a
+              href="https://www.21cmuseumhotels.com/durham/"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer">21c Museum and Hotel</a>
+              <br />
+              $350/night
+          </li>
+          <li>
+            Most inexpensive and walkable option:
+            <br />
+            <a
+              href="https://www.unscriptedhotels.com/"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer">Unscripted Durham</a>
+              <br />
+              $226/night
+          </li>
+          <li>
+            Inexpensive and close (but not walkable) option:
+            <br />
+            <a
+              href="https://www.ihg.com/holidayinnexpress/hotels/us/en/durham/rduhm/hoteldetail"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer">Holiday Inn Express Durham</a>
+            <br />
+            $151/night
+          </li>
+          <li>
+            Nearest Hilton brand option:
+            <br />
+            <a
+              href="https://www.hilton.com/en/hotels/rdumcgi-hilton-garden-inn-durham-university-medical-center/"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer">Hilton Garden Inn Durham/University Medical Center</a>
+            <br />
+            $191/night
+          </li>
+        </ul>
+
+        <p class="mt-6">All rates are "the last time we checked" and may be outdated.</p>
+      </div>
+      <figure class="hidden lg:block">
+        <img
+          src="/assets/img/venue/unscripted-exterior.jpeg"
+          alt="Exterior photo of the Unscripted Hotel in Durham"
+          loading="lazy"
+          class="w-full"
+        />
+        <figcaption>An exterior shot of the Unscripted Hotel in Durham</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+
+
+
+
                 <h2 class="text-center">Around Durham</h2>
                 <p class="text-center lead column large-10 large-centered">
                   Public transportation is available via the
@@ -172,48 +191,48 @@ layout: default
                 in this section, please see: `src/content/places`
               {% endcomment %}
 
-              <section>
-                {% for places in collections.places %}
-                  <div class="column column-block">
-                    <div class="media-object stack-for-small attraction">
-                      <div class="media-object-section hide-for-small-only">
-                        <a href="{{ places.data.website }}" target="_blank">
-                          <img
-                            src="{{ places.data.photo }}"
-                            alt="Photo of {{ places.data.name }}"
-                          />
-                        </a>
-                      </div>
-                      <div class="media-object-section">
-                        <h3 class="attraction-name">
-                          <a href="{{ places.data.website }}" target="_blank">{{ places.data.name }}</a>
-                        </h3>
-                        <p class="attraction-description">
-                          <strong>Website:</strong>
-                          <a href="{{ places.data.website }}" target="_blank"> {{ places.data.name }}</a
-                            ><br />
-                            <strong>Distance:</strong>
-                            <span class="label">{{ places.data.distance }} </span><br />
-                            <strong>Address:</strong>
-                            <a href="{{ places.data.map }}" target="_blank">{{ places.data.location }}</a>
-                            <br />
-                            <i>{{ places.data.description }}</i>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
 
-                {% endfor %}
+
+              <section>
+                <ul>
+                  {% for places in collections.places %}
+                      <li class="">
+                        <div class="">
+                          <a href="{{ places.data.website }}" target="_blank">
+                            <img
+                              src="{{ places.data.photo }}"
+                              alt="Photo of {{ places.data.name }}"
+                            />
+                          </a>
+                        </div>
+                        <div class="media-object-section">
+                          <h3 class="attraction-name">
+                            <a href="{{ places.data.website }}" target="_blank">{{ places.data.name }}</a>
+                          </h3>
+                          <p class="attraction-description">
+                            <strong>Website:</strong>
+                            <a href="{{ places.data.website }}" target="_blank"> {{ places.data.name }}</a
+                              ><br />
+                              <strong>Distance:</strong>
+                              <span class="label">{{ places.data.distance }} </span><br />
+                              <strong>Address:</strong>
+                              <a href="{{ places.data.map }}" target="_blank">{{ places.data.location }}</a>
+                              <br />
+                              <i>{{ places.data.description }}</i>
+                            </p>
+                          </div>
+                        </div>
+                    </li>
+                  {% endfor %}
+                </ul>
               </section>
 
-            </div>
 
 
 
 
             <div id="accessibility">
-              <div class="row">
-                <div class="column medium-5">
+
                   <h2>An Accessible Experience</h2>
                   <p>
                     We're working with the staff at the Durham Convention Center to
@@ -221,14 +240,11 @@ layout: default
                   </p>
                   <p>
                     Are we missing something?
-                    <strong
-                    ><a href="mailto:{{site.contact_us_email}}">Let us know</a>.</strong
-                      >
+                    <strong><a href="mailto:{{site.contact_us_email}}">Let us know</a>.</strong>
                     </p>
-                  </div>
 
-                  <div class="column medium-6">
-                    <div class="callout">
+
+                    <div>
                       <ul>
                         <li>There is step-free access to all parts of the venue.</li>
                         <li>All public restrooms have accessible stalls.</li>
@@ -255,19 +271,19 @@ layout: default
 
 
                           {% comment %}
-          <li>
-            <a href="http://www.aasandiego.org/">Attend a recovery meeting</a>.
-            There are many recovery meetings near the conference hotel,
-            <a
-              href="https://www.google.com/maps/d/u/0/viewer?mid=1r2z9yZ5RPpGGhdOry7cHbwjZomA&ll=32.77259901952868%2C-117.14099820222603&z=14"
-              >which can be seen on a map here</a
-            >. These include traditional AA meetings, LBGTQ community meetings,
-            secular meetings, and more. If you need more information or want to
-            carpool to meetings, please contact
-            <a href="mailto:recovery@pyphilly.org">recovery@pyphilly.org</a>.
-            Anonymity will be maintained.
-          </li>
-          {% endcomment %}
+                            <li>
+                              <a href="http://www.aasandiego.org/">Attend a recovery meeting</a>.
+                              There are many recovery meetings near the conference hotel,
+                              <a
+                                href="https://www.google.com/maps/d/u/0/viewer?mid=1r2z9yZ5RPpGGhdOry7cHbwjZomA&ll=32.77259901952868%2C-117.14099820222603&z=14"
+                                >which can be seen on a map here</a
+                              >. These include traditional AA meetings, LBGTQ community meetings,
+                              secular meetings, and more. If you need more information or want to
+                              carpool to meetings, please contact
+                              <a href="mailto:recovery@pyphilly.org">recovery@pyphilly.org</a>.
+                              Anonymity will be maintained.
+                            </li>
+                            {% endcomment %}
 
 
 

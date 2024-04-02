@@ -1,13 +1,27 @@
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";
+@import "components/_badge.css";
 @import "components/_buttons.css";
 
 @import "tailwindcss/utilities";
 
-
-
 @layer base {
+  :root {
+    /* Typography */
+    --theme-font: sans-serif;
+    --theme-text-color: #000;
+
+    /* Colors */
+
+
+
+    /* THEME-X */
+    /*
+      --theme-font: "Poppins", sans-serif;
+    */
+  }
+
   /*
     h-screen and flex-col on the body allow the footer
     to be fixed to the bottom of the viewport.
@@ -20,7 +34,13 @@
   body {
     @apply flex flex-col;
     @apply antialiased;
-    @apply text-gray-900;
+
+    font-family: var(--theme-font);
+    color: var(--theme-text-color);
+  }
+
+  figcaption {
+    @apply text-sm text-center mt-3;
   }
 
   .link {
@@ -47,7 +67,9 @@
 }
 
 @layer components {
-
+  .prose a {
+    @apply link;
+  }
 }
 
 @layer utilities {
@@ -60,8 +82,4 @@
     @apply h-full w-full;
     content: '';
   }
-}
-
-.prose a {
-  @apply link;
 }
