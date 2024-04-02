@@ -4,50 +4,62 @@ description: DjangoCon US 2023 is being held at the Durham Convention Center in 
 layout: default
 ---
 
-<header class="py-16">
-  <h1>{{ title }}</h1>
-  <a href="https://goo.gl/maps/E5Hr4WyUgtV9ujCa6">
-    <strong>Durham Convention Center</strong> <br />
-    <small>301 W Morgan St, Durham, NC 27701</small>
-  </a>
-</header>
+<div class="py-16">
+  <div class="container px-4 mx-auto">
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+      <section>
+        <h1 class="mb-4 text-4xl font-bold font-heading lg:text-6xl">Welcome to Durham!</h1>
+        <div class="space-y-6 text-xl lg:text-2xl">
+          <p>
+            This year's venue is the Durham Convention Center! Located just 20 minutes
+            from Raleigh-Durham International Airport, the Durham Convention Center
+            provides the perfect setting.
+          </p>
+          <p>
+            Due to the combination of a Duke home football game on October 14 and
+            another tech conference right after ours, hotel space will be
+            <strong>extremely</strong> limited in 2023.
+          </p>
+        </div>
+      </section>
+
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.9325689361035!2d-78.90453548509521!3d35.99751418012176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace472696f63bb%3A0xab0cf88393dc3b32!2s301%20W%20Morgan%20St%2C%20Durham%2C%20NC%2027701!5e0!3m2!1sen!2sus!4v1675525268131!5m2!1sen!2sus"
+          width="100%"
+          height="380"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="border-4 rounded border-gray-50"
+        ></iframe>
+
+        <div class="flex flex-wrap items-center justify-center gap-8 mt-4">
+          <a
+            class="button secondary order-0"
+            href="https://maps.google.com/maps?ll=35.997514,-78.902347&z=16&t=m&hl=en&gl=US&mapclient=embed&q=301%20W%20Morgan%20St%20Durham%2C%20NC%2027701"
+            target="_blank">View Larger Map</a>
+
+            <span class="order-1 block leading-tight">
+              <strong>Durham Convention Center</strong> <br>
+              <small>301 W Morgan St, Durham, NC 27701</small>
+            </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="row column v-pad-bottom" id="welcome">
-  <div class="medium-7 column">
-    <h2>Welcome to Durham!</h2>
-    <p>
-      This year's venue is the Durham Convention Center! Located just 20 minutes
-      from Raleigh-Durham International Airport, the Durham Convention Center
-      provides the perfect setting.
-    </p>
-    <p>
-      Due to the combination of a Duke home football game on October 14 and
-      another tech conference right after ours, hotel space will be
-      <strong>extremely</strong> limited in 2023.
-    </p>
-  </div>
+
 
 
   <div class="medium-5 column">
-    <iframe
-      class="thumbnail thumbnail-block"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.9325689361035!2d-78.90453548509521!3d35.99751418012176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace472696f63bb%3A0xab0cf88393dc3b32!2s301%20W%20Morgan%20St%2C%20Durham%2C%20NC%2027701!5e0!3m2!1sen!2sus!4v1675525268131!5m2!1sen!2sus"
-      width="600"
-      height="380"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
+
 
 
     <p>
-      <a
-        class="button"
-        href="https://maps.google.com/maps?ll=35.997514,-78.902347&z=16&t=m&hl=en&gl=US&mapclient=embed&q=301%20W%20Morgan%20St%20Durham%2C%20NC%2027701"
-        target="_blank"
-      >View Larger Map</a
-        >
+
     </p>
   </div>
 

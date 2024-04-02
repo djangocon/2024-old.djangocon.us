@@ -4,3 +4,8 @@
   @apply font-medium rounded-md;
   @apply text-white bg-gray-900 border border-transparent;
 }
+
+.button.secondary {
+  @apply text-gray-900 bg-transparent;
+  @apply border-gray-900;
+}

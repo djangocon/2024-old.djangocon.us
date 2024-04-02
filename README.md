@@ -18,3 +18,7 @@ Build and watch for local changes by running:
 `npm run serve`
 
 This opens a local server at `http://localhost:8080/` and watches for changes to the source files.
+
+# To Dos
+
+1. Replace autoprefixer and cssnano with lightningcss

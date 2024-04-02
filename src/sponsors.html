@@ -42,7 +42,7 @@ layout: default
                 <a href="{{ sponsor.data.url.target }}" class="inline-block text-xl link" aria-hidden="true">{{ sponsor.data.url.label }}</a>
               {% endif %}
               {% if sponsor.content %}
-                <div class="prose prose-lg">
+                <div class="space-y-6 text-lg lg:text-xl">
                   {{ sponsor.content | markdown }}
                 </div>
               {% endif %}
