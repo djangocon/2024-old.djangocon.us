@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - gh-pages
+      - main
   pull_request:
 
 jobs:
@@ -34,13 +34,14 @@ jobs:
           key: ${{ runner.os }}-eleventy-fetch-cache
 
       - name: Install dependencies
-        run: |
-          npm install
-          npm run build
+        run: npm install
+
+      - name: Build
+        run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
+          publish_dir: ./dist
           publish_branch: gh-pages
