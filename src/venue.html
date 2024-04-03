@@ -1,7 +1,27 @@
 ---
+layout: default
+
 title: Welcome to Durham!
 description: DjangoCon US 2023 is being held at the Durham Convention Center in Durham, NC.
-layout: default
+
+other_lodging:
+  - name: 21c Museum and Hotel
+    price_night: $350
+    website: https://www.21cmuseumhotels.com/durham/
+    feature: Closest option
+  - name: Unscripted Durham
+    price_night: $226
+    website: https://www.unscriptedhotels.com/
+    feature: Most inexpensive and walkable option
+  - name: Holiday Inn Express Durham
+    price_night: $151
+    website: https://www.ihg.com/holidayinnexpress/hotels/us/en/durham/rduhm/hoteldetail
+    feature: Inexpensive, close, but not walkable
+  - name: Hilton Garden Inn Durham/University Medical Center
+    price_night: $191
+    website: https://www.hilton.com/en/hotels/rdumcgi-hilton-garden-inn-durham-university-medical-center/
+    feature: Nearest Hilton brand option
+
 ---
 
 <div class="py-16">
@@ -89,11 +109,11 @@ layout: default
       </section>
     </div>
   </div>
-</div>
 
-<div class="py-16" id="welcome">
-  <div class="container px-4 mx-auto">
-    <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">Other hotel options</h2>
+  <div class="container px-4 mx-auto mt-16">
+    <header class="mb-8">
+      <h2 class="text-3xl font-bold font-heading lg:text-5xl">Other hotel options</h2>
+    </header>
 
     <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
       <div>
@@ -104,54 +124,27 @@ layout: default
         </p>
         {% endcomment %}
 
-        <ul class="grid gap-8 lg:grid-cols-2 lg:gap-16">
-          <li class="flex flex-col gap-4">
-            <span class="badge badge-blue">Closest option</span>
-            <br />
-            <a
-              href="https://www.21cmuseumhotels.com/durham/"
-              class="link"
-              target="_blank"
-              rel="noopener noreferrer">21c Museum and Hotel</a>
-              <br />
-              $350/night
-          </li>
-          <li>
-            Most inexpensive and walkable option:
-            <br />
-            <a
-              href="https://www.unscriptedhotels.com/"
-              class="link"
-              target="_blank"
-              rel="noopener noreferrer">Unscripted Durham</a>
-              <br />
-              $226/night
-          </li>
-          <li>
-            Inexpensive and close (but not walkable) option:
-            <br />
-            <a
-              href="https://www.ihg.com/holidayinnexpress/hotels/us/en/durham/rduhm/hoteldetail"
-              class="link"
-              target="_blank"
-              rel="noopener noreferrer">Holiday Inn Express Durham</a>
-            <br />
-            $151/night
-          </li>
-          <li>
-            Nearest Hilton brand option:
-            <br />
-            <a
-              href="https://www.hilton.com/en/hotels/rdumcgi-hilton-garden-inn-durham-university-medical-center/"
-              class="link"
-              target="_blank"
-              rel="noopener noreferrer">Hilton Garden Inn Durham/University Medical Center</a>
-            <br />
-            $191/night
-          </li>
+        <ul class="grid gap-8 lg:grid-cols-2 lg:gap-8">
+          {% for lodge in other_lodging %}
+            <li class="flex flex-col gap-2 bg-white border-2 border-gray-100 rounded-md">
+              <div class="flex flex-col flex-1 order-1 gap-8 p-4">
+                <a
+                  href="{{ lodge.website }}"
+                  class="text-xl font-semibold reverse-link"
+                  target="_blank"
+                  rel="noopener noreferrer">{{ lodge.name }}</a>
+
+                <span class="mt-auto">
+                  <span class="text-xl font-semibold">{{ lodge.price_night }}</span><span>/night</span>
+                </span>
+              </div>
+
+              <span class="block w-full px-4 py-2 text-sm text-blue-900 bg-blue-50 order-0">{{ lodge.feature }}</span>
+            </li>
+          {% endfor %}
         </ul>
 
-        <p class="mt-6">All rates are "the last time we checked" and may be outdated.</p>
+        <p class="mt-6 text-center">All rates are "the last time we checked" and may be outdated.</p>
       </div>
       <figure class="hidden lg:block">
         <img
@@ -166,133 +159,136 @@ layout: default
   </div>
 </div>
 
+<div class="py-16">
+  <div class="container px-4 mx-auto">
+    <header class="mb-12">
+      <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl">Around Durham</h2>
+      <p class="space-y-6 text-xl lg:text-2xl max-w-[65ch]">
+        Public transportation is available via the
+        <a href="https://gotriangle.org/maps-schedules/gotriangle" class="link">GoTriangle</a>
+        and
+        <a href="https://gotriangle.org/maps-schedules/godurham" class="link">GoDurham</a>
+        systems which includes transit via bus to/from the Raleigh-Durham
+        International Airport and the Durham Station (approximately 1/4 mile walk
+        from the station to the hotel). Popular ride sharing services are also
+        available. While you're cruising around town, be sure to check out our
+        favorite spots:
+      </p>
+    </header>
 
+    <div>
+      {% comment %}
+        Beginning of Places Around Durham.
 
+        To update the information
+        in this section, please see: `src/content/places`
+      {% endcomment %}
 
+      <section>
+        <ul class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+          {% for places in collections.places %}
+              <li class="flex flex-wrap gap-6">
+                <figure>
+                  <img
+                    src="{{ places.data.photo }}"
+                    alt="Photo of {{ places.data.name }}"
+                  />
+                </figure>
 
-                <h2 class="text-center">Around Durham</h2>
-                <p class="text-center lead column large-10 large-centered">
-                  Public transportation is available via the
-                  <a href="https://gotriangle.org/maps-schedules/gotriangle">GoTriangle</a>
-                  and
-                  <a href="https://gotriangle.org/maps-schedules/godurham">GoDurham</a>
-                  systems which includes transit via bus to/from the Raleigh-Durham
-                  International Airport and the Durham Station (approximately 1/4 mile walk
-                  from the station to the hotel). Popular ride sharing services are also
-                  available. While you're cruising around town, be sure to check out our
-                  favorite spots:
-                </p>
-              </div>
+                <div class="flex flex-col gap-4 lg:flex-1">
+                  <h3 class="text-lg font-semibold">
+                    <a href="{{ places.data.website }}" target="_blank">{{ places.data.name }}</a>
+                  </h3>
+                  <dl class="flex flex-col gap-4">
+                    <dt class="sr-only">Distance:</dt>
+                    <dd><span class="label">{{ places.data.distance }}</span></dd>
 
-              {% comment %}
-                Beginning of Places Around Durham.
+                    <dt class="sr-only">Address:</dt>
+                    <dd>
+                      <a href="{{ places.data.map }}" target="_blank">{{ places.data.location }}</a>
+                    </dd>
 
-                To update the information
-                in this section, please see: `src/content/places`
-              {% endcomment %}
+                    <dt class="sr-only">Website:</dt>
+                    <dd>
+                      <a
+                        href="{{ places.data.website }}"
+                        target="_blank"
+                        class="font-bold link">Visit website</a>
+                    </dd>
+                  </dl>
 
-
-
-              <section>
-                <ul>
-                  {% for places in collections.places %}
-                      <li class="">
-                        <div class="">
-                          <a href="{{ places.data.website }}" target="_blank">
-                            <img
-                              src="{{ places.data.photo }}"
-                              alt="Photo of {{ places.data.name }}"
-                            />
-                          </a>
-                        </div>
-                        <div class="media-object-section">
-                          <h3 class="attraction-name">
-                            <a href="{{ places.data.website }}" target="_blank">{{ places.data.name }}</a>
-                          </h3>
-                          <p class="attraction-description">
-                            <strong>Website:</strong>
-                            <a href="{{ places.data.website }}" target="_blank"> {{ places.data.name }}</a
-                              ><br />
-                              <strong>Distance:</strong>
-                              <span class="label">{{ places.data.distance }} </span><br />
-                              <strong>Address:</strong>
-                              <a href="{{ places.data.map }}" target="_blank">{{ places.data.location }}</a>
-                              <br />
-                              <i>{{ places.data.description }}</i>
-                            </p>
-                          </div>
-                        </div>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </section>
-
-
-
-
-
-            <div id="accessibility">
-
-                  <h2>An Accessible Experience</h2>
-                  <p>
-                    We're working with the staff at the Durham Convention Center to
-                    accommodate the diverse needs of our attendees.
-                  </p>
-                  <p>
-                    Are we missing something?
-                    <strong><a href="mailto:{{site.contact_us_email}}">Let us know</a>.</strong>
-                    </p>
-
-
-                    <div>
-                      <ul>
-                        <li>There is step-free access to all parts of the venue.</li>
-                        <li>All public restrooms have accessible stalls.</li>
-                        <li>
-                          The convention center does not provide gender-neutral restrooms.
-                          Please use the restroom for the gender with which you identify.
-                        </li>
-                        <li>
-                          Service animals are welcome, and there is a grassy area outside the
-                          hotel and convention center where they can be walked.
-                        </li>
-                        <li>
-                          The Quiet Room will be available on all conference days. This room
-                          is not for socializing.
-                        </li>
-                        <li>
-                          A Lactation Room will be available as needed Sunday-Wednesday. {%
-                          comment %}A refrigerator will be available in that room.
-                          <a href="/news/lactation-room/"
-                          >Read more about using the lactation room</a
-                            >{% endcomment %}.
-                          </li>
-
-
-
-                          {% comment %}
-                            <li>
-                              <a href="http://www.aasandiego.org/">Attend a recovery meeting</a>.
-                              There are many recovery meetings near the conference hotel,
-                              <a
-                                href="https://www.google.com/maps/d/u/0/viewer?mid=1r2z9yZ5RPpGGhdOry7cHbwjZomA&ll=32.77259901952868%2C-117.14099820222603&z=14"
-                                >which can be seen on a map here</a
-                              >. These include traditional AA meetings, LBGTQ community meetings,
-                              secular meetings, and more. If you need more information or want to
-                              carpool to meetings, please contact
-                              <a href="mailto:recovery@pyphilly.org">recovery@pyphilly.org</a>.
-                              Anonymity will be maintained.
-                            </li>
-                            {% endcomment %}
-
-
-
-                          <li>
-                            <a href="/news/childcare-at-djangocon-us/">Sponsored childcare</a>
-                            will be provided.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+                  {{ places.data.description | markdown }}
                 </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="py-16">
+  <div class="container px-4 mx-auto">
+    <header class="mb-12">
+      <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl">An Accessible Experience</h2>
+      <div class="space-y-6 text-xl lg:text-2xl max-w-[65ch]">
+        <p>
+          We're working with the staff at the Durham Convention Center to
+          accommodate the diverse needs of our attendees.
+        </p>
+        <p>
+          Are we missing something?
+          <strong><a href="mailto:{{site.contact_us_email}}" class="link">Let us know</a>.</strong>
+        </p>
+      </div>
+    </header>
+
+    <ul class="gap-8 px-4 space-y-8 list-disc lg:gap-16 md:columns-2 lg:columns-3 lg:text-xl *:break-inside-avoid">
+      <li>All public restrooms have accessible stalls.</li>
+      <li>
+        The convention center does not provide gender-neutral restrooms.
+        Please use the restroom for the gender with which you identify.
+      </li>
+      <li>There is step-free access to all parts of the venue.</li>
+      <li>
+        Service animals are welcome, and there is a grassy area outside the
+        hotel and convention center where they can be walked.
+      </li>
+      <li>
+        The Quiet Room will be available on all conference days. This room
+        is not for socializing.
+      </li>
+      <li>
+        A Lactation Room will be available as needed Sunday-Wednesday.
+        {% comment %}
+          A refrigerator will be available in that room.
+          <a href="/news/lactation-room/"
+          >Read more about using the lactation room</a>.
+          {% endcomment %}
+      </li>
+
+
+
+        {% comment %}
+          <li>
+            <a href="http://www.aasandiego.org/">Attend a recovery meeting</a>.
+            There are many recovery meetings near the conference hotel,
+            <a
+              href="https://www.google.com/maps/d/u/0/viewer?mid=1r2z9yZ5RPpGGhdOry7cHbwjZomA&ll=32.77259901952868%2C-117.14099820222603&z=14"
+              >which can be seen on a map here</a
+            >. These include traditional AA meetings, LBGTQ community meetings,
+            secular meetings, and more. If you need more information or want to
+            carpool to meetings, please contact
+            <a href="mailto:recovery@pyphilly.org">recovery@pyphilly.org</a>.
+            Anonymity will be maintained.
+          </li>
+          {% endcomment %}
+        <li>
+          <a href="/news/childcare-at-djangocon-us/">Sponsored childcare</a>
+          will be provided.
+        </li>
+      </ul>
+  </div>
+</div>

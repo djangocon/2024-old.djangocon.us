@@ -1,7 +1,7 @@
 .button {
   @apply inline-flex items-center justify-center px-4 py-2 rounded-md;
   @apply border-2;
-  @apply font-medium text-base;
+  @apply font-semibold text-base;
 
   border-color: var(--theme-text-color);
 
