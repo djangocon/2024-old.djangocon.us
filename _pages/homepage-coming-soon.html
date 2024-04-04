@@ -311,6 +311,14 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
       }
     }
 
+    .v-pad-bottom {
+      padding-bottom: 1rem;
+    }
+
+    .v-pad-top {
+      padding-top: 1rem;
+    }
+
     @media (min-width: 720px) {
       .siteUpper {
         margin: 2rem auto;
@@ -390,7 +398,7 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
         <div class="row column v-pad-bottom">
           <h2 class="text-center">Latest News</h2>
         </div>
-      
+
         <div class="news row">
           {% for post in site.posts limit:12 %}
             {% unless post.hidden %}
@@ -407,7 +415,7 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
             {% endunless %}
           {% endfor %}
         </div>
-      
+
         <div class="row v-pad-top">
           <div class="medium-4 column medium-centered text-center">
             <a class="button theme-brand-color1" href="/news/">Read More News</a>
