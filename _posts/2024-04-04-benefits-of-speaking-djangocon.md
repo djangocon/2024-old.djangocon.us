@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-date: 2024-04-02 12:00:00
+date: 2024-04-04 12:00:00
 image: /static/img/blog/cfp-announced-2024.png
 layout: post
 post_photo_alt: Speaker presenting at DjangoCon US 2023 in Durham, NC
