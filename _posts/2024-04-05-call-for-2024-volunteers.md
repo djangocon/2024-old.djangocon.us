@@ -6,7 +6,7 @@ layout: post
 title: "Call for Volunteers: DjangoCon US 2024"
 ---
 
-As our program chair, Drew Winstel, mentioned in his opening remarks today, we would love to have more volunteers for DjangoCon US 2023. Expect to hear details on dates and venues within the next month or so.
+Organizing DjangoCon US 2024 has begun! We need organizers to help make DjangoCon US 2024 the best it can be.
 
 We have some [documentation about the various roles](https://djangocon.github.io/djangocon-us-docs/), but here's a quick overview of the teams at DjangoCon US.
 
