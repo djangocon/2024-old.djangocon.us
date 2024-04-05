@@ -268,7 +268,7 @@ This team manages the various DCUS social network feeds, including Twitter, Mast
 
 ### At-conference responsibilities
 
-- Pay attention to the `#djangocon` topic on social media and mentions to `@djangocon` on Twitter
+- Pay attention to the `#djangocon` topic on social media and mentions to `@djangocon` on various social networks
 - Boost speakers and organizers
 - Answer questions as they come up
 - Run the `#help-desk` channel on the conference attendee slack
