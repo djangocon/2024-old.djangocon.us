@@ -254,7 +254,7 @@ Size: 2-4
 
 The communications committee is responsible for getting the word out about DCUS.
 
-Have you heard the expression "never tweet" (usually said on Twitter)? This is the opposite of that. Always tweet.
+This team manages the various DCUS social network feeds, including Twitter, Mastodon, Bluesky, Instagram, LinkedIn, and more. This team also edits and posts blogs on the DCUS main page and coordinates bulk emails to ticketholders to remind them about the conference as it approaches.
 
 ### Pre-conference responsibilities
 
