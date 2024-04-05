@@ -36,7 +36,7 @@ The program committee is responsible for making sure that the schedule of tutori
 - Recruit keynote speakers (the DEFNA board will offer suggestions, but if you have a message you'd like the keynotes to send, you have lots of latitude here, but keep in mind conference diversity goals)
 - Recruit speaker mentors (start with the 2019, 2021, and 2022 reviewers and bring in more as you like)
 - Review proposals as they come in for anonymization (ideally, recruit one member of the program committee who will not be reviewing talks to do the anonymization before opening talks for review)
-- Recruit talk reviewers (the DEFNA board will send you the 2022 reviewers, but more reviewers are encouraged, especially from diverse backgrounds). There will likely be over 100 submissions, so having more reviewers lessens the load for individual talks
+- Recruit talk reviewers (the DEFNA board will send you the 2023 reviewers, but more reviewers are encouraged, especially from diverse backgrounds). There will likely be over 100 submissions, so having more reviewers lessens the load for individual talks
 - Decide on any tweaks to the format (Spanish-language talks? Keep the Deep Dive Day? This is your chance to put your mark on the program)
 - Review talks
 - Once reviews are completed, de-anonymize talks and filter for duplicate speakers, multiple speakers from the same organization, diversity goals, overlapping topics, and more
