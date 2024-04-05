@@ -16,7 +16,7 @@ Ideally, all committees will have a chair and co-chair to allow for one or the o
 
 ## Conference Leadership
 
-The conference chair and co-chair lead the conference, including coordinating between teams and making executive decisions (including approaching the DEFNA board when applicable). Expect to be in meetings with the venue and online conference provider, weekly organizer check-ins, monthly reports to the DEFNA board, and lots of questions on Slack. You'll also lead the volunteer kickoff meetings in early 2023 (ideally mid-to-late January) and recruit organizers as you see fit. You'll need to recommend an online conference provider to the DEFNA board (might be part of a sponsorship deal).
+The conference chair and co-chair lead the conference, including coordinating between teams and making executive decisions (including approaching the DEFNA board when applicable). Expect to be in meetings with the venue and online conference provider, weekly organizer check-ins, monthly reports to the DEFNA board, and lots of questions on Slack. You'll also lead the volunteer kickoff meetings in early 2024 (ideally mid-to-late January) and recruit organizers as you see fit. You'll need to recommend an online conference provider to the DEFNA board (might be part of a sponsorship deal).
 
 At the conference, you'll be making speeches at the start of each day and the end-of-conference wrap-up in addition to coordinating setup, teardown, and everything in between.
 
