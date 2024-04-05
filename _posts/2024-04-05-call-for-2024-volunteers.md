@@ -183,7 +183,6 @@ The venue committee is responsible for coordinating plans between the other orga
 Size: 2-3
 
 ### During-conference responsibilities
-- Set up online tutorials
 - Increase online engagement during the conference
 - Investigate online lightning talks
 
