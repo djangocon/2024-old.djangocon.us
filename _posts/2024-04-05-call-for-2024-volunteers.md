@@ -307,4 +307,4 @@ Size: 2-4
 
 ## Wrap-up
 
-To sign up for any of the teams (or just say "Put me to work"), send an email to hello@djangocon.us and we'll put you on the list for the 2023 kickoff meeting. We would love to have you! You do not have to have previous organizing experience (although we might prefer it for some of the leadership roles).
+To sign up for any of the teams (or just say "Put me to work"), send an email to hello@djangocon.us and we'll add you to our organizer Slack instance and invite you to our fortnightly organizer catch-up meetings. We would love to have you! You do not have to have previous organizing experience (although we might prefer it for some of the leadership roles).
