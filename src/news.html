@@ -9,7 +9,7 @@ layout: default
   </div>
 </div>
 
-<div class="py-6">
+<div class="pt-6 pb-16">
   <div class="max-w-[45rem] px-4 mx-auto">
     <ol class="space-y-4 divide-y" reversed>
       {%- for post in collections.posts reversed -%}
@@ -22,12 +22,12 @@ layout: default
           <li>
             <article class="py-6">
               <time
-                class="block mb-2 text-sm tracking-wide text-gray-600 uppercase"
+                class="block mb-2 tracking-wide text-gray-600 uppercase"
                 datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-              <h2 class="text-2xl font-heading {{ heading_size }}"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
+              <h2 class="text-2xl font-heading font-semibold {{ heading_size }}"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
 
               {%- if post.data.page.excerpt -%}
-                <div class="mt-4 text-xl prose">
+                <div class="mt-4 prose prose-xl">
                   {{ post.data.page.excerpt | markdown }}
                 </div>
               {%- endif -%}

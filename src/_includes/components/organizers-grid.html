@@ -2,7 +2,7 @@
   {%- for organizer in collections.organizers -%}
     {% assign photo = 'src/content/organizers/' | append: organizer.data.photo %}
     <li class="flex flex-col">
-      {% image photo, './dist/organizers', '/organizers/', organizer.data.name, '(min-width: 1024px) 300px, 600px', 'block w-full object-cover object-left-top aspect-square' %}
+      {% image photo, './dist/organizers', '/organizers/', organizer.data.name, '(min-width: 1024px) 300px, 600px', 'block w-full object-cover object-left-top aspect-square media' %}
       <div class="flex flex-col flex-1 px-2 mt-3">
         <h2 class="mb-2 text-xl font-heading lg:text-2xl">{{ organizer.data.name }}</h2>
         <p class="mb-4 text-gray-600">{{ organizer.data.role }}</p>
@@ -17,7 +17,7 @@
                   rel="noopener noreferrer"
                   class="link"
                   aria-label="GitHub">
-                  <svg class="text-gray-600 icon">
+                  <svg class="icon">
                     <title>GitHub</title>
                     <use xlink:href="#github-icon"></use>
                   </svg>
@@ -32,7 +32,7 @@
                   rel="noopener noreferrer"
                   class="link"
                   aria-label="Mastodon">
-                  <svg class="text-gray-600 icon">
+                  <svg class="icon">
                     <title>Mastodon</title>
                     <use xlink:href="#mastodon-icon"></use>
                   </svg>
@@ -47,7 +47,7 @@
                   rel="noopener noreferrer"
                   class="link"
                   aria-label="X.com">
-                  <svg class="text-gray-600 icon">
+                  <svg class="icon">
                     <title>X.com</title>
                     <use xlink:href="#twitter-icon"></use>
                   </svg>
@@ -62,7 +62,7 @@
                   rel="noopener noreferrer"
                   class="link"
                   aria-label="Website">
-                  <svg class="text-gray-600 icon">
+                  <svg class="icon">
                     <use xlink:href="#web-icon"></use>
                   </svg>
                 </a>

@@ -64,6 +64,10 @@
     @apply align-middle;
     @apply w-6 h-6;
   }
+
+  .media {
+    @apply border-4 border-gray-100 rounded;
+  }
 }
 
 @layer components {

@@ -51,7 +51,7 @@ other_lodging:
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          class="border-4 border-gray-100 rounded"
+          class="w-full media"
         ></iframe>
 
         <div class="flex flex-wrap items-center justify-center gap-8 mt-6">
@@ -78,6 +78,7 @@ other_lodging:
           class="w-full"
           src="/assets/img/venue/durham-marriott-exterior.jpeg"
           alt="Exterior photo of Durham Marriott City Center"
+          class="w-full media"
         />
         <figcaption>Durham Marriott City Center</figcaption>
       </figure>
@@ -151,7 +152,7 @@ other_lodging:
           src="/assets/img/venue/unscripted-exterior.jpeg"
           alt="Exterior photo of the Unscripted Hotel in Durham"
           loading="lazy"
-          class="w-full"
+          class="w-full media"
         />
         <figcaption>An exterior shot of the Unscripted Hotel in Durham</figcaption>
       </figure>
@@ -187,39 +188,7 @@ other_lodging:
       <section>
         <ul class="grid gap-8 lg:grid-cols-2 lg:gap-16">
           {% for place in collections.places %}
-              <li class="flex flex-wrap gap-6">
-                <figure>
-                  <img
-                    src="{{ place.data.photo }}"
-                    alt="Photo of {{ place.data.name }}"
-                  />
-                </figure>
-
-                <div class="flex flex-col gap-4 lg:flex-1">
-                  <h3 class="text-lg font-semibold">
-                    <a href="{{ place.data.website }}" target="_blank">{{ place.data.name }}</a>
-                  </h3>
-                  <dl class="flex flex-col gap-4">
-                    <dt class="sr-only">Distance:</dt>
-                    <dd><span class="label">{{ place.data.distance }}</span></dd>
-
-                    <dt class="sr-only">Address:</dt>
-                    <dd>
-                      <a href="{{ place.data.map }}" target="_blank">{{ place.data.location }}</a>
-                    </dd>
-
-                    <dt class="sr-only">Website:</dt>
-                    <dd>
-                      <a
-                        href="{{ place.data.website }}"
-                        target="_blank"
-                        class="font-bold link">Visit website</a>
-                    </dd>
-                  </dl>
-
-                  {{ place.content | markdown }}
-                </div>
-            </li>
+            {% include 'components/place.html' %}
           {% endfor %}
         </ul>
       </section>
