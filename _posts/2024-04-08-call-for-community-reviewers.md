@@ -5,7 +5,7 @@ date: 2024-04-08 06:00:00
 layout: post
 image: /static/img/blog/call-for-reviewers-2019.png
 post_photo_url: /static/img/blog/call-for-reviewers.jpg
-post_photo_alt: "Lacey Williams Henschel speaking at DjangoCon US 2018"
+post_photo_alt: "Lacey Henschel speaking at DjangoCon US 2018"
 title: "Announcing Call for Community Reviewers"
 ---
 The [call for proposals for DjangoCon US 2024](/speaking/)
