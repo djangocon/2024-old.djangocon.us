@@ -3,7 +3,7 @@ author: DjangoCon US Communication Team
 category: General
 date: 2024-04-08 06:00:00
 layout: post
-image: /static/img/blog/call-for-reviewers-2019.png
+image: /static/img/blog/call-for-reviewers-2024.png
 post_photo_url: /static/img/blog/call-for-reviewers.jpg
 post_photo_alt: "Lacey Henschel speaking at DjangoCon US 2018"
 title: "Announcing Call for Community Reviewers"
