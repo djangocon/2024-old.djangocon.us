@@ -112,7 +112,8 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
 
     .siteUpper {
       margin: 2rem auto 0;
-      max-width: 1000px;
+      padding: 0 1rem;
+      max-width: 960px;
     }
 
     .siteHeader {
@@ -193,8 +194,8 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
     .news {
       display: flex;
       flex-direction: column;
-      margin-bottom: 0.5rem;
-      padding: 1.5rem;
+      /* margin-bottom: 0.5rem; */
+      padding-top: 1.5rem;
       width: 100%;
       border-top: 8px solid var(--color-primary);
       background: white;
@@ -211,8 +212,9 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
     }
 
     .news h3 {
-      font-size: 1.2rem;
-      text-align: center;
+      font-size: 1.5rem;
+      margin: 0;
+      /* text-align: center; */
       color: var(--color-primary);
     }
 
@@ -226,6 +228,13 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
       color: var(--color-primary);
     }
 
+    .news .card-section {
+      display: grid;
+      align-items: center;
+      padding: 1rem 0;
+      grid-template-columns: 20% auto;
+    }
+
     .spBlock {
       padding: 3rem 1.25rem;
       background: black url('{% link static/img/landing-page/people.jpg %}') no-repeat;
@@ -234,7 +243,7 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
       line-height: 1.3;
       text-align: center;
       color: white;
-      margin-top: 3rem;
+      margin: 3rem 0;
     }
 
     .spBlock p {
@@ -300,6 +309,9 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
       font-size: 1.1rem;
     }
 
+    .text-center {
+      text-align: center;
+    }
 
     @media (min-width: 520px) {
       :root {
@@ -394,9 +406,9 @@ title: DjangoCon US 2024 will be at the Durham Convention Center in Durham, Nort
           <a href="https://github.com/djangocon/2024.djangocon.us/blob/main/CODE_OF_CONDUCT.md" class="cta">See our code of conduct</a>
         </section>
       </div>
-      <section class="news-section section-pad theme-brand-color3">
-        <div class="row column v-pad-bottom">
-          <h2 class="text-center">Latest News</h2>
+      <section class="news-section v-pad-top section-pad theme-brand-color3">
+        <div class="row column v-pad-top">
+          <h2 class="text-center v-pad-top">Latest News</h2>
         </div>
 
         <div class="news row">
