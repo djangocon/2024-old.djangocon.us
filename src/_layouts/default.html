@@ -91,56 +91,58 @@
     {%- endblock -%}
   </main>
 
-  <footer id="SiteFooter" class="bg-gray-200 lg:block">
-    <div class="container grid gap-8 px-4 py-8 mx-auto place-items-center">
-      <ul class="flex flex-wrap gap-8">
-        <li>
-          <a class="mastodon" href="https://fosstodon.org/@djangocon">
-            <svg class="icon">
-              <title>Mastodon</title>
-              <use xlink:href="#mastodon-icon"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a class="twitter" href="https://twitter.com/djangocon">
-            <svg class="icon">
-              <title>Twitter</title>
-              <use xlink:href="#twitter-icon"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a class="github" href="https://github.com/djangocon/">
-            <svg class="icon">
-              <title>Github</title>
-              <use xlink:href="#github-icon"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a class="facebook" href="https://www.facebook.com/djangoconus/">
-            <svg class="icon">
-              <title>Facebook</title>
-              <use xlink:href="#facebook-icon"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+  <footer id="SiteFooter" class="py-12 bg-gray-200 lg:block">
+    <div class="container mx-auto ">
+      <div class="grid gap-8 px-4 place-items-center">
+        <ul class="flex flex-wrap gap-8">
+          <li>
+            <a class="mastodon" href="https://fosstodon.org/@djangocon">
+              <svg class="icon">
+                <title>Mastodon</title>
+                <use xlink:href="#mastodon-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="twitter" href="https://twitter.com/djangocon">
+              <svg class="icon">
+                <title>Twitter</title>
+                <use xlink:href="#twitter-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="github" href="https://github.com/djangocon/">
+              <svg class="icon">
+                <title>Github</title>
+                <use xlink:href="#github-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="facebook" href="https://www.facebook.com/djangoconus/">
+              <svg class="icon">
+                <title>Facebook</title>
+                <use xlink:href="#facebook-icon"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
 
-      <p class="text-center lg:text-xl">
-        <strong>
-          Got questions? We can help:
-          <a
-            href="mailto:{{site.contact_us_email}}" class="link">{{site.contact_us_email}}</a>
-        </strong>
-      </p>
-      <small class="text-sm text-center">
-        &copy; {% year %} DjangoCon US
-        · Design by <a href="http://yupgup.com/" class="link" target="_blank">YupGup</a>
-        · Presented by <a href="https://www.defna.org/" class="link" target="_blank">DEFNA</a>
-        · <a href="/colophon/" class="link">Colophon</a>
-      </small>
+        <p class="text-center lg:text-xl">
+          <strong>
+            Got questions? We can help:
+            <a
+              href="mailto:{{site.contact_us_email}}" class="link">{{site.contact_us_email}}</a>
+          </strong>
+        </p>
+        <small class="text-sm text-center">
+          &copy; {% year %} DjangoCon US
+          · Design by <a href="http://yupgup.com/" class="link" target="_blank">YupGup</a>
+          · Presented by <a href="https://www.defna.org/" class="link" target="_blank">DEFNA</a>
+          · <a href="/colophon/" class="link">Colophon</a>
+        </small>
+      </div>
     </div>
   </footer>
 
