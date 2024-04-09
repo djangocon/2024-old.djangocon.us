@@ -1,5 +1,7 @@
 ---
 title: About DjangoCon US
+description: >
+  DjangoCon US is dedicated to providing a fun harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, or religion.
 layout: default
 ---
 
@@ -100,43 +102,54 @@ layout: default
     <div class="grid gap-8 lg:grid-cols-3 lg:gap-16">
       <section class="flex flex-col gap-4 p-6 bg-white border-2">
         <h3 class="text-lg font-bold lg:text-2xl font-heading" id="code-of-conduct">Code of Conduct</h3>
-        <p>We’re committed to providing a safe and friendly environment for everyone to learn, meet, and enjoy the conference. All organizers, attendees, speakers and sponsors must follow the <a href="/conduct/" class="link">Code of Conduct</a>.</p>
+        <p class="lg:text-lg">We’re committed to providing a safe and friendly environment for everyone to learn, meet, and enjoy the conference. All organizers, attendees, speakers and sponsors must follow the <a href="/conduct/" class="link">Code of Conduct</a>.</p>
       </section>
 
       <section class="flex flex-col gap-4 p-6 bg-white border-2">
         <h3 class="text-lg font-bold lg:text-2xl font-heading" id="commitment-to-diversity">Commitment to Diversity</h3>
-        <p>It is a core aim of DjangoCon US 2023 to encourage diversity, enforce our <a href="/conduct/" class="link">Code of Conduct</a>, and make our event as inclusive and accessible as possible.</p>
+        <p class="lg:text-lg">It is a core aim of DjangoCon US 2023 to encourage diversity, enforce our <a href="/conduct/" class="link">Code of Conduct</a>, and make our event as inclusive and accessible as possible.</p>
       </section>
 
       <section class="flex flex-col gap-4 p-6 bg-white border-2">
         <h3 class="text-lg font-bold lg:text-2xl font-heading" id="opportunity-grants">COVID-19 Safety</h3>
-        <p>As part of our commitment to the safety of our attendees, we have a <a href="/covid/" class="link">COVID-19 Policy</a> and require all attendees to be vaccinated and masked, and have a negative COVID test prior to attending.</p>
+        <p class="lg:text-lg">As part of our commitment to the safety of our attendees, we have a <a href="/covid/" class="link">COVID-19 Policy</a> and require all attendees to be vaccinated and masked, and have a negative COVID test prior to attending.</p>
       </section>
     </div>
   </div>
 </div>
 
+<div class="py-16">
+  <div class="container px-4 mx-auto">
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+      <figure>
+        {% comment %}
+          TODO: Use Image component
+        {% endcomment %}
+        <img
+          class="media"
+          src="/assets/img/about.jpg"
+          loading="lazy"
+          alt="DjangoCon US attendees smiling for a picture.">
+      </figure>
 
-<h2>Day 1 Orientation</h2>
-<p>
-  Are you new to DjangoCon US or tech conferences in general?<br>
-  Are you worried you might feel out of place?<br>
-  Are you attending DjangoCon US by yourself?<br>
-</p>
-<p>If so, the Day 1 orientation is for you! We’ll help you get your bearings so you can have the BEST conference experience possible. More details coming in the blog.</p>
+      <section>
+        <h2 class="mb-8 text-2xl font-bold font-heading lg:text-5xl">Day 1 Orientation</h2>
 
+        <div class="space-y-6 text-xl lg:text-2xl">
+          <ul class="space-y-4">
+            <li>Are you new to DjangoCon US or tech conferences in general?</li>
+            <li>Are you worried you might feel out of place?</li>
+            <li>Are you attending DjangoCon US by yourself?</li>
+          </ul>
 
+          <p><strong>If so, the Day 1 orientation is for you!</strong> We’ll help you get your bearings so you can have the BEST conference experience possible.</p>
 
-
-
-
-
-
-
-
-
-
-
+          <p>More details coming in the blog.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
 
 
 {% comment %}
@@ -171,5 +184,3 @@ layout: default
   </div>
 </section>
 {% endcomment %}
-
-</div><!-- end .content -->

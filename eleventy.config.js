@@ -45,6 +45,7 @@ module.exports = (config) => {
     https://www.11ty.dev/docs/copy/
   */
   config.addPassthroughCopy("src/assets/img/**/*");
+  config.addPassthroughCopy("src/assets/js/");
   config.addPassthroughCopy("src/assets/favicons/");
   config.addPassthroughCopy({
     "src/content/sponsors/*.{png,jpg,jpeg,svg}": "sponsors/",

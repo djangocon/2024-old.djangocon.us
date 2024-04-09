@@ -6,5 +6,5 @@
   border-color: var(--theme-text-color);
 
   /* THEME-X: borders have unique rounding */
-  /*@apply border-r-4 border-b-4;*/
+  @apply border-r-4 border-b-4;
 }

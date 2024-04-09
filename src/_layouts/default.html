@@ -42,35 +42,56 @@
 </head>
 
 <body{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-  <header class="py-4">
-    <nav class="container px-4 mx-auto">
-      <ul class="flex flex-col gap-2 lg:flex-row lg:gap-8 lg:items-center lg:text-xl">
-        <li aria-hidden="true" class="lg:mr-auto">
+  <header id="SiteHeader" class="fixed top-0 w-full py-4 bg-white lg:py-6 lg:relative">
+    <div class="container px-4 mx-auto">
+      <nav class="flex flex-wrap">
+        <div class="flex items-center justify-between w-full lg:max-w-max">
           <a
             href="/"
             aria-label="Go to homepage">
-            <img src="/assets/img/logo.svg" alt="DjangoCon US" class="h-16">
+            <img src="/assets/img/logo.svg" alt="DjangoCon US" class="h-12 lg:h-20">
           </a>
-        </li>
-        <li class="lg:sr-only"><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/organizers">Organizers</a></li>
-        <li><a href="/venue">Venue</a></li>
-        <li><a href="/schedule">Schedule</a></li>
-        <li><a href="/sponsors">Sponsors</a></li>
-        <li><a href="/news">News</a></li>
-        <li><a href="#" class="button">Buy Tickets</a></li>
-      </ul>
-    </nav>
+          <button id="NavToggler" class="lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+
+        <ul
+          id="NavMenu"
+          class="flex-col flex-1 hidden w-full gap-6 py-8 text-xl lg:flex-row lg:gap-8 lg:items-center lg:py-0 lg:flex lg:justify-end">
+          <li class="lg:sr-only"><a href="/">Home</a></li>
+          <li class="relative">
+            <a href="/about" data-menu-trigger>About</a>
+            <ul class="flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-bray-50 lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[24ch] lg:p-4">
+              <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
+              <li><a href="/tickets/" role="menuitem">Tickets</a></li>
+              <li><a href="/faq/" role="menuitem">FAQ</a></li>
+              <li><a href="/conduct/" role="menuitem">Code of Conduct</a></li>
+              <li><a href="/covid/" role="menuitem">COVID-19 Policy</a></li>
+              <li><a href="/opportunity-grants/" role="menuitem">Opportunity Grants</a></li>
+              <li><a href="/visas/" role="menuitem">Visa Support</a></li>
+              <li><a href="/organizers/" role="menuitem">Organizers</a></li>
+            </ul>
+          </li>
+          <li><a href="/venue">Venue</a></li>
+          {% comment %}<li><a href="/schedule">Schedule</a></li>{% endcomment %}
+          <li><a href="/sponsors">Sponsors</a></li>
+          <li><a href="/news">News</a></li>
+          <li><a href="#" class="button">Buy Tickets</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <div class="flex-1">
+  <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
     {%- block content -%}
       {{- content -}}
     {%- endblock -%}
-  </div>
+  </main>
 
-  <footer class="bg-gray-200">
+  <footer id="SiteFooter" class="bg-gray-200 lg:block">
     <div class="container grid gap-8 px-4 py-8 mx-auto place-items-center">
       <ul class="flex flex-wrap gap-8">
         <li>
@@ -107,7 +128,7 @@
         </li>
       </ul>
 
-      <p class="text-center">
+      <p class="text-center lg:text-xl">
         <strong>
           Got questions? We can help:
           <a
@@ -116,8 +137,8 @@
       </p>
       <small class="text-sm text-center">
         &copy; {% year %} DjangoCon US
-        · Design by <a href="http://yupgup.com/" class="link">YupGup</a>
-        · Presented by <a href="https://www.defna.org/" class="link">DEFNA</a>
+        · Design by <a href="http://yupgup.com/" class="link" target="_blank">YupGup</a>
+        · Presented by <a href="https://www.defna.org/" class="link" target="_blank">DEFNA</a>
         · <a href="/colophon/" class="link">Colophon</a>
       </small>
     </div>
@@ -127,5 +148,7 @@
     Social icons added as sprite
   {%- endcomment -%}
   {%- include 'social-icons.html' -%}
+
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>
