@@ -7,19 +7,12 @@
 @import "tailwindcss/utilities";
 
 @layer base {
+  /* THEME-X */
   :root {
     /* Typography */
-    --theme-font: "Poppins", sans-serif;
     --theme-text-color: #000;
 
     /* Colors */
-
-
-
-    /* THEME-X */
-    /*
-      --theme-font: "Poppins", sans-serif;
-    */
   }
 
   /*
@@ -35,7 +28,6 @@
     @apply flex flex-col relative;
     @apply antialiased;
 
-    font-family: var(--theme-font);
     color: var(--theme-text-color);
   }
 

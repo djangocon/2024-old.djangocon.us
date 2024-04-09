@@ -1,10 +1,19 @@
 .button {
-  @apply inline-flex items-center justify-center px-4 py-2 rounded-md;
+  @apply relative inline-flex items-center justify-center px-4 py-2 rounded-md;
   @apply border-2;
   @apply font-semibold text-base;
 
   border-color: var(--theme-text-color);
 
-  /* THEME-X: borders have unique rounding */
+  /* THEME-X */
   @apply border-r-4 border-b-4;
+
+  background: linear-gradient(to bottom, white 50%, theme(colors.mosaic-blue) 50%);
+  background-size: 100% 200%;
+  background-position: top;
+  transition: all .15s ease-out;
+}
+
+.button:hover {
+  background-position: bottom;
 }

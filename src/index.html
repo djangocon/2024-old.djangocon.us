@@ -8,7 +8,7 @@ layout: default
   <div class="container px-4 mx-auto">
     <section class="flex flex-col gap-4">
       <h1 class="mb-4 text-4xl font-bold lg:text-6xl">
-        Join us for <strong>five days</strong> of inspiration, education, and networking opportunities
+        Join us for <strong>five days</strong><br/> of inspiration, education,<br/>and networking opportunities
       </h1>
       <strong class="text-2xl lg:text-3xl">October 16-20, 2023</strong>
 
@@ -40,7 +40,10 @@ layout: default
   <div class="container px-4 mx-auto">
     <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
       <section>
-        <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">For Django fans of all levels</h2>
+        <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">For Django fans<br/> of all&nbsp;levels</h2>
+        <p class="text-xl lg:text-2xl">
+          DjangoCon US has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time.
+        </p>
       </section>
       <div>
         <ul class="space-y-10">
@@ -99,10 +102,40 @@ layout: default
 
 <div class="py-16">
   <div class="container px-4 mx-auto">
-    <div>
-      <h2>Latest News</h2>
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+      <figure>
+        {% comment %}
+          TODO: Use Image component
+        {% endcomment %}
+        <img
+          class="media"
+          src="/assets/img/about.jpg"
+          loading="lazy"
+          alt="DjangoCon US attendees smiling for a picture.">
+      </figure>
+      <section>
+        <h2 class="mb-8 text-2xl font-bold font-heading lg:text-5xl">Latest News</h2>
+
+        <ol class="space-y-4 divide-y" reversed>
+          {%- for post in collections.posts reversed limit:3 -%}
+            {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
+              <li>
+                <article class="py-6">
+                  <time
+                    class="block mb-2 tracking-wide text-gray-600 uppercase"
+                    datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+                  <h2 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
+                </article>
+              </li>
+            {% endunless %}
+          {%- endfor -%}
+        </ol>
+
+
+      <a class="button" href="/news/">Read More News</a>
+      </section>
     </div>
 
-    <a class="button" href="/news/">Read More News</a>
+
   </div>
 </div>

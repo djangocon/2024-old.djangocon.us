@@ -1,8 +1,8 @@
-const navToggler = document.getElementById('NavToggler')
+const navToggler = document.getElementById('NavToggler');
+const navMenu = document.getElementById('NavMenu');
 
 /* TODO: Not accessible */
 navToggler.addEventListener('click', () => {
-  const navMenu = document.getElementById('NavMenu');
   const siteMain = document.getElementById('SiteMain');
   const siteFooter = document.getElementById('SiteFooter');
 
@@ -20,13 +20,14 @@ navToggler.addEventListener('click', () => {
   siteFooter.classList.toggle('hidden');
 });
 
+
+
 const navMenuTriggers = document.querySelectorAll('[data-menu-trigger]');
 
 navMenuTriggers.forEach(trigger => {
   trigger.addEventListener('click', (e) => {
     e.preventDefault();
     const target = trigger.nextElementSibling;
-    console.log(target);
 
     if (target.classList.contains('hidden')) {
       target.classList.replace('hidden', 'flex');
@@ -34,4 +35,19 @@ navMenuTriggers.forEach(trigger => {
       target.classList.replace('flex', 'hidden');
     }
   });
+});
+
+document.addEventListener('click', (event) => {
+  // Check if the click was outside the navMenu and if the navMenu is currently visible
+  if (!navMenu.contains(event.target) && navMenu.classList.contains('flex')) {
+    navMenu.classList.replace('flex', 'hidden');
+
+    // Close all submenus
+    const submenus = navMenu.querySelectorAll('ul');
+    submenus.forEach(submenu => {
+      if (submenu.classList.contains('flex')) {
+        submenu.classList.replace('flex', 'hidden');
+      }
+    });
+  }
 });
