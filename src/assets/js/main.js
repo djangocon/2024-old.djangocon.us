@@ -36,18 +36,3 @@ navMenuTriggers.forEach(trigger => {
     }
   });
 });
-
-document.addEventListener('click', (event) => {
-  // Check if the click was outside the navMenu and if the navMenu is currently visible
-  if (!navMenu.contains(event.target) && navMenu.classList.contains('flex')) {
-    navMenu.classList.replace('flex', 'hidden');
-
-    // Close all submenus
-    const submenus = navMenu.querySelectorAll('ul');
-    submenus.forEach(submenu => {
-      if (submenu.classList.contains('flex')) {
-        submenu.classList.replace('flex', 'hidden');
-      }
-    });
-  }
-});
