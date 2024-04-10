@@ -5,5 +5,5 @@ name: Kudzayi Bamhare
 photo_url: /static/img/organizers/Kudzayi.jpg
 role: Program Committee, Sprints Committee
 twitter: BamBamm_Boogie
-blog: https://medium.com/@kudzayibamhare 
+website: https://medium.com/@kudzayibamhare 
 ---
