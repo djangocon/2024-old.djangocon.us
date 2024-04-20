@@ -9,23 +9,23 @@ module.exports = (config) => {
     https://www.11ty.dev/docs/collections/
   */
   config.addCollection("posts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/content/posts/*.md");
+    return collectionApi.getFilteredByGlob("src/_content/posts/*.md");
   });
 
   config.addCollection("places", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/content/places/*.md");
+    return collectionApi.getFilteredByGlob("src/_content/places/*.md");
   });
 
   config.addCollection("presenters", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/content/presenters/*.md");
+    return collectionApi.getFilteredByGlob("src/_content/presenters/*.md");
   });
 
   config.addCollection("organizers", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/content/organizers/*.md").filter(item => !item.data.hidden);
+    return collectionApi.getFilteredByGlob("src/_content/organizers/*.md").filter(item => !item.data.hidden);
   });
 
   config.addCollection("sponsorsByLevel", function(collectionApi) {
-    const sponsors = collectionApi.getFilteredByGlob("src/content/sponsors/*.md");
+    const sponsors = collectionApi.getFilteredByGlob("src/_content/sponsors/*.md");
 
     const visibleSponsors = sponsors.filter(sponsor => !sponsor.data.hidden);
 
@@ -48,8 +48,8 @@ module.exports = (config) => {
   config.addPassthroughCopy("src/assets/js/");
   config.addPassthroughCopy("src/assets/favicons/");
   config.addPassthroughCopy({
-    "src/content/sponsors/*.{png,jpg,jpeg,svg}": "sponsors/",
-    "src/content/places/*.{png,jpg,jpeg,webp}": "venue/",
+    "src/_content/sponsors/*.{png,jpg,jpeg,svg}": "sponsors/",
+    "src/_content/places/*.{png,jpg,jpeg,webp}": "venue/",
   });
   config.addPassthroughCopy("CNAME");
 

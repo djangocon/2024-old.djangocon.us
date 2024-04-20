@@ -3,8 +3,8 @@ const path = require('path');
 const glob = require('glob');
 const matter = require('gray-matter');
 
-// Get all Markdown files in the src/content/sponsors/ folder
-const files = glob.sync('src/content/sponsors/*.md');
+// Get all Markdown files in the src/_content/sponsors/ folder
+const files = glob.sync('src/_content/sponsors/*.md');
 
 files.forEach(file => {
     // Read the file and parse the front matter

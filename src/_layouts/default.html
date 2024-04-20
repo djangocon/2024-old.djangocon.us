@@ -58,29 +58,7 @@
           </button>
         </div>
 
-        <ul
-          id="NavMenu"
-          class="flex-col flex-1 hidden w-full gap-6 py-8 text-xl lg:flex-row lg:gap-8 lg:items-center lg:py-0 lg:flex lg:justify-end">
-          <li class="lg:sr-only"><a href="/">Home</a></li>
-          <li class="relative">
-            <a href="/about" data-menu-trigger>About</a>
-            <ul class="flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-bray-50 lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[24ch] lg:p-4">
-              <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
-              <li><a href="/tickets/" role="menuitem">Tickets</a></li>
-              <li><a href="/faq/" role="menuitem">FAQ</a></li>
-              <li><a href="/conduct/" role="menuitem">Code of Conduct</a></li>
-              <li><a href="/covid/" role="menuitem">COVID-19 Policy</a></li>
-              <li><a href="/opportunity-grants/" role="menuitem">Opportunity Grants</a></li>
-              <li><a href="/visas/" role="menuitem">Visa Support</a></li>
-              <li><a href="/organizers/" role="menuitem">Organizers</a></li>
-            </ul>
-          </li>
-          <li><a href="/venue">Venue</a></li>
-          {% comment %}<li><a href="/schedule">Schedule</a></li>{% endcomment %}
-          <li><a href="/sponsors">Sponsors</a></li>
-          <li><a href="/news">News</a></li>
-          <li><a href="#" class="button">Buy Tickets</a></li>
-        </ul>
+        {% include 'nav.html' %}
       </nav>
     </div>
   </header>

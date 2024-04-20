@@ -6,14 +6,19 @@
   border-color: var(--theme-text-color);
 
   /* THEME-X */
-  @apply border-r-4 border-b-4;
+  @apply border-r-4 border-b-4 bg-mosaic-blue;
 
-  background: linear-gradient(to bottom, white 50%, theme(colors.mosaic-blue) 50%);
+  /*
+  background: linear-gradient(to bottom, white 50%, theme(colors.lucky-orange) 50%);
   background-size: 100% 200%;
   background-position: top;
   transition: all .15s ease-out;
+  */
+
 }
 
+/*
 .button:hover {
   background-position: bottom;
 }
+*/

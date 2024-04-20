@@ -16,8 +16,8 @@ const matter = require('gray-matter');
 const stringify = require('yaml').stringify;
 
 const dirs = [
-  'src/content/organizers',
-  'src/content/presenters'
+  'src/_content/organizers',
+  'src/_content/presenters'
 ];
 
 dirs.forEach(dir => {
