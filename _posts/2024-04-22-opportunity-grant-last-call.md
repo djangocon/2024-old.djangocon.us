@@ -4,8 +4,8 @@ date: 2024-04-22 06:00:00
 layout: post
 image: /static/img/blog/cfp-oppgrants.jpg
 post_photo_url: /static/img/blog/cfp-oppgrants.jpg
-post_photo_alt: "End of Our Opportunity Grants is coming up!"
-title: "Heads Up! End of Our Opportunity Grants is coming up!"
+post_photo_alt: "End of our Opportunity Grants is coming up!"
+title: "Heads Up! End of our Opportunity Grants is coming up!"
 ---
 
 ## Hey Django lovers, 
