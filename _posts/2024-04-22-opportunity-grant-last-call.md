@@ -10,7 +10,7 @@ title: "Heads Up! End of Our Opportunity Grants is coming up!"
 
 ## Hey Django lovers, 
 
-here to remind you that the [opportunity grants](https://2024.djangocon.us/opportunity-grants/) will be closing on April 24, 2024 at 12 PM EDT.
+Here to remind you that the [opportunity grants](https://2024.djangocon.us/opportunity-grants/) will be closing on April 24, 2024 at [12 PM EDT](https://time.is/1200PM_24_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes).
 
 If you have haven't already applied, make sure to fill the [opportunity grant application form](https://forms.gle/Pi12J6vFQHq2CSAy5) soon.
 
