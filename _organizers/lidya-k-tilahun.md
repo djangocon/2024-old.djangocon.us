@@ -1,10 +1,10 @@
-thub: LideviK
+github: LideviK
 layout: base
 mastodon: https://mastodon.social/@HotMitmita
 name: Lidya K Tilahun
-photo_url: /static/img/organizers/lidya.png
-role: Program, communication and grant committee
-twitter: https://twitter.com/lidyaKef
+photo_url: /static/img/organizers/lidya.jpg
+role: Program, Communications and Opportunity Grants committee
+twitter: lidyaKef
 website: ''
 ---
 
