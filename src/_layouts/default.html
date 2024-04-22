@@ -43,7 +43,7 @@
 
 <body{% if templateClass %} class="{{ templateClass }}"{% endif %}>
   <header id="SiteHeader" class="fixed top-0 w-full py-4 bg-white lg:py-6 lg:relative">
-    <div class="container px-4 mx-auto">
+    <div class="wrapper">
       <nav class="flex flex-wrap">
         <div class="flex items-center justify-between w-full lg:max-w-max">
           <a
@@ -52,9 +52,10 @@
             <img src="/assets/img/logo.svg" alt="DjangoCon US" class="h-12 lg:h-20">
           </a>
           <button id="NavToggler" class="lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
+            <span class="sr-only">Toggle navigation</span>
           </button>
         </div>
 
@@ -69,7 +70,7 @@
     {%- endblock -%}
   </main>
 
-  <footer id="SiteFooter" class="py-12 bg-gray-200 lg:block">
+  <footer id="SiteFooter" class="py-12 text-white bg-black">
     <div class="container mx-auto ">
       <div class="grid gap-8 px-4 place-items-center">
         <ul class="flex flex-wrap gap-8">

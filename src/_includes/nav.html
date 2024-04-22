@@ -1,10 +1,10 @@
 <ul
     id="NavMenu"
-    class="flex-col flex-1 hidden w-full gap-6 py-8 text-xl lg:flex-row lg:gap-8 lg:items-center lg:py-0 lg:flex lg:justify-end">
+    class="flex-col flex-1 hidden w-full gap-6 py-8 text-xl font-semibold lg:flex-row lg:gap-8 lg:items-center lg:py-0 lg:flex lg:justify-end">
     <li class="lg:sr-only"><a href="/">Home</a></li>
     <li class="relative">
       <a href="/about" data-menu-trigger>About</a>
-      <ul class="flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-bray-50 lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[24ch] lg:p-4">
+      <ul class="flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-bray-50 lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[24ch] lg:p-6 rounded font-medium">
         <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
         <li><a href="/about/tickets/" role="menuitem">Tickets</a></li>
         <li><a href="/about/faq/" role="menuitem">FAQ</a></li>
@@ -19,5 +19,5 @@
     {% comment %}<li><a href="/schedule">Schedule</a></li>{% endcomment %}
     <li><a href="/sponsors">Sponsors</a></li>
     <li><a href="/news">News</a></li>
-    <li><a href="#" class="button">Buy Tickets</a></li>
+    <li><a href="{{ site.ticket_link }}" class="button">Buy Tickets</a></li>
   </ul>

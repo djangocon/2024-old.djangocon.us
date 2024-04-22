@@ -8,17 +8,19 @@
   /* THEME-X */
   @apply border-r-4 border-b-4 bg-mosaic-blue;
 
-  /*
-  background: linear-gradient(to bottom, white 50%, theme(colors.lucky-orange) 50%);
+
+  background: linear-gradient(to bottom, theme('colors.mosaic-blue') 50%, theme('colors.carolina-yellow') 50%);
   background-size: 100% 200%;
   background-position: top;
-  transition: all .15s ease-out;
-  */
-
+  transition: all .125s ease-out;
 }
 
-/*
+
 .button:hover {
   background-position: bottom;
 }
-*/
+
+
+.button-group {
+  @apply flex flex-wrap gap-4;
+}

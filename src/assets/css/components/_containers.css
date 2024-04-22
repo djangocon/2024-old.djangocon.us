@@ -1,0 +1,25 @@
+.block-container {
+  @apply py-12;
+}
+
+.wrapper {
+  @apply wrapper;
+}
+
+.hero {
+  @apply pt-8 pb-12;
+}
+
+.grid-1-2 {
+  @apply grid gap-8 lg:grid-cols-2 lg:gap-16;
+}
+
+@screen lg {
+  .block-container {
+    @apply py-14;
+  }
+
+  .hero {
+    @apply pt-10 pb-14;
+  }
+}

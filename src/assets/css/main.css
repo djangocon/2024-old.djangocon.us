@@ -3,6 +3,9 @@
 @import "tailwindcss/components";
 @import "components/_badge.css";
 @import "components/_buttons.css";
+@import "components/_table.css";
+
+@import "components/_containers.css";
 
 @import "tailwindcss/utilities";
 
@@ -60,9 +63,40 @@
   .media {
     @apply border-4 border-gray-100 rounded;
   }
+
+  .pageheading {
+    @apply text-4xl font-bold leading-tight lg:text-5xl
+  }
+
+  .subheading {
+    @apply text-xl leading-tight font-medium lg:text-2xl;
+  }
+
+  .lead {
+    @apply text-lg lg:text-xl;
+  }
 }
 
 @layer components {
+  .prose {
+    /* THEME-X */
+    /* Prose (long form text) overrides */
+    --tw-prose-body: var(--theme-text-color);
+    --tw-prose-headings: var(--theme-text-color);
+    --tw-prose-lead: var(--theme-text-color);
+    --tw-prose-links: var(--theme-text-color);
+    --tw-prose-bold: var(--theme-text-color);
+    --tw-prose-counters: var(--theme-text-color);
+    --tw-prose-bullets: var(--theme-text-color);
+    --tw-prose-hr: var(--theme-text-color);
+    --tw-prose-quotes: var(--theme-text-color);
+    --tw-prose-quote-borders: var(--theme-text-color);
+    --tw-prose-captions: var(--theme-text-color);
+    --tw-prose-kbd: var(--theme-text-color);
+    --tw-prose-kbd-shadows: 17 24 39;
+    --tw-prose-code: var(--theme-text-color);
+  }
+
   .prose a {
     @apply link;
   }

@@ -3,9 +3,9 @@ title: Latest News
 layout: default
 ---
 
-<div class="pt-16 pb-6">
+<div class="pb-0 hero">
   <div class="max-w-[45rem] px-4 mx-auto">
-    <h1 class="mb-4 text-4xl font-bold font-heading lg:text-6xl">{{ title }}</h1>
+    <h1 class="pageheading">{{ title }}</h1>
   </div>
 </div>
 
@@ -22,12 +22,12 @@ layout: default
           <li>
             <article class="py-6">
               <time
-                class="block mb-2 tracking-wide text-gray-600 uppercase"
+                class="mb-2 tracking-wide text-gray-600 uppercase block-container"
                 datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
               <h2 class="text-2xl font-heading font-semibold {{ heading_size }}"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
 
               {%- if post.data.page.excerpt -%}
-                <div class="mt-4 prose prose-xl">
+                <div class="mt-4 prose lg:prose-lg">
                   {{ post.data.page.excerpt | markdown }}
                 </div>
               {%- endif -%}

@@ -7,16 +7,16 @@ description: >
 ---
 
 <div class="pt-12 pb-16">
-  <div class="container px-4 mx-auto">
+  <div class="wrapper">
     <header>
-      <h1 class="mb-8 text-4xl font-bold lg:text-6xl">{{ title }}</h1>
+      <h1 class="mb-8 pageheading">{{ title }}</h1>
 
-      <div class="max-w-[65rem]">
+      <div class="max-w-[60rem]">
         <h2 class="mb-8 text-2xl font-medium font-heading lg:text-4xl">
           DjangoCon US is a five-day international conference for the community by the community about the Django web framework, held each year in North America.
         </h2>
 
-        <p class="text-xl lg:text-2xl">
+        <p class="lg:text-xl">
           DjangoCon US has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time. You'll discover details about a range of diverse applications that people from all over the world are building with Django, get a deeper understanding of concepts you’re already familiar with and discover new ways to use them, and have a lot of fun!
         </p>
       </div>
@@ -24,9 +24,9 @@ description: >
   </div>
 </div>
 
-<div class="py-16 bg-gray-50">
-  <div class="container px-4 mx-auto">
-    <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+<div class="bg-gray-100 block-container">
+  <div class="wrapper">
+    <div class="grid-1-2">
       <section>
         <h2 class="mb-8 text-2xl font-bold font-heading lg:text-4xl">Pre-Conference</h2>
 
@@ -96,8 +96,8 @@ description: >
 </div>
 
 
-<div class="py-16">
-  <div class="container px-4 mx-auto">
+<div class="block-container">
+  <div class="wrapper">
     <h2 class="mb-8 text-2xl font-bold font-heading lg:text-5xl">Conference Features</h2>
 
     <div class="grid gap-8 lg:grid-cols-3 lg:gap-16">
@@ -119,9 +119,9 @@ description: >
   </div>
 </div>
 
-<div class="py-16">
-  <div class="container px-4 mx-auto">
-    <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+<div class="block-container">
+  <div class="wrapper">
+    <div class="grid-1-2">
       <figure>
         {% comment %}
           TODO: Use Image component
@@ -136,7 +136,7 @@ description: >
       <section>
         <h2 class="mb-8 text-2xl font-bold font-heading lg:text-5xl">Day 1 Orientation</h2>
 
-        <div class="space-y-6 text-xl lg:text-2xl">
+        <div class="space-y-6 lg:text-xl">
           <ul class="space-y-4">
             <li>Are you new to DjangoCon US or tech conferences in general?</li>
             <li>Are you worried you might feel out of place?</li>
