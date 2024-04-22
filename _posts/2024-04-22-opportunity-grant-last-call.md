@@ -2,8 +2,8 @@ author: DjangoCon US Communication Team
 category: General
 date: 2024-04-22 06:00:00
 layout: post
-image: /static/img/blog/cfp-oppgrants.jpg
-post_photo_url: /static/img/blog/cfp-oppgrants.jpg
+image: /static/img/blog/og-end.jpg
+post_photo_url: /static/img/blog/og-end.jpg
 post_photo_alt: "End of our Opportunity Grants is coming up!"
 title: "Heads Up! End of our Opportunity Grants is coming up!"
 ---
