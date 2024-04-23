@@ -8,7 +8,7 @@ permalink: /opportunity-grants/
 title: Opportunity Grants
 ---
 
-**UPDATE**: The aapplication window has been extended to Monday, April 29th at Noon EDT!
+**UPDATE**: The application window has been extended to Monday, April 29th at Noon EDT!
 
 Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until April 29, 2024 at [12 PM EDT](https://time.is/1200PM_29_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes).
 
