@@ -5,36 +5,40 @@ title: Welcome to DjangoCon US
 ---
 
 
-<div class="hero">
+<div class="pt-8 pb-0 border-b-4 border-black">
   <div class="wrapper">
-    <section>
-      <h1 class="mb-6 pageheading">
-        Join us for <strong>five days</strong><br/> of inspiration, education,<br/>and networking opportunities
-      </h1>
+    <div class="grid-1-2">
+      <section class="self-center pb-8">
+        <h1 class="mb-6 pageheading">
+          Join us for <strong>five days</strong><br/> of inspiration, education,<br/>and networking opportunities
+        </h1>
 
-      <p class="mb-4 text-2xl lg:text-3xl">
-        <strong>October 16-20, 2023</strong>
-      </p>
+        <p class="mb-4 text-2xl lg:text-3xl">
+          <strong>October 16-20, 2023</strong>
+        </p>
 
-      <p class="mb-6 text-2xl lg:text-3xl">
-        <a
-          href="https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP"
-          target="_blank"
-          class="link">Durham Convention Center</a> in Durham, NC
-      </p>
+        <p class="mb-6 text-2xl lg:text-3xl">
+          <a
+            href="https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP"
+            target="_blank"
+            class="link">Durham Convention Center</a> in Durham, NC
+        </p>
 
-      <div class="mt-8 button-group">
-        <a class="button" href="{{ site.ticket_link }}">Buy Tickets</a>
-        {% comment %}
-        <a class="button" href="{{ site.cfp_application }}">Submit Talk</a>
-        {% endcomment %}
+        <div class="mt-8 button-group">
+          <a class="button" href="{{ site.ticket_link }}">Buy Tickets</a>
+          {% comment %}
+          <a class="button" href="{{ site.cfp_application }}">Submit Talk</a>
+          {% endcomment %}
 
-        {% comment %}
-        <a class="button" href="https://emails.djangocon.us/sendy/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g">Join Mailing List</a>
-        {% endcomment %}
-        <a class="button" href="/schedule/">Conference Schedule</a>
-      </div>
-    </section>
+          {% comment %}
+          <a class="button" href="https://emails.djangocon.us/sendy/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g">Join Mailing List</a>
+          {% endcomment %}
+          <a class="button" href="/schedule/">Conference Schedule</a>
+        </div>
+      </section>
+
+      <img src="/assets/img/hero-img.png" alt="" class="self-end"/>
+    </div>
   </div>
 </div>
 
