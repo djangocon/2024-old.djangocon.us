@@ -10,9 +10,11 @@ title: "Don't Miss Out: Last Call for DjangoCon US 2024 Talk Proposals!"
 ---
 Hey Django enthusiasts!
 
+**UPDATE**: The CFP has been extended to Monday, April 29th at Noon EDT!
+
 Have you submitted your talk or tutorial for DjangoCon US 2024, in beautiful Durham, North Carolina, USA?
 
-Time flies, and we're fast approaching the deadline (April 24, 2024 at [12 PM EDT](https://time.is/1200PM_24_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes)) for DjangoCon US 2024 [Call for Proposals (CFP)](https://pretalx.com/djangocon-us-2024/cfp). If you've been pondering sharing your Django journey, showcasing your innovative projects, or imparting your expertise to fellow developers, now is the perfect moment to seize the opportunity!
+Time flies, and we're fast approaching the deadline (April 29, 2024 at [12 PM EDT](https://time.is/1200PM_29_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes)) for DjangoCon US 2024 [Call for Proposals (CFP)](https://pretalx.com/djangocon-us-2024/cfp). If you've been pondering sharing your Django journey, showcasing your innovative projects, or imparting your expertise to fellow developers, now is the perfect moment to seize the opportunity!
 
 Here's why you should take action and submit your proposals before the clock runs out:
 
@@ -28,4 +30,3 @@ Remember, the deadline for CFP submissions is fast approaching, so don't wait un
 See you at the conference!
 
 If you have questions feel free [to contact us](mailto:hello@djangocon.us).
-
