@@ -17,10 +17,19 @@
         <li><a href="/about/organizers/" role="menuitem">Organizers</a></li>
       </ul>
     </li>
-    <li><a href="/venue">Venue</a></li>
-    {% comment %}<li><a href="/schedule">Schedule</a></li>{% endcomment %}
+    {% comment %}<li><a href="/schedule/">Schedule</a></li>{% endcomment %}
+    <li><a href="/venue/">Venue</a></li>
     <li class="relative">
-      <a href="/sponsors" data-menu-trigger>Sponsors</a>
+      <a href="/speaking/" data-menu-trigger>Speaking</a>
+      <ul
+        data-menu-list
+        class="flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-bray-50 lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[26ch] lg:p-6 rounded font-medium">
+        <li><a href="/speaking/">Speaking at DjangoCon US</a></li>
+        <li><a href="/speaking/speaker-resources/">Speaker Resources</a></li>
+      </ul>
+    </li>
+    <li class="relative">
+      <a href="/sponsors/" data-menu-trigger>Sponsors</a>
       <ul
         data-menu-list
         class="flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-bray-50 lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[24ch] lg:p-6 rounded font-medium">
@@ -28,6 +37,6 @@
         <li><a href="/sponsors/information/">Sponsorship Prospectus</a></li>
       </ul>
     </li>
-    <li><a href="/news">News</a></li>
+    <li><a href="/news/">News</a></li>
     <li><a href="{{ site.ticket_link }}" class="button">Buy Tickets</a></li>
   </ul>
