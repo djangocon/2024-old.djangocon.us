@@ -5,13 +5,13 @@ description: >
   DjangoCon US is dedicated to providing a fun harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, or religion.
 ---
 
-<div class="py-12">
+<div class="hero">
   <div class="wrapper">
     <header>
       <h1 class="mb-8 pageheading">{{ title }}</h1>
 
       <div class="max-w-[60rem]">
-        <p class="text-xl font-heading lg:text-3xl">
+        <p class="subheading">
           DjangoCon US is dedicated to providing a fun harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, or religion.
         </p>
       </div>
@@ -20,20 +20,22 @@ description: >
 </div>
 
 
-<div class="block-container">
+<div class="bg-gray-100 block-container">
   <div class="wrapper">
     <div class="grid-1-2">
-      <section>
+      <section class="space-y-6 lead">
         <p>Be kind to others. Do not insult or put down other attendees. Behave professionally.</p>
         <p>Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for DjangoCon US.</p>
         <p>Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers.</p>
         <p>Thank you for helping make this a welcoming, friendly event for all.</p>
       </section>
 
-      <section class="self-start p-8 bg-gray-200 rounded">
-        <h2>Need help?</h2>
-        <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact the conference Code of Conduct committee at <a href="mailto:{{site.conduct_email}}" class="link">{{site.conduct_email}}</a>{% comment %} or <a href="tel:201-899-4189" class="link">201-899-4189</a>{% endcomment %}.</p>
-        <p>To ensure we receive all the necessary information, please refer to our <a href="#procedures-for-reporting-incidents" class="link">Procedures for Reporting Incidents</a>.</p>
+      <section class="self-start p-8 bg-gray-200 border-t-8 rounded border-central-park-green">
+        <h3 class="mb-8 text-lg font-bold font-heading lg:text-2xl">Need help?</h3>
+        <div class="space-y-6 lead">
+          <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact the conference Code of Conduct committee at <a href="mailto:{{site.conduct_email}}" class="link">{{site.conduct_email}}</a>{% comment %} or <a href="tel:201-899-4189" class="link">201-899-4189</a>{% endcomment %}.</p>
+          <p>To ensure we receive all the necessary information, please refer to our <a href="#procedures-for-reporting-incidents" class="link">Procedures for Reporting Incidents</a>.</p>
+        </div>
       </section>
     </div>
   </div>
@@ -42,30 +44,28 @@ description: >
 
 <div class="block-container">
   <div class="wrapper">
-
-  </div>
-</div>
-
-        <h2>Important Numbers</h2>
+    <div class="prose lg:prose-lg">
+      <h2>Important Numbers</h2>
 
         <p>Conference staff will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
 
         <p>If your physical safety or the physical safety of others is at risk, please dial 911. If you are outside of Durham, or on a cell phone, and need to access Durham's 911 services, dial <a href="tel:+1-969-560-4600">(919) 560-4600</a>. For other needs, contact the relevant authorities below.</p>
 
+        <h2>Code of Conduct team</h2>
         <ul>
-          <li>Code of Conduct team:
-            <ul>
-              <li>Adam Fast</li>
-              <li>Adrienne Franke</li>
-              <li>Carol Ganz</li>
-              <li>Catherine Holmes</li>
-              <li>Dawn Wages</li>
-              <li>Drew Winstel</li>
-              <li>Jeff Triplett</li>
-              <li>Peter Grandstaff</li>
-              <li>Tim Schilling</li>
-            </ul>
-          </li>
+          <li>Adam Fast</li>
+          <li>Adrienne Franke</li>
+          <li>Carol Ganz</li>
+          <li>Catherine Holmes</li>
+          <li>Dawn Wages</li>
+          <li>Drew Winstel</li>
+          <li>Jeff Triplett</li>
+          <li>Peter Grandstaff</li>
+          <li>Tim Schilling</li>
+        </ul>
+
+        <h2>Local authorities</h2>
+        <ul>
           <li>Emergency: 911</li>
 
           <li>Durham Police Helpline: <a href="tel:+1-969-560-4600">(919) 560-4600</a></li>
@@ -179,6 +179,6 @@ description: >
         <p>This Code of Conduct also incorporates portions from PyCon's Code of Conduct, which is licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
 
         <p>DjangoCon US <a href="/conduct/">Conference Code of Conduct</a> is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
-      </div>
-    </section>
-  </div><!-- end .content -->
+    </div>
+  </div>
+</div>

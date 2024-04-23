@@ -1,5 +1,6 @@
 const navToggler = document.getElementById('NavToggler');
 const navMenu = document.getElementById('NavMenu');
+const allMenus = navMenu.querySelectorAll('[data-menu-list]');
 
 /* TODO: Not accessible */
 navToggler.addEventListener('click', () => {
@@ -20,14 +21,18 @@ navToggler.addEventListener('click', () => {
   siteFooter.classList.toggle('hidden');
 });
 
-
-
 const navMenuTriggers = document.querySelectorAll('[data-menu-trigger]');
 
 navMenuTriggers.forEach(trigger => {
-  trigger.addEventListener('click', (e) => {
-    e.preventDefault();
+  trigger.addEventListener('click', (evt) => {
+    evt.preventDefault();
     const target = trigger.nextElementSibling;
+
+    allMenus.forEach((menu) => {
+      if (menu !== target) {
+        menu.classList.replace('flex', 'hidden');
+      }
+    });
 
     if (target.classList.contains('hidden')) {
       target.classList.replace('hidden', 'flex');
@@ -35,4 +40,14 @@ navMenuTriggers.forEach(trigger => {
       target.classList.replace('flex', 'hidden');
     }
   });
+});
+
+// Close all menus when the user clicks outside
+document.addEventListener('click', function (evt) {
+  if (!navMenu.contains(evt.target) && navToggler !== evt.target) {
+    // Close all menus if you click outside of menu
+    allMenus.forEach((menu) => {
+      menu.classList.replace('flex', 'hidden');
+    });
+  }
 });
