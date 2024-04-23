@@ -3,7 +3,7 @@
 }
 
 .wrapper {
-  @apply wrapper;
+  @apply container px-4 mx-auto;
 }
 
 .hero {
