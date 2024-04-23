@@ -30,7 +30,7 @@ The program committee is responsible for making sure that the schedule of tutori
 
 ### Pre-conference responsibilities
 
-- Start the call for proposals process (opened in March 2024, closes April 24)
+- Start the call for proposals process (opened in March 2024, closes April 29)
 - Coordinate with the Opportunity Grants team to schedule the opening and closing of the CFP
 - Publish blog posts announcing the CFP, speaker mentors, and speaker resources
 - Recruit keynote speakers (the DEFNA board will offer suggestions, but if you have a message you'd like the keynotes to send, you have lots of latitude here, but keep in mind conference diversity goals)

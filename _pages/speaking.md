@@ -20,8 +20,10 @@ Decision notifications will be sent by June 28th, 2023.
 Our Call for Proposals is now closed and all decision notifications have been sent.
 {% endcomment %}
 
+**UPDATE**: The CFP has been extended to Monday, April 29th at Noon EDT!
+
 Our <a href="{{ site.cfp_application }}">Call for Proposals (CFP)</a> is now open!
-Submit your talk or tutorial proposal by April 24, 2024 at [12 PM EDT](https://time.is/1200PM_24_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes), and encourage your friends and colleagues to do the same.
+Submit your talk or tutorial proposal by April 29, 2024 at [12 PM EDT](https://time.is/1200PM_29_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes), and encourage your friends and colleagues to do the same.
 
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
@@ -86,7 +88,7 @@ If you believe your talk is a good fit, please indicate so on your submission to
 
 We’re open to all kinds of ideas, especially ones we haven’t thought of! Technical tutorials tend to be more popular, but we welcome all topics! Tutorials can be targeted at any experience level, just be sure to indicate clearly what you expect your students to already know or have experience with in your proposal!
 
-Still unsure if you should submit? Not only will we cover your DjangoCon US ticket, but _tutorials are compensated_! However, they do not include the price of your travel or lodging. If you need help with these costs, fill out the <a href="{{site.opportunity_grant_application}}">opportunity grant</a> form by April 24, 2024. Decision notifications will be sent by June 14, 2024.
+Still unsure if you should submit? Not only will we cover your DjangoCon US ticket, but _tutorials are compensated_! However, they do not include the price of your travel or lodging. If you need help with these costs, fill out the <a href="{{site.opportunity_grant_application}}">opportunity grant</a> form by April 29 2024. Decision notifications will be sent by June 14, 2024.
 
 #### New Expectations for Tutorials
 
@@ -109,7 +111,7 @@ Receipts for travel expenses will be required.
 
 If $500 will not cover your expenses, we encourage you to apply for an <a href= "{{site.opportunity_grant_application}}">opportunity grant</a>, but we cannot guarantee it will be awarded to you.
 
-Opportunity grant applications close on April 24, 2024 at [12 PM EDT](https://time.is/1200PM_24_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes). We will send decision notifications by June 14, 2024.
+Opportunity grant applications close on April 29, 2024 at [12 PM EDT](https://time.is/1200PM_29_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes). We will send decision notifications by June 14, 2024.
 
 
 ### Online speaker gear reimbursement
