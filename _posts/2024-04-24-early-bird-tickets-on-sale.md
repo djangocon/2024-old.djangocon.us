@@ -9,19 +9,17 @@ title: "Early-bird tickets now on sale!"
 
 ## Hey Django fans! 👋
 
-Tickets for DjangoCon US 2024 in Durham, NC are now on sale. [Buy yours today!]({{ site.ticket_link }})
+Tickets for DjangoCon US 2024 in Durham, NC are now on sale.
 
-This year we have limited early-bird pricing for individual tickets and corporate tickets.
+:ox: **[Buy yours today!]({{ site.ticket_link }})** :ox:
+
+This year we have limited early-bird pricing for individual tickets and corporate tickets. We lowered Individual ticket prices to make the conference more accessible and more affordable so that anyone paying to attend DjangoCon US out of their own pocket can more easily do so.
 
 - Early-bird individual: $339 (full price: $499)
 - Early-bird corporate: $699 (full price: $799)
 
-The early-bird pricing will only be available through the month of May. On June 1st, tickets will only be available at their full price.
+**The early-bird pricing will only be available through the month of May.** On June 1st, tickets will only be available at their full price.
 
-### A request from the organizers
+Purchasing your tickets early not only saves you money, but it also helps conference organizers prepare for the conference. Besides the obvious factors of knowing how many meals to order and what size project screen we'll need, it offsets the early payments made to vendors and assures organizers people are coming. If you're able to commit to attending DjangoCon US early, that's fantastic. If you need a few more months, don't worry; that works for us too.
 
-We’re offering early-bird pricing this year for a few reasons. First, it provides a lower cost for folks to attend. Second, early ticket purchases are a tremendous boon to conference organizers. Third, it allows for you to take part in promotional activities. Fourth, we’re looking to encourage people to make earlier commitments to attend.
-
-If you’ve attended DjangoCon US before and have been looking for a way to express your gratitude, please purchase your ticket early. Knowing there’s a baseline allows conference organizers to make decisions confidently on a variety of questions. It ranges from meal quantities to projector screen sizes. It also helps us balance the checkbook, since most vendors require payment well before the event.
-
-So if you’d like to lessen the stress and worry on your conference organizers, particularly Peter, please purchase your conference tickets sooner rather than later.
+We can’t wait to see you in Durham!
