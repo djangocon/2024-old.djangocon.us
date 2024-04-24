@@ -22,4 +22,8 @@ This year we have limited early-bird pricing for individual tickets and corporat
 
 Purchasing your tickets early not only saves you money, but it also helps organizers prepare for the conference. Besides the obvious factors of knowing how many meals to order and what size projector screens we'll need, it offsets the early payments made to vendors and gives us confidence to enhance and expand the conference experience. If you're able to commit to attending DjangoCon US early, that's fantastic. If you need more time, don't worry; that works for us too.
 
+And lastly, if you're ecstatic about the idea of attending DjangoCon US but need financial assistance to do so, our [Opportunity Grant CFP]({% link _pages/opportunity-grants.md %}) is open until April 29th.
+
 We can’t wait to see you in Durham!
+
+:ox: **[Buy your ticket here!]({{ site.ticket_link }})** :ox:
