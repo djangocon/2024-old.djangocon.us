@@ -12,7 +12,7 @@ description: >
       <h1 class="mb-8 pageheading">{{ title }}</h1>
 
       <div class="max-w-[60rem]">
-        <h2 class="mb-8 text-2xl font-medium font-heading lg:text-4xl">
+        <h2 class="mb-8 subheading">
           DjangoCon US is a five-day international conference for the community by the community about the Django web framework, held each year in North America.
         </h2>
 
@@ -34,8 +34,8 @@ description: >
           <li>
             {%
               include 'components/date-card.html',
-                month:"May",
-                days:"15",
+                month:"Apr",
+                days:"29",
                 heading:"Calls for Proposals Closes"
             %}
           </li>
@@ -43,8 +43,8 @@ description: >
           <li>
             {%
               include 'components/date-card.html',
-                month:"May",
-                days:"15",
+                month:"Apr",
+                days:"29",
                 heading:"Opportunity Grant Application Closes"
             %}
           </li>
@@ -53,7 +53,7 @@ description: >
             {%
               include 'components/date-card.html',
                 month:"June",
-                days:"28",
+                days:"14",
                 heading:"Opportunity Grant and Proposal Notifications"
             %}
           </li>
@@ -72,24 +72,34 @@ description: >
           <li>
             {%
               include 'components/date-card.html',
-                month:"Oct",
-                days:"16-18",
+                month:"Sep",
+                days:"22",
+                heading:"Tutorials: One day, numerous sessions"
+            %}
+          </li>
+          <li>
+            {%
+              include 'components/date-card.html',
+                month:"Sep",
+                days:"23-25",
                 heading:"Talks: Dozens of talks chosen by the community"
             %}
           </li>
           <li>
             {%
               include 'components/date-card.html',
-                month:"Oct",
-                days:"19-20",
+                month:"Sep",
+                days:"26-27",
                 heading:"Sprints: Team up to work on Django!"
             %}
           </li>
         </ul>
 
+        {% comment %}
         <div class="mt-8">
           <a class="button" href="/schedule/">Full Schedule</a>
         </div>
+        {% endcomment %}
       </section>
     </div>
   </div>

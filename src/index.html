@@ -4,39 +4,41 @@ layout: default
 title: Welcome to DjangoCon US
 ---
 
-<div class="pt-8 pb-0 bg-no-repeat bg-cover border-b-4 border-black lg:pt-0" style="background-image: url(/assets/img/hero-bg.svg)">
+<div class="pt-8 pb-0 bg-repeat border-b-4 border-black" style="background-image: url(/assets/img/hero-bg.svg)">
   <div class="wrapper">
-    <div class="grid-1-2">
-      <section class="self-center pb-8">
-        <h1 class="mb-6 pageheading">
-          Join us for <strong>five days</strong><br/> of inspiration, education,<br/>and networking opportunities
+    <div class="flex flex-col gap-8 lg:flex-row">
+      <section class="self-center w-full lg:flex-1">
+        <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
+          Join us for <strong>five days</strong><br/> of inspiration, education,<br/>and networking
         </h1>
 
         <p class="mb-4 text-2xl lg:text-3xl">
-          <strong>October 16-20, 2023</strong>
+          <strong>September 22-27, 2024</strong>
         </p>
 
         <p class="mb-6 text-2xl lg:text-3xl">
           <a
             href="https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP"
-            target="_blank"
-            class="link">Durham Convention Center</a> in Durham, NC
+            target="_blank">Durham Convention Center<br/><strong>Durham, NC</strong></a>
         </p>
 
-        <div class="mt-8 button-group">
+        <div class="button-group">
           <a class="button" href="{{ site.ticket_link }}">Buy Tickets</a>
-          {% comment %}
           <a class="button" href="{{ site.cfp_application }}">Submit Talk</a>
-          {% endcomment %}
 
           {% comment %}
           <a class="button" href="https://emails.djangocon.us/sendy/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g">Join Mailing List</a>
-          {% endcomment %}
           <a class="button" href="/schedule/">Conference Schedule</a>
+          {% endcomment %}
         </div>
       </section>
 
-      <img src="/assets/img/hero-img.png" alt="" class="self-end"/>
+      <div class="self-end lg:max-w-2xl">
+        <img
+          src="/assets/img/hero-img.webp"
+          alt="A collage of Durham, NC centric stickers and photos."
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -56,24 +58,24 @@ title: Welcome to DjangoCon US
           <li>
             {%
               include 'components/date-card.html',
-                month:"Oct",
-                days:"8",
+                month:"Sep",
+                days:"22",
                 heading:"Tutorials: One day, numerous sessions"
             %}
           </li>
           <li>
             {%
               include 'components/date-card.html',
-                month:"Oct",
-                days:"16-18",
+                month:"Sep",
+                days:"23-25",
                 heading:"Talks: Dozens of talks chosen by the community"
             %}
           </li>
           <li>
             {%
               include 'components/date-card.html',
-                month:"Oct",
-                days:"19-20",
+                month:"Sep",
+                days:"26-27",
                 heading:"Sprints: Team up to work on Django!"
             %}
           </li>
@@ -89,19 +91,19 @@ title: Welcome to DjangoCon US
 
     <div class="grid gap-8 lg:grid-cols-3 lg:gap-16">
       <section class="flex flex-col gap-4 p-6 bg-white border-2">
-        <img src="/assets/img/icons/People.svg" alt="Two people. One person is standing slightly in front of the other." class="w-14 h-14 icon" />
+        <img src="/assets/img/icons/People.svg" alt="Two people. One person is standing slightly in front of the other." class="w-16 h-16 icon" />
         <h3 class="text-lg font-bold lg:text-2xl font-heading">Code of Conduct</h3>
         <p class="lg:text-lg">Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <strong><a href="/conduct/" class="link">Code of Conduct</a></strong>.</p>
       </section>
 
       <section class="flex flex-col gap-4 p-6 bg-white border-2">
-        <img src="/assets/img/icons/Document.svg" alt="An official document with words written on it." class="w-14 h-14 icon" />
+        <img src="/assets/img/icons/Document.svg" alt="An official document with words written on it." class="w-16 h-16 icon" />
         <h3 class="text-lg font-bold lg:text-2xl font-heading">COVID-19</h3>
         <p class="lg:text-lg">Read our <strong><a href="/covid" class="link">COVID-19 Policy</a></strong>, including mask and testing requirements.</p>
       </section>
 
       <section class="flex flex-col gap-4 p-6 bg-white border-2">
-        <img src="/assets/img/icons/Heart.svg" alt="A heart." class="w-14 h-14 icon" />
+        <img src="/assets/img/icons/Heart.svg" alt="A heart." class="w-16 h-16 icon" />
         <h3 class="text-lg font-bold lg:text-2xl font-heading">Accessiblity</h3>
         <p class="lg:text-lg">We offer a range of accommodations, including live captioning, thoughtful lunch options, and a dedicated accessibility team to ensure everyone can fully participate.</p>
       </section>

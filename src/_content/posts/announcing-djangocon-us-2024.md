@@ -2,6 +2,7 @@
 author: DjangoCon US Organizers
 category: General
 date: 2024-01-17 05:00:00
+layout: post
 title: Code, test, ship it! DjangoCon US 2024 has been announced!
 ---
 
