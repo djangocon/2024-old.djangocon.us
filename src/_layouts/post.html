@@ -13,7 +13,10 @@ templateClass: view-post
     <div class="mx-auto prose lg:prose-lg">
       {% if cover %}
         <figure>
-          <img src="{{ cover.url }}" alt="{{ cover.alt }}" class="w-full media" />
+          <img
+            src="{{ cover.url }}"
+            alt="{{ cover.alt }}"
+            class="w-full media" />
         </figure>
       {% endif %}
 
