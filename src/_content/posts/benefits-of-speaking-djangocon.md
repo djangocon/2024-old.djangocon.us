@@ -11,7 +11,7 @@ title: What are the Benefits of Speaking at DjangoCon US?
 
 The DjangoCon US team would like to make sure you are aware of some of the benefits of giving a talk at DjangoCon US 2024.
 
-# Benefits you will receive for being a presenter:
+## Benefits you will receive for being a presenter:
 
 - **FREE! Ticket to DjancoCon US 2024.**
 
@@ -21,7 +21,7 @@ The DjangoCon US team would like to make sure you are aware of some of the benef
 
 - **Professional photographer on hand to photograph your talk.** (Also optional.)
 
-# Still on the fence deciding if you want to give a talk or not?
+## Still on the fence deciding if you want to give a talk or not?
 
 - **Building your reputation:** Presenting at DjangoCon US can establish you as an expert in the Django community, raising your profile and building your reputation.
 - **Networking:** Speaking at DjangoCon US provides an opportunity to connect with other developers, designers, and enthusiasts in the Django community, allowing you to expand your network and make new connections.
