@@ -2,7 +2,7 @@
 hidden: false
 name: Julia Solórzano
 permalink: /presenters/julia-solorzano/
-photo: /static/img/blog/julia-solorzano.JPG
+photo: /assets/img/blog/julia-solorzano.JPG
 slug: julia-solorzano
 social:
     twitter: null

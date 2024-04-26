@@ -2,10 +2,10 @@
 author: DjangoCon US Communications Team
 category: General
 date: 2024-04-04 12:00:00
-image: /static/img/blog/cfp-announced-2024.png
+image: /assets/img/blog/cfp-announced-2024.png
 layout: post
 post_photo_alt: Speaker presenting at DjangoCon US 2023 in Durham, NC
-post_photo_url: /static/img/blog/cfp-announced-2024.png
+post_photo_url: /assets/img/blog/cfp-announced-2024.png
 title: What are the Benefits of Speaking at DjangoCon US?
 ---
 

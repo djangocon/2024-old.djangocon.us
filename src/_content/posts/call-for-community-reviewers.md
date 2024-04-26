@@ -1,13 +1,18 @@
 ---
+layout: post
+
+title: "Announcing Call for Community Reviewers"
+
+
 author: DjangoCon US Communication Team
 category: General
 date: 2024-04-08 06:00:00
-layout: post
-image: /static/img/blog/call-for-reviewers-2024.png
-post_photo_url: /static/img/blog/call-for-reviewers.jpg
-post_photo_alt: "Lacey Henschel speaking at DjangoCon US 2018"
-title: "Announcing Call for Community Reviewers"
+
+post_photo:
+    url: /assets/img/blog/call-for-reviewers-2024.png
+    alt: "Lacey Henschel speaking at DjangoCon US 2018"
 ---
+
 The [call for proposals for DjangoCon US 2024](/speaking/)
 is open, and we would love to have you (yes, you!) help us select our talks and tutorials
 this year. We strive to create a schedule that appeals to the wider community, and the best

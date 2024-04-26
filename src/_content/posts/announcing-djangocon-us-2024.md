@@ -21,4 +21,4 @@ We look forward to seeing everyone for another great year at DjangoCon US!
 
 Keep in touch on [Twitter/X](https://twitter.com/djangocon) or [Mastodon](https://fosstodon.org/@djangocon) for more announcements along the way!
 
-DjangoCon US Organizers :ox:
+DjangoCon US Organizers 🐂

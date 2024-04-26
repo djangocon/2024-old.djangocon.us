@@ -3,7 +3,7 @@ author: DjangoCon US Communication Team
 category: General
 date: 2024-04-24 06:00:00
 layout: post
-image: /static/img/blog/early-bird-2024.png
+image: /assets/img/blog/early-bird-2024.png
 title: "Early-bird tickets now on sale!"
 ---
 
@@ -11,7 +11,7 @@ title: "Early-bird tickets now on sale!"
 
 Tickets for DjangoCon US 2024 in Durham, NC are now on sale.
 
-:ox: **[Buy yours today!]({{ site.ticket_link }})** :ox:
+🐂 **[Buy yours today!]({{ site.ticket_link }})** 🐂
 
 This year we have limited early-bird pricing for individual tickets and corporate tickets. We lowered Individual ticket prices to make the conference more accessible and more affordable so that anyone paying to attend DjangoCon US out of their own pocket can more easily do so.
 
@@ -26,4 +26,4 @@ And lastly, if you're ecstatic about the idea of attending DjangoCon US but need
 
 We can’t wait to see you in Durham!
 
-:ox: **[Buy your ticket here!]({{ site.ticket_link }})** :ox:
+🐂 **[Buy your ticket here!]({{ site.ticket_link }})** 🐂
