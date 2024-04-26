@@ -2,11 +2,12 @@
 author: Jason Judkins
 category: General
 date: 2024-03-09 06:00:00
-image: speaker_cfp.png
-post_photo_url: speaker_cfp.jpg
-post_photo_alt: "Abigail Mesrenyame Dogbe speaking at DjangoCon US 2023"
+cover:
+    url: /assets/img/blog/speaker_cfp.jpg
+    alt: "Abigail Mesrenyame Dogbe speaking at DjangoCon US 2023"
 title: "The Call for Proposals for DjangoCon US 2024 Is Now Open!"
 ---
+
 We are excited that DjangoCon US 2024 is now open for talk submissions: [call for proposals](https://pretalx.com/djangocon-us-2024/cfp)! The deadline for submissions is April 24th, 2024 at [Noon EDT](https://time.is/1200PM_24_April_2024_in_Durham,_United_States?DjangoCon_US_CFP_Closes).
 
 <!-- excerpt -->

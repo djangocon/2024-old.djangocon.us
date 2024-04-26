@@ -3,7 +3,9 @@ author: DjangoCon US Communication Team
 category: General
 date: 2024-04-24 06:00:00
 layout: post
-image: /assets/img/blog/early-bird-2024.png
+cover:
+    url: /assets/img/blog/early-bird-2024.png
+    alt: "Early-bird tickets now on sale!"
 title: "Early-bird tickets now on sale!"
 ---
 

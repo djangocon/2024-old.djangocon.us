@@ -3,9 +3,9 @@ author: DjangoCon US Communication Team
 category: General
 date: 2024-04-18 06:00:00
 layout: post
-image: /assets/img/blog/speaker_cfp.png
-post_photo_url: /assets/img/blog/speaker_cfp.jpg
-post_photo_alt: "Abigail Mesrenyame Dogbe speaking at DjangoCon US 2023"
+cover:
+    url: /assets/img/blog/speaker_cfp.jpg
+    alt: "Abigail Mesrenyame Dogbe speaking at DjangoCon US 2023"
 title: "Don't Miss Out: Last Call for DjangoCon US 2024 Talk Proposals!"
 ---
 Hey Django enthusiasts!

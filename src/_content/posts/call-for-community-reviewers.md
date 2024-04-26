@@ -8,7 +8,7 @@ author: DjangoCon US Communication Team
 category: General
 date: 2024-04-08 06:00:00
 
-post_photo:
+cover:
     url: /assets/img/blog/call-for-reviewers-2024.png
     alt: "Lacey Henschel speaking at DjangoCon US 2018"
 ---
