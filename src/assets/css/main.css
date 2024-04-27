@@ -124,7 +124,7 @@
     @apply block w-5 h-5;
     @apply bg-ice-cream-purple;
 
-    mask: url('/assets/img/icons/Triangle.svg');
+    mask: url('/assets/img/theme/icons/Triangle.svg');
     mask-size: cover;
     mask-repeat: no-repeat;
 
