@@ -11,15 +11,16 @@ redirect_from:
 {% comment %}
 Our Call for Proposals (CFP) will open soon!
 {% endcomment %}
-{% comment %}
+
 Our Call for Proposals is now closed.
-Decision notifications will be sent by June 28th, 2023.
-{% endcomment %}
+Decision notifications will be sent by July 8th, 2024.
+
 
 {% comment %}
 Our Call for Proposals is now closed and all decision notifications have been sent.
 {% endcomment %}
 
+{% comment %}
 **UPDATE**: The CFP has been extended to Monday, April 29th at Noon EDT!
 
 Our <a href="{{ site.cfp_application }}">Call for Proposals (CFP)</a> is now open!
@@ -28,6 +29,7 @@ Submit your talk or tutorial proposal by April 29, 2024 at [12 PM EDT](https://t
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
 <a href="{{site.cfp_application}}" class="button">Submit a Proposal</a>
+{% endcomment %}
 
 ## Why Speak at DjangoCon US?
 
