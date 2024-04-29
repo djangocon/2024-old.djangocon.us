@@ -8,17 +8,18 @@ permalink: /opportunity-grants/
 title: Opportunity Grants
 ---
 
+{% comment %}
 **UPDATE**: The application window has been extended to Monday, April 29th at Noon EDT!
 
 Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until April 29, 2024 at [12 PM EDT](https://time.is/1200PM_29_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes).
+{% endcomment %}
 
 {% comment %}
 Our opportunity grant application window is now closed. All decision notifications have been sent.
 {% endcomment %}
 
-{% comment %}
 Our opportunity grant application window is now closed. All decision notifications will be sent by June 14th, 2024.
-{% endcomment %}
+
 If you have any questions, feel free to reach out to the opportunity grants team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
 
 <br>
@@ -42,7 +43,7 @@ We feel the wording "opportunity grants" makes a positive shift towards being a 
 
 ### When will I find out whether I've received an opportunity grant?
 
-You will be notified by June 14, 2024.
+You will be notified by July 8, 2024.
 
 {% comment %}
 You should have received your notification. If you haven't, please email the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
