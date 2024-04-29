@@ -18,7 +18,7 @@ Our <a href="{{site.opportunity_grant_application}}">opportunity grant applicati
 Our opportunity grant application window is now closed. All decision notifications have been sent.
 {% endcomment %}
 
-Our opportunity grant application window is now closed. All decision notifications will be sent by June 14th, 2024.
+Our opportunity grant application window is now closed. All decision notifications will be sent by July 8th, 2024.
 
 If you have any questions, feel free to reach out to the opportunity grants team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
 
