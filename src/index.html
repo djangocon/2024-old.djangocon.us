@@ -128,25 +128,24 @@ title: Welcome to DjangoCon US
         <h2 class="mb-8 text-2xl font-bold font-heading lg:text-5xl">Latest News</h2>
 
         <ol class="space-y-4 divide-y" reversed>
-          {%- for post in collections.posts reversed limit:3 -%}
+          {%- for post in collections.posts reversed -%}
             {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
-              <li>
-                <article class="py-6">
-                  <time
-                    class="mb-2 tracking-wide text-gray-600 uppercase block-container"
-                    datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-                  <h2 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
-                </article>
-              </li>
+              {% if forloop.index0 < 3 %}
+                <li>
+                  <article class="py-6">
+                    <time
+                      class="mb-2 tracking-wide text-gray-600 uppercase block-container"
+                      datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+                    <h2 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
+                  </article>
+                </li>
+              {% endif %}
             {% endunless %}
           {%- endfor -%}
         </ol>
 
-
-      <a class="button" href="/news/">Read More News</a>
+        <a class="button" href="/news/">Read More News</a>
       </section>
     </div>
-
-
   </div>
 </div>
