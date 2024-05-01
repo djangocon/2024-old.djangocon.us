@@ -26,11 +26,19 @@ module.exports = (config) => {
 
   config.addCollection("sponsorsByLevel", function(collectionApi) {
     const sponsors = collectionApi.getFilteredByGlob("src/_content/sponsors/*.md");
-
     const visibleSponsors = sponsors.filter(sponsor => !sponsor.data.hidden);
+    const levelOrder = [
+      "Diamond",
+      "Platnum",
+      "Gold",
+      "Silver",
+      "Bronze",
+      "Coffee",
+      "Opportunity Grant",
+      "Community",
+    ];
 
-    // TODO: Sort sponsors by date, ascending
-    return visibleSponsors.reduce((acc, sponsor) => {
+    const sponsorsByLevel = visibleSponsors.reduce((acc, sponsor) => {
       const level = sponsor.data.level;
       if (!acc[level]) {
         acc[level] = [];
@@ -38,6 +46,16 @@ module.exports = (config) => {
       acc[level].push(sponsor);
       return acc;
     }, {});
+
+    // Sort levels based on predefined order
+    const sortedSponsorsByLevel = {};
+    levelOrder.forEach(level => {
+      if (sponsorsByLevel[level]) {
+        sortedSponsorsByLevel[level] = sponsorsByLevel[level];
+      }
+    });
+
+    return sortedSponsorsByLevel;
   });
 
   /*
