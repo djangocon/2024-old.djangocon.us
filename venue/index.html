@@ -1,0 +1,787 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="canonical" href="/venue/" />
+  <meta name="author" content="DjangoCon US" />
+  <meta name="description" content="" />
+
+  <meta property="og:title" content="Welcome to Durham!" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="/venue/" />
+  <meta property="og:site_name" content="DjangoCon US" />
+  <meta property="og:image" content="https://2024.djangocon.us//assets/img/social/og-share.jpg" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:image" content="https://2024.djangocon.us//assets/img/social/share.jpg" />
+  <meta property="twitter:title" content="Organizers" />
+  <meta name="twitter:site" content="@djangocon" />
+  <meta name="twitter:creator" content="@DjangoCon US" />
+
+  <meta property="fb:app_id" content="280981518972848" />
+
+  <link href="/assets/favicons/favicon.ico" rel=icon type="image/x-icon">
+  <link href="/assets/favicons/favicon.png" rel=icon type="image/png">
+  <link href="/assets/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+
+  <title>Welcome to Durham!</title>
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  <header id="SiteHeader" class="fixed top-0 w-full py-4 bg-white lg:py-6 lg:relative">
+    <div class="wrapper">
+      <nav class="flex flex-wrap">
+        <div class="flex items-center justify-between w-full lg:max-w-max">
+          <a
+            href="/"
+            aria-label="Go to homepage">
+            <img src="/assets/img/theme/logo.svg" alt="DjangoCon US" class="h-12 lg:h-20">
+          </a>
+          <button id="NavToggler" class="lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+        </div>
+
+        <ul
+    id="NavMenu"
+    class="flex-col flex-1 hidden w-full gap-6 py-8 text-xl font-semibold lg:flex-row lg:gap-8 lg:items-center lg:py-0 lg:flex lg:justify-end">
+    <li class="lg:sr-only"><a href="/">Home</a></li>
+    <li class="relative">
+      <a href="/about" data-menu-trigger>About</a>
+      <ul
+        data-menu-list
+        class="flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-ice-cream-purple lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[24ch] lg:p-6 rounded font-medium">
+        <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
+        <li><a href="/about/tickets/" role="menuitem">Tickets</a></li>
+        <li><a href="/about/faq/" role="menuitem">FAQ</a></li>
+        <li><a href="/about/conduct/" role="menuitem">Code of Conduct</a></li>
+        <li><a href="/about/public-health/" role="menuitem">Public Health</a></li>
+        <li><a href="/about/opportunity-grants/" role="menuitem">Opportunity Grants</a></li>
+        <li><a href="/about/visas/" role="menuitem">Visa Support</a></li>
+        <li><a href="/about/organizers/" role="menuitem">Organizers</a></li>
+      </ul>
+    </li>
+    
+    <li><a href="/venue/">Venue</a></li>
+    <li class="relative">
+      <a href="/speaking/" data-menu-trigger>Speaking</a>
+      <ul
+        data-menu-list
+        class="flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-ice-cream-purple lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[26ch] lg:p-6 rounded font-medium">
+        <li><a href="/speaking/">Speaking at DjangoCon US</a></li>
+        <li><a href="/speaking/speaker-resources/">Speaker Resources</a></li>
+      </ul>
+    </li>
+    <li class="relative">
+      <a href="/sponsors/" data-menu-trigger>Sponsors</a>
+      <ul
+        data-menu-list
+        class="flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-ice-cream-purple lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[24ch] lg:p-6 rounded font-medium">
+        <li><a href="/sponsors/">Our Sponsors</a></li>
+        <li><a href="/sponsors/information/">Sponsorship Prospectus</a></li>
+      </ul>
+    </li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="https://ti.to/defna/djangocon-us-2024" class="button bg-mosaic-blue">Buy Tickets</a></li>
+  </ul>
+
+      </nav>
+    </div>
+  </header>
+
+  <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
+<div class="block-container">
+  <div class="wrapper">
+    <div class="grid-1-2">
+      <section>
+        <h1 class="mb-4 pageheading">Welcome to Durham!</h1>
+        <div class="space-y-6 text-xl lg:text-2xl">
+          <p>
+            This year's venue is the Durham Convention Center! Located just 20 minutes
+            from Raleigh-Durham International Airport, the Durham Convention Center
+            provides the perfect setting.
+          </p>
+        </div>
+      </section>
+
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.9325689361035!2d-78.90453548509521!3d35.99751418012176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace472696f63bb%3A0xab0cf88393dc3b32!2s301%20W%20Morgan%20St%2C%20Durham%2C%20NC%2027701!5e0!3m2!1sen!2sus!4v1675525268131!5m2!1sen!2sus"
+          width="100%"
+          height="380"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="w-full media"
+        ></iframe>
+
+        <div class="flex flex-wrap items-center justify-center gap-8 mt-6">
+          <a
+            class="button order-0"
+            href="https://maps.google.com/maps?ll=35.997514,-78.902347&z=16&t=m&hl=en&gl=US&mapclient=embed&q=301%20W%20Morgan%20St%20Durham%2C%20NC%2027701"
+            target="_blank">View Larger Map</a>
+
+            <span class="order-1 block leading-tight">
+              <strong>Durham Convention Center</strong> <br>
+              <small>301 W Morgan St, Durham, NC 27701</small>
+            </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block-container bg-gray-50" id="welcome">
+  <div class="wrapper">
+    <div class="grid-1-2">
+      <figure>
+        <img
+          class="w-full media"
+          src="/assets/img/venue/durham-marriott-exterior.jpeg"
+          alt="Exterior photo of Durham Marriott City Center"
+          class="w-full media"
+        />
+        <figcaption>Durham Marriott City Center</figcaption>
+      </figure>
+
+      <section class="space-y-6 text-xl lg:text-2xl">
+        <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">Staying at the Durham Marriott City Center</h2>
+        <p>
+          Our group rate has expired, but there are still rooms at the hotel.
+          Please don't wait to book your room!
+        </p>
+        <ul class="flex flex-wrap gap-2">
+          <li class="badge badge-blue">🛜 Free Wi-Fi</li>
+          <li class="badge badge-blue">🧑‍💻 Room for hallway hacking</li>
+          <li class="badge badge-blue">🏙️ In the middle of downtown</li>
+        </ul>
+
+        
+        <p>
+          <a
+            href="https://www.marriott.com/events/start.mi?id=1707512209729&key=GRP"
+            class="button">Book a Room</a>
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <div class="mt-16 wrapper">
+    <header class="mb-8">
+      <h2 class="text-3xl font-bold font-heading lg:text-5xl">Other hotel options</h2>
+    </header>
+
+    <div class="grid-1-2">
+      <div>
+        
+
+        <ul class="grid gap-8 lg:grid-cols-2 lg:gap-8">
+          
+            <li class="flex flex-col gap-2 bg-white border-2 border-gray-100 rounded-md">
+              <div class="flex flex-col flex-1 order-1 gap-8 p-4">
+                <a
+                  href="https://www.21cmuseumhotels.com/durham/"
+                  class="text-xl font-semibold reverse-link"
+                  target="_blank"
+                  rel="noopener noreferrer">21c Museum and Hotel</a>
+
+                <span class="mt-auto">
+                  <span class="text-xl font-semibold">$350</span><span>/night</span>
+                </span>
+              </div>
+
+              <span class="w-full px-4 py-2 text-sm text-blue-900 block-container bg-blue-50 order-0">Closest option</span>
+            </li>
+          
+            <li class="flex flex-col gap-2 bg-white border-2 border-gray-100 rounded-md">
+              <div class="flex flex-col flex-1 order-1 gap-8 p-4">
+                <a
+                  href="https://www.unscriptedhotels.com/"
+                  class="text-xl font-semibold reverse-link"
+                  target="_blank"
+                  rel="noopener noreferrer">Unscripted Durham</a>
+
+                <span class="mt-auto">
+                  <span class="text-xl font-semibold">$226</span><span>/night</span>
+                </span>
+              </div>
+
+              <span class="w-full px-4 py-2 text-sm text-blue-900 block-container bg-blue-50 order-0">Most inexpensive and walkable option</span>
+            </li>
+          
+            <li class="flex flex-col gap-2 bg-white border-2 border-gray-100 rounded-md">
+              <div class="flex flex-col flex-1 order-1 gap-8 p-4">
+                <a
+                  href="https://www.ihg.com/holidayinnexpress/hotels/us/en/durham/rduhm/hoteldetail"
+                  class="text-xl font-semibold reverse-link"
+                  target="_blank"
+                  rel="noopener noreferrer">Holiday Inn Express Durham</a>
+
+                <span class="mt-auto">
+                  <span class="text-xl font-semibold">$151</span><span>/night</span>
+                </span>
+              </div>
+
+              <span class="w-full px-4 py-2 text-sm text-blue-900 block-container bg-blue-50 order-0">Inexpensive, close, but not walkable</span>
+            </li>
+          
+            <li class="flex flex-col gap-2 bg-white border-2 border-gray-100 rounded-md">
+              <div class="flex flex-col flex-1 order-1 gap-8 p-4">
+                <a
+                  href="https://www.hilton.com/en/hotels/rdumcgi-hilton-garden-inn-durham-university-medical-center/"
+                  class="text-xl font-semibold reverse-link"
+                  target="_blank"
+                  rel="noopener noreferrer">Hilton Garden Inn Durham/University Medical Center</a>
+
+                <span class="mt-auto">
+                  <span class="text-xl font-semibold">$191</span><span>/night</span>
+                </span>
+              </div>
+
+              <span class="w-full px-4 py-2 text-sm text-blue-900 block-container bg-blue-50 order-0">Nearest Hilton brand option</span>
+            </li>
+          
+        </ul>
+
+        <p class="mt-6 text-center">All rates are "the last time we checked" and may be outdated.</p>
+      </div>
+      <figure class="hidden lg:block">
+        <img
+          src="/assets/img/venue/unscripted-exterior.jpeg"
+          alt="Exterior photo of the Unscripted Hotel in Durham"
+          loading="lazy"
+          class="w-full media"
+        />
+        <figcaption>An exterior shot of the Unscripted Hotel in Durham</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+<div class="block-container">
+  <div class="wrapper">
+    <header class="mb-12">
+      <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl">Around Durham</h2>
+      <p class="space-y-6 text-xl lg:text-2xl max-w-[60rem]">
+        Public transportation is available via the
+        <a href="https://gotriangle.org/maps-schedules/gotriangle" class="link">GoTriangle</a>
+        and
+        <a href="https://gotriangle.org/maps-schedules/godurham" class="link">GoDurham</a>
+        systems which includes transit via bus to/from the Raleigh-Durham
+        International Airport and the Durham Station (approximately 1/4 mile walk
+        from the station to the hotel). Popular ride sharing services are also
+        available. While you're cruising around town, be sure to check out our
+        favorite spots:
+      </p>
+    </header>
+
+    <div>
+      
+
+      <section>
+        <ul class="grid-1-2">
+          
+            <li class="flex flex-wrap gap-6">
+  <figure>
+    <img
+      src="21c-museum.png"
+      alt="Photo of 21C Museum, Hotel, and Restaurant"
+      class="w-full media"
+    />
+  </figure>
+
+  <div class="lg:flex-1">
+    <h3 class="text-lg font-semibold lg:text-xl">
+      <a href="https://www.21cmuseumhotels.com/durham/" target="_blank" class="reverse-link">21C Museum, Hotel, and Restaurant</a>
+    </h3>
+    <dl class="space-y-3">
+      <dt class="sr-only">Distance:</dt>
+      <dd>🚶🏻 <span class="font-medium">2 blocks (0.1 miles) away</span></dd>
+
+      <dt class="sr-only">Address:</dt>
+      <dd>
+        📍
+        <a href="https://goo.gl/maps/sHmC8kuSBycrRfek8" target="_blank" class="reverse-link">111 Corcoran Street</a>
+      </dd>
+
+      <dt class="sr-only">Website:</dt>
+      <dd>
+        <a
+          href="https://www.21cmuseumhotels.com/durham/"
+          target="_blank"
+          class="font-bold link">Visit website</a>
+      </dd>
+    </dl>
+
+    <div class="mt-4">
+      <p>A boutique hotel with a restaurant and rotating art displays that are open to the public even if you're not staying at the hotel.</p>
+
+    </div>
+  </div>
+</li>
+
+          
+            <li class="flex flex-wrap gap-6">
+  <figure>
+    <img
+      src="21c-museum.png"
+      alt="Photo of Boxcar Bar & Arcade"
+      class="w-full media"
+    />
+  </figure>
+
+  <div class="lg:flex-1">
+    <h3 class="text-lg font-semibold lg:text-xl">
+      <a href="https://theboxcarbar.com/durham/" target="_blank" class="reverse-link">Boxcar Bar & Arcade</a>
+    </h3>
+    <dl class="space-y-3">
+      <dt class="sr-only">Distance:</dt>
+      <dd>🚶🏻 <span class="font-medium">5 blocks (0.4 miles) away</span></dd>
+
+      <dt class="sr-only">Address:</dt>
+      <dd>
+        📍
+        <a href="https://goo.gl/maps/1V9XiyibxNzJvs1r6" target="_blank" class="reverse-link">621 Foster Street</a>
+      </dd>
+
+      <dt class="sr-only">Website:</dt>
+      <dd>
+        <a
+          href="https://theboxcarbar.com/durham/"
+          target="_blank"
+          class="font-bold link">Visit website</a>
+      </dd>
+    </dl>
+
+    <div class="mt-4">
+      <p>A dog-friendly bar and arcade with 70 games, 24+ craft beers on tap, a large outdoor patio, and a Neapolitan-style pizza kitchen.</p>
+
+    </div>
+  </div>
+</li>
+
+          
+            <li class="flex flex-wrap gap-6">
+  <figure>
+    <img
+      src="cocoa-cinnamon.jpg"
+      alt="Photo of Cocoa Cinnamon Old North Durham"
+      class="w-full media"
+    />
+  </figure>
+
+  <div class="lg:flex-1">
+    <h3 class="text-lg font-semibold lg:text-xl">
+      <a href="https://littlewaves.coffee" target="_blank" class="reverse-link">Cocoa Cinnamon Old North Durham</a>
+    </h3>
+    <dl class="space-y-3">
+      <dt class="sr-only">Distance:</dt>
+      <dd>🚶🏻 <span class="font-medium">6 blocks (0.5 miles) away</span></dd>
+
+      <dt class="sr-only">Address:</dt>
+      <dd>
+        📍
+        <a href="https://goo.gl/maps/QppXc5ZG5i3ifGMb7" target="_blank" class="reverse-link">420 W. Geer Street</a>
+      </dd>
+
+      <dt class="sr-only">Website:</dt>
+      <dd>
+        <a
+          href="https://littlewaves.coffee"
+          target="_blank"
+          class="font-bold link">Visit website</a>
+      </dd>
+    </dl>
+
+    <div class="mt-4">
+      
+    </div>
+  </div>
+</li>
+
+          
+            <li class="flex flex-wrap gap-6">
+  <figure>
+    <img
+      src="everlou.jpg"
+      alt="Photo of EverLou Coffee Company"
+      class="w-full media"
+    />
+  </figure>
+
+  <div class="lg:flex-1">
+    <h3 class="text-lg font-semibold lg:text-xl">
+      <a href="https://www.everloucoffee.com/" target="_blank" class="reverse-link">EverLou Coffee Company</a>
+    </h3>
+    <dl class="space-y-3">
+      <dt class="sr-only">Distance:</dt>
+      <dd>🚶🏻 <span class="font-medium">4 blocks (0.3 miles) away</span></dd>
+
+      <dt class="sr-only">Address:</dt>
+      <dd>
+        📍
+        <a href="https://goo.gl/maps/9tZ8CKQp6NXjrN6E6" target="_blank" class="reverse-link">506 N. Mangum St., Suite 102</a>
+      </dd>
+
+      <dt class="sr-only">Website:</dt>
+      <dd>
+        <a
+          href="https://www.everloucoffee.com/"
+          target="_blank"
+          class="font-bold link">Visit website</a>
+      </dd>
+    </dl>
+
+    <div class="mt-4">
+      <p>A popular local coffee shop with vegan and gluten free bakery options. One of our local organizers calls it their &quot;personal fave for a good latte.&quot;</p>
+
+    </div>
+  </div>
+</li>
+
+          
+            <li class="flex flex-wrap gap-6">
+  <figure>
+    <img
+      src="luna-rotisserie.jpg"
+      alt="Photo of Luna Rotisserie and Empanadas"
+      class="w-full media"
+    />
+  </figure>
+
+  <div class="lg:flex-1">
+    <h3 class="text-lg font-semibold lg:text-xl">
+      <a href="http://www.lunarotisserie.com/" target="_blank" class="reverse-link">Luna Rotisserie and Empanadas</a>
+    </h3>
+    <dl class="space-y-3">
+      <dt class="sr-only">Distance:</dt>
+      <dd>🚶🏻 <span class="font-medium">1 block (less than 0.1 miles) away</span></dd>
+
+      <dt class="sr-only">Address:</dt>
+      <dd>
+        📍
+        <a href="https://goo.gl/maps/hY9DFxEejfoKwvPc8" target="_blank" class="reverse-link">112 W. Main St</a>
+      </dd>
+
+      <dt class="sr-only">Website:</dt>
+      <dd>
+        <a
+          href="http://www.lunarotisserie.com/"
+          target="_blank"
+          class="font-bold link">Visit website</a>
+      </dd>
+    </dl>
+
+    <div class="mt-4">
+      <p>Restaurant featuring South American bowls, empanadas, and cocktails with a casual atmosphere and lots of outdoor seating.</p>
+
+    </div>
+  </div>
+</li>
+
+          
+            <li class="flex flex-wrap gap-6">
+  <figure>
+    <img
+      src="neomonde.png"
+      alt="Photo of Neomonde Mediterranean"
+      class="w-full media"
+    />
+  </figure>
+
+  <div class="lg:flex-1">
+    <h3 class="text-lg font-semibold lg:text-xl">
+      <a href="https://www.neomonde.com/mediterranean-restaurant-durham/" target="_blank" class="reverse-link">Neomonde Mediterranean</a>
+    </h3>
+    <dl class="space-y-3">
+      <dt class="sr-only">Distance:</dt>
+      <dd>🚶🏻 <span class="font-medium">2 blocks (0.1 miles) away</span></dd>
+
+      <dt class="sr-only">Address:</dt>
+      <dd>
+        📍
+        <a href="https://goo.gl/maps/jwbJcR6EAQ3y1zG46" target="_blank" class="reverse-link">202 Corcoran St</a>
+      </dd>
+
+      <dt class="sr-only">Website:</dt>
+      <dd>
+        <a
+          href="https://www.neomonde.com/mediterranean-restaurant-durham/"
+          target="_blank"
+          class="font-bold link">Visit website</a>
+      </dd>
+    </dl>
+
+    <div class="mt-4">
+      <p>Restaurant featuring Mediterranean fare since 1977. Try a pick-four dish and enjoy four different items.</p>
+
+    </div>
+  </div>
+</li>
+
+          
+            <li class="flex flex-wrap gap-6">
+  <figure>
+    <img
+      src="parlour.jpg"
+      alt="Photo of The Parlour"
+      class="w-full media"
+    />
+  </figure>
+
+  <div class="lg:flex-1">
+    <h3 class="text-lg font-semibold lg:text-xl">
+      <a href="https://theparlour.co/" target="_blank" class="reverse-link">The Parlour</a>
+    </h3>
+    <dl class="space-y-3">
+      <dt class="sr-only">Distance:</dt>
+      <dd>🚶🏻 <span class="font-medium">1 block (less than 0.1 miles) away</span></dd>
+
+      <dt class="sr-only">Address:</dt>
+      <dd>
+        📍
+        <a href="https://goo.gl/maps/URWTyM8VreJMXRhv7" target="_blank" class="reverse-link">117 Market St</a>
+      </dd>
+
+      <dt class="sr-only">Website:</dt>
+      <dd>
+        <a
+          href="https://theparlour.co/"
+          target="_blank"
+          class="font-bold link">Visit website</a>
+      </dd>
+    </dl>
+
+    <div class="mt-4">
+      <p>Hand-made ice cream made from local dairy plus vegan options.</p>
+
+    </div>
+  </div>
+</li>
+
+          
+            <li class="flex flex-wrap gap-6">
+  <figure>
+    <img
+      src="pure-soul.png"
+      alt="Photo of Pure Soul"
+      class="w-full media"
+    />
+  </figure>
+
+  <div class="lg:flex-1">
+    <h3 class="text-lg font-semibold lg:text-xl">
+      <a href="https://puresoulff.com/" target="_blank" class="reverse-link">Pure Soul</a>
+    </h3>
+    <dl class="space-y-3">
+      <dt class="sr-only">Distance:</dt>
+      <dd>🚶🏻 <span class="font-medium">4.5 miles away</span></dd>
+
+      <dt class="sr-only">Address:</dt>
+      <dd>
+        📍
+        <a href="https://goo.gl/maps/kkAHRkiJzGdoJNHn9" target="_blank" class="reverse-link">4125 Durham-Chapell Hill Blvd</a>
+      </dd>
+
+      <dt class="sr-only">Website:</dt>
+      <dd>
+        <a
+          href="https://puresoulff.com/"
+          target="_blank"
+          class="font-bold link">Visit website</a>
+      </dd>
+    </dl>
+
+    <div class="mt-4">
+      <p>100% Vegan Soul Food from a local Black-owned business with lots of outdoor seating</p>
+
+    </div>
+  </div>
+</li>
+
+          
+            <li class="flex flex-wrap gap-6">
+  <figure>
+    <img
+      src="simons-says.png"
+      alt="Photo of Simons Says Dip This"
+      class="w-full media"
+    />
+  </figure>
+
+  <div class="lg:flex-1">
+    <h3 class="text-lg font-semibold lg:text-xl">
+      <a href="http://simonssaysdipthis.com/" target="_blank" class="reverse-link">Simons Says Dip This</a>
+    </h3>
+    <dl class="space-y-3">
+      <dt class="sr-only">Distance:</dt>
+      <dd>🚶🏻 <span class="font-medium">3 blocks (0.2 miles) away</span></dd>
+
+      <dt class="sr-only">Address:</dt>
+      <dd>
+        📍
+        <a href="https://goo.gl/maps/jGbY3SfbhT63wK17A" target="_blank" class="reverse-link">117 W Parrish St</a>
+      </dd>
+
+      <dt class="sr-only">Website:</dt>
+      <dd>
+        <a
+          href="http://simonssaysdipthis.com/"
+          target="_blank"
+          class="font-bold link">Visit website</a>
+      </dd>
+    </dl>
+
+    <div class="mt-4">
+      <p>Vanilla soft-serve ice cream (dairy or vegan) with 20 different dip options and countless toppings.</p>
+
+    </div>
+  </div>
+</li>
+
+          
+        </ul>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="block-container">
+  <div class="wrapper">
+    <header class="mb-12">
+      <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl">An Accessible Experience</h2>
+      <div class="space-y-6 text-xl lg:text-2xl max-w-[60rem]">
+        <p>
+          We're working with the staff at the Durham Convention Center to
+          accommodate the diverse needs of our attendees.
+        </p>
+        <p>
+          Are we missing something?
+          <strong><a href="mailto:hello@djangocon.us" class="link">Let us know</a>.</strong>
+        </p>
+      </div>
+    </header>
+
+    <ul class="gap-8 px-4 space-y-8 list-disc lg:gap-16 md:columns-2 lg:columns-3 lg:text-xl *:break-inside-avoid">
+      <li>All public restrooms have accessible stalls.</li>
+      <li>
+        The convention center does not provide gender-neutral restrooms.
+        Please use the restroom for the gender with which you identify.
+      </li>
+      <li>There is step-free access to all parts of the venue.</li>
+      <li>
+        Service animals are welcome, and there is a grassy area outside the
+        hotel and convention center where they can be walked.
+      </li>
+      <li>
+        The Quiet Room will be available on all conference days. This room
+        is not for socializing.
+      </li>
+      <li>
+        A Lactation Room will be available as needed Sunday-Wednesday.
+        
+      </li>
+
+
+
+        
+        <li>
+          <a href="/news/childcare-at-djangocon-us/">Sponsored childcare</a>
+          will be provided.
+        </li>
+      </ul>
+  </div>
+</div>
+</main>
+
+  
+  <footer id="SiteFooter" class="py-20 text-white bg-black">
+    <div class="container mx-auto ">
+      <div class="grid gap-8 px-4 place-items-center">
+        <ul class="flex flex-wrap gap-8">
+          <li>
+            <a class="hover:text-social-mastodon" href="https://fosstodon.org/@djangocon">
+              <svg class="w-8 h-8 icon">
+                <title>Mastodon</title>
+                <use xlink:href="#mastodon-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="hover:text-social-twitter" href="https://twitter.com/djangocon">
+              <svg class="w-8 h-8 icon">
+                <title>X (Formerly Twitter)</title>
+                <use xlink:href="#twitter-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="hover:text-social-github" href="https://github.com/djangocon/">
+              <svg class="w-8 h-8 icon">
+                <title>Github</title>
+                <use xlink:href="#github-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="hover:text-social-facebook" href="https://www.facebook.com/djangoconus/">
+              <svg class="w-8 h-8 icon">
+                <title>Facebook</title>
+                <use xlink:href="#facebook-icon"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <p class="text-center lg:text-xl">
+          <strong>
+            Got questions? We can help:
+            <a
+              href="mailto:hello@djangocon.us" class="link">hello@djangocon.us</a>
+          </strong>
+        </p>
+        <small class="text-sm text-center">
+          &copy; 2024 DjangoCon US
+          · Design by <a href="http://yupgup.com/" class="link" target="_blank">YupGup</a>
+          · Presented by <a href="https://www.defna.org/" class="link" target="_blank">DEFNA</a>
+          · <a href="/colophon/" class="link">Colophon</a>
+        </small>
+      </div>
+    </div>
+  </footer><svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="facebook-icon" viewBox="0 0 42 42">
+    <path fill="currentColor" d="M39.68,0H2.32A2.32,2.32,0,0,0,0,2.32V39.68A2.32,2.32,0,0,0,2.32,42H22.43V25.74H17V19.4h5.47V14.72c0-5.42,3.31-8.38,8.15-8.38a44.91,44.91,0,0,1,4.89.25v5.67H32.12c-2.63,0-3.14,1.25-3.14,3.09v4h6.28l-.82,6.34H29V42h10.7A2.32,2.32,0,0,0,42,39.68V2.32A2.32,2.32,0,0,0,39.68,0Z"/>
+  </symbol>
+  <symbol id="github-icon" viewBox="0 0 32.58 31.77">
+    <path fill="currentColor" d="M16.29,0a16.29,16.29,0,0,0-5.15,31.75c.81.15,1.11-.35,1.11-.79s0-1.41,0-2.77C7.7,29.18,6.74,26,6.74,26a4.31,4.31,0,0,0-1.81-2.38c-1.48-1,.11-1,.11-1a3.42,3.42,0,0,1,2.5,1.68,3.47,3.47,0,0,0,4.74,1.35,3.48,3.48,0,0,1,1-2.18C9.7,23.08,5.9,21.68,5.9,15.44a6.3,6.3,0,0,1,1.68-4.37,5.86,5.86,0,0,1,.16-4.31s1.37-.44,4.48,1.67a15.44,15.44,0,0,1,8.16,0c3.11-2.11,4.48-1.67,4.48-1.67A5.85,5.85,0,0,1,25,11.07a6.29,6.29,0,0,1,1.67,4.37c0,6.26-3.81,7.63-7.44,8a3.89,3.89,0,0,1,1.11,3c0,2.18,0,3.93,0,4.47s.29.94,1.12.78A16.29,16.29,0,0,0,16.29,0Z"/>
+  </symbol>
+  <symbol id="mastodon-icon" viewBox="0 0 16 16">
+    <path fill="currentColor" d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z"/>
+  </symbol>
+  <symbol id="twitter-icon" viewBox="0 0 300 300.251">
+    <path fill="currentColor" d="M178.57 127.15 290.27 0h-26.46l-97.03 110.38L89.34 0H0l117.13 166.93L0 300.25h26.46l102.4-116.59 81.8 116.59h89.34M36.01 19.54H76.66l187.13 262.13h-40.66"/>
+  </symbol>
+  <symbol id="web-icon" viewBox="0 0 64.5 64.5">
+    <path fill="currentColor" d="M32.2 0C14.5 0 0 14.5 0 32.2 0 50 14.5 64.5 32.2 64.5 50 64.5 64.5 50 64.5 32.2 64.5 14.5 50 0 32.2 0zM57.2 45.3C57.2 45.3 57.2 45.3 57.2 45.3l-6.7 0c1.1-3.6 1.7-7.4 1.9-11.1h8C60.1 38.1 59 41.9 57.2 45.3zM34.4 60.4V49.3H45c-2.1 4.9-4.5 8.5-5.9 10.4C37.6 60 36 60.2 34.4 60.4zM25.5 59.7c-1.4-1.8-3.8-5.4-5.9-10.4h10.8v11.1C28.8 60.3 27.1 60.1 25.5 59.7zM7.3 45.3c-1.8-3.4-2.9-7.2-3.2-11.1h8.1c0.2 3.8 0.8 7.5 1.9 11.1L7.3 45.3C7.3 45.3 7.3 45.3 7.3 45.3zM7.5 18.8C7.5 18.8 7.5 18.8 7.5 18.8l6.7 0c-1.2 3.7-1.8 7.6-2 11.5H4.1C4.4 26.3 5.5 22.4 7.5 18.8zM30.5 4.1v10.8H19.9c1.5-3.3 3.5-6.7 6.1-10.2C27.4 4.4 28.9 4.2 30.5 4.1zM38.7 4.7c2.6 3.5 4.5 6.9 6 10.2H34.4V4.1C35.8 4.3 37.3 4.4 38.7 4.7zM46.2 18.8c1.3 3.7 2 7.6 2.2 11.5h-14V18.8C34.4 18.8 46.2 18.8 46.2 18.8zM30.5 18.8v11.5H16.2c0.2-3.6 0.8-7.5 2.2-11.5H30.5zM16.2 34.2h14.3v11.1H18.2C17 41.7 16.4 38 16.2 34.2zM34.4 45.3V34.2h14c-0.2 3.8-0.9 7.5-2 11.1C46.4 45.3 34.4 45.3 34.4 45.3zM52.4 30.3c-0.1-3.9-0.8-7.7-2-11.5H57c0 0 0 0 0 0 1.9 3.5 3.1 7.5 3.3 11.5C60.4 30.3 52.4 30.3 52.4 30.3zM54.5 14.9h-5.5c-1.1-2.7-2.4-5.3-3.9-7.8C48.7 9 51.9 11.6 54.5 14.9zM19.7 7c-1.6 2.5-2.9 5.2-4 7.9H10C12.6 11.6 15.9 8.9 19.7 7zM9.7 49.3h5.6c1.1 2.8 2.4 5.4 3.9 8C15.5 55.3 12.3 52.6 9.7 49.3zM45.4 57.2c1.5-2.5 2.8-5.2 3.8-7.9h5.5C52.3 52.6 49.1 55.2 45.4 57.2z"/>
+  </symbol>
+</svg>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
