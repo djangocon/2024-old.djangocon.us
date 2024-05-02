@@ -1,35 +1,50 @@
 {
-  "name": "DjangoConUS",
+  "name": "durham.djangocon.us",
   "version": "1.0.0",
-  "description": "DjangoCon US Website",
-  "devDependencies": {
-    "all-contributors-cli": "^6.20.0",
-    "css-loader": "^6.7.1",
-    "mini-css-extract-plugin": "^2.6.1",
-    "resolve-url-loader": "^5.0.0",
-    "sass": "^1.62.1",
-    "sass-loader": "^13.0.2",
-    "webpack": "^5.80.0",
-    "webpack-cli": "^4.10.0"
-  },
+  "description": "DjangoCon.us conference website built on 11ty",
+  "main": "index.js",
   "scripts": {
-    "add": "all-contributors add",
-    "generate": "all-contributors generate",
-    "build": "webpack",
-    "css": "sass _src/scss/main.scss:static/main.css --no-source-map",
-    "watch-jk-dev": "bundle exec jekyll serve --watch -l -H 0.0.0.0"
+    "start": "npm run serve",
+    "watch": "concurrently -c auto npm:css:watch npm:11ty:watch",
+    "serve": "concurrently -c auto npm:css:watch npm:11ty:serve",
+    "build": "npm run css:build && npm run 11ty:build",
+    "debug": "cross-env DEBUG=Eleventy* npm run build",
+    "clean": "node ./scripts/cleanDist.js",
+    "11ty:watch": "cross-env NODE_ENV=development eleventy --watch --incremental",
+    "11ty:serve": "cross-env NODE_ENV=development eleventy --serve --incremental",
+    "11ty:build": "cross-env NODE_ENV=production eleventy",
+    "css:watch": "postcss src/assets/css/main.css -o dist/assets/css/main.css --watch",
+    "css:build": "NODE_ENV=production postcss src/assets/css/main.css -o dist/assets/css/main.css"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/djangocon/2023.djangocon.us"
+    "url": "git+ssh://git@github.com/djangocon/durham.djangocon.us.git"
   },
+  "keywords": [
+    "django",
+    "djangocon",
+    "conference"
+  ],
   "author": "DEFNA",
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "foundation-sites": "^6.7.5",
-    "hamburgers": "^1.2.1",
-    "jquery": "^3.6.0",
-    "motion-ui": "^2.0.4"
+  "bugs": {
+    "url": "https://github.com/djangocon/durham.djangocon.us/issues"
+  },
+  "homepage": "https://github.com/djangocon/durham.djangocon.us#README",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^4.0.2",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.18",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "cssnano": "^6.1.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.0.0",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.0.1",
+    "tailwindcss": "^3.4.1",
+    "yaml": "^2.4.1"
   }
 }

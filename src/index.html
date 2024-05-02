@@ -1,0 +1,204 @@
+---
+layout: default
+
+title: Welcome to DjangoCon US
+---
+
+<div
+  class="pt-8 pb-0 bg-repeat border-b-4 border-black lg:pt-2"
+  style="background-image: url(/assets/img/theme/hero-bg.svg)"
+>
+  <div class="wrapper">
+    <div class="flex flex-col gap-8 lg:flex-row">
+      <section class="self-center w-full lg:flex-1">
+        <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
+          Join us for <strong>five days</strong><br />
+          of inspiration, education,<br />and networking
+        </h1>
+
+        <p class="mb-4 text-2xl lg:text-3xl">
+          <strong>September 22-27, 2024</strong>
+        </p>
+
+        <p class="mb-6 text-2xl lg:text-3xl">
+          <a
+            href="https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP"
+            target="_blank"
+            class="hover:text-mosaic-blue"
+            >Durham Convention Center<br /><strong>Durham, NC</strong></a
+          >
+        </p>
+
+        <div class="button-group">
+          <a class="button bg-mosaic-blue" href="{{ site.ticket_link }}"
+            >Buy Tickets</a
+          >
+          <a class="button" href="{{ site.hotel_reservation_link }}"
+            >Book a Room</a
+          >
+
+          {% comment %}
+          <a class="button" href="{{ site.cfp_application }}">Submit Talk</a>
+          <a
+            class="button"
+            href="https://emails.djangocon.us/sendy/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g"
+            >Join Mailing List</a
+          >
+          <a class="button" href="/schedule/">Conference Schedule</a>
+          {% endcomment %}
+        </div>
+      </section>
+
+      <div class="self-end lg:max-w-2xl">
+        <img
+          src="/assets/img/theme/hero-img.webp"
+          alt="A collage of Durham, NC centric stickers and photos."
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray-100 block-container">
+  <div class="wrapper">
+    <div class="grid-1-2">
+      <section class="flex flex-col items-start justify-center mb-6 sm:mb-0">
+        <h2
+          class="mb-4 text-3xl font-bold leading-relaxed font-heading lg:text-5xl"
+        >
+          For Django fans<br />
+          of all&nbsp;levels
+        </h2>
+        <p class="text-xl lg:text-2xl mb-6">
+          DjangoCon US has something for everyone, from the person who develops
+          Django applications for a living to the person who just tinkers in
+          their spare time.
+        </p>
+        <a class="button" href="{{ site.ticket_link }}">About DjangoCon US</a>
+      </section>
+      <div>
+        <ul class="space-y-10">
+          <li>
+            {% include 'components/date-card.html', month:"Sep", days:"22",
+            heading:"Tutorials: One day, numerous sessions" %}
+          </li>
+          <li>
+            {% include 'components/date-card.html', month:"Sep", days:"23-25",
+            heading:"Talks: Dozens of talks chosen by the community" %}
+          </li>
+          <li>
+            {% include 'components/date-card.html', month:"Sep", days:"26-27",
+            heading:"Sprints: Team up to work on Django!" %}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block-container">
+  <div class="wrapper">
+    <h2
+      class="mb-8 text-2xl font-bold text-center font-heading lg:text-5xl max-w-[20ch] mx-auto"
+    >
+      A friendly conference for a friendly community
+    </h2>
+
+    <div class="grid gap-8 lg:grid-cols-3 lg:gap-16">
+      <section class="flex flex-col gap-4 p-6 bg-white border-4 rounded">
+        <img
+          src="/assets/img/theme/icons/People.svg"
+          alt="Two people. One person is standing slightly in front of the other."
+          class="w-16 h-16 icon"
+        />
+        <h3 class="text-lg font-bold lg:text-2xl font-heading">
+          Code of Conduct
+        </h3>
+        <p class="lg:text-lg">
+          Participants are expected to be respectful to each other. For details
+          on our expectations, and who to contact if you need assistance, see
+          our
+          <strong
+            ><a href="/about/conduct/" class="link">Code of Conduct</a></strong
+          >.
+        </p>
+      </section>
+
+      <section class="flex flex-col gap-4 p-6 bg-white border-4 rounded">
+        <img
+          src="/assets/img/theme/icons/Document.svg"
+          alt="An official document with words written on it."
+          class="w-16 h-16 icon"
+        />
+        <h3 class="text-lg font-bold lg:text-2xl font-heading">COVID-19</h3>
+        <p class="lg:text-lg">
+          Read our
+          <strong
+            ><a href="/about/public-health" class="link"
+              >COVID-19 Policy</a
+            ></strong
+          >, including mask and testing requirements.
+        </p>
+      </section>
+
+      <section class="flex flex-col gap-4 p-6 bg-white border-4 rounded">
+        <img
+          src="/assets/img/theme/icons/Heart.svg"
+          alt="A heart."
+          class="w-16 h-16 icon"
+        />
+        <h3 class="text-lg font-bold lg:text-2xl font-heading">Accessiblity</h3>
+        <p class="lg:text-lg">
+          We offer a range of accommodations, including live captioning,
+          thoughtful lunch options, and a dedicated accessibility team to ensure
+          everyone can fully participate.
+        </p>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="block-container">
+  <div class="wrapper">
+    <div class="grid-1-2">
+      <figure>
+        {% comment %} TODO: Use Image component {% endcomment %}
+        <span class="photo-effect">
+          <img
+            src="/assets/img/noah.jpg"
+            loading="lazy"
+            alt="Noah Alorwu smiling for a picture."
+          />
+        </span>
+      </figure>
+      <section>
+        <h2 class="mb-8 text-2xl font-bold font-heading lg:text-5xl">
+          Latest News
+        </h2>
+
+        <ol class="space-y-4 divide-y" reversed>
+          {%- for post in collections.posts reversed -%} {% unless post.hidden
+          or post.category == 'talk' or post.category == 'tutorial' %} {% if
+          forloop.index0 < 3 %}
+          <li>
+            <article class="py-6">
+              <time
+                class="mb-2 tracking-wide text-gray-600 uppercase block-container"
+                datetime="{{ post.date }}"
+                >{{ post.date | date: "%b %-d, %Y" }}</time
+              >
+              <h2 class="text-xl font-semibold font-heading lg:text-2xl">
+                <a href="{{ post.url }}" class="reverse-link"
+                  >{{ post.data.title | escape }}</a
+                >
+              </h2>
+            </article>
+          </li>
+          {% endif %} {% endunless %} {%- endfor -%}
+        </ol>
+
+        <a class="button" href="/news/">Read More News</a>
+      </section>
+    </div>
+  </div>
+</div>

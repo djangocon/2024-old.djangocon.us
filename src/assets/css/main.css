@@ -1,0 +1,151 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "components/_badge.css";
+@import "components/_buttons.css";
+@import "components/_table.css";
+
+@import "components/_containers.css";
+
+@import "tailwindcss/utilities";
+
+@layer base {
+  /* THEME-X */
+  :root {
+    /* Typography */
+    --theme-text-color: #000;
+
+    /* Colors */
+  }
+
+  /*
+    h-screen and flex-col on the body allow the footer
+    to be fixed to the bottom of the viewport.
+  */
+  html,
+  body {
+    @apply h-screen;
+  }
+
+  body {
+    @apply flex flex-col relative;
+    @apply antialiased;
+
+    color: var(--theme-text-color);
+  }
+
+  figcaption {
+    @apply text-sm text-center mt-3;
+  }
+
+  .link {
+    @apply underline;
+  }
+
+  .link:hover {
+    @apply no-underline;
+  }
+
+  .reverse-link:hover {
+    @apply underline;
+  }
+
+  .font-heading {
+    @apply leading-tight font-medium;
+  }
+
+  .icon {
+    @apply inline-block;
+    @apply align-middle;
+    @apply w-6 h-6;
+  }
+
+  .media {
+    @apply border-4 border-gray-100 rounded;
+  }
+
+  .pageheading {
+    @apply text-4xl font-bold leading-tight lg:text-5xl;
+  }
+
+  .subheading {
+    @apply text-xl leading-tight font-medium lg:text-3xl;
+  }
+
+  .lead {
+    @apply text-lg lg:text-xl;
+  }
+
+  .photo-effect {
+    @apply relative;
+  }
+
+  .photo-effect::before {
+    @apply absolute z-10;
+    @apply block w-full h-full rounded;
+    content: '';
+
+    opacity: 0.4;
+    background: linear-gradient(126deg, theme('colors.mosaic-blue') 11.2%, theme('colors.lucky-orange') 69.95%, theme('colors.brick-red') 90.34%);
+  }
+
+  .photo-effect img {
+    @apply rounded;
+  }
+}
+
+@layer components {
+  .prose {
+    /* THEME-X */
+    /* Prose (long form text) overrides */
+    --tw-prose-body: var(--theme-text-color);
+    --tw-prose-headings: var(--theme-text-color);
+    --tw-prose-lead: var(--theme-text-color);
+    --tw-prose-links: var(--theme-text-color);
+    --tw-prose-bold: var(--theme-text-color);
+    --tw-prose-counters: var(--theme-text-color);
+    --tw-prose-bullets: var(--theme-text-color);
+    --tw-prose-hr: var(--theme-text-color);
+    --tw-prose-quotes: var(--theme-text-color);
+    --tw-prose-quote-borders: var(--theme-text-color);
+    --tw-prose-captions: var(--theme-text-color);
+    --tw-prose-kbd: var(--theme-text-color);
+    --tw-prose-kbd-shadows: 17 24 39;
+    --tw-prose-code: var(--theme-text-color);
+  }
+
+  .prose a {
+    @apply link;
+  }
+
+
+  /* Nav styles */
+  [data-menu-trigger] {
+    @apply relative flex items-center gap-1;
+  }
+
+  [data-menu-trigger]::after {
+    @apply block w-5 h-5;
+    @apply bg-ice-cream-purple;
+
+    mask: url('/assets/img/theme/icons/Triangle.svg');
+    mask-size: cover;
+    mask-repeat: no-repeat;
+
+    @apply rotate-180;
+
+    content: '';
+  }
+}
+
+@layer utilities {
+  *:has(> .cover) {
+    @apply relative;
+  }
+
+  .cover::before {
+    @apply absolute left-0 top-0;
+    @apply h-full w-full;
+    content: '';
+  }
+}

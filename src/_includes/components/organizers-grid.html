@@ -1,0 +1,76 @@
+<ul class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-16">
+  {%- for organizer in collections.organizers -%}
+    {% assign photo = 'src/_content/organizers/' | append: organizer.data.photo %}
+    <li class="flex flex-col">
+      {% image photo, './dist/organizers', '/organizers/', organizer.data.name, '(min-width: 1024px) 300px, 600px', 'block w-full object-cover object-left-top aspect-square media' %}
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-xl font-heading lg:text-2xl">{{ organizer.data.name }}</h2>
+        <p class="mb-4 text-gray-600">{{ organizer.data.role }}</p>
+
+        {% if organizer.data.social %}
+          <ul class="flex flex-wrap gap-4 mt-auto">
+            {% if organizer.data.social.github not null %}
+              <li>
+                <a
+                  href="https://github.com/{{ organizer.data.social.github }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-social-github"
+                  aria-label="GitHub">
+                  <svg class="icon">
+                    <title>GitHub</title>
+                    <use xlink:href="#github-icon"></use>
+                  </svg>
+                </a>
+              </li>
+            {% endif %}
+            {% if organizer.data.social.mastodon not null %}
+              <li>
+                <a
+                  href="{{ organizer.data.social.mastodon }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-social-mastodon"
+                  aria-label="Mastodon">
+                  <svg class="icon">
+                    <title>Mastodon</title>
+                    <use xlink:href="#mastodon-icon"></use>
+                  </svg>
+                </a>
+              </li>
+            {% endif %}
+            {% if organizer.data.social.twitter not null %}
+              <li>
+                <a
+                  href="https://twitter.com/{{ organizer.data.social.twitter }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-social-twitter"
+                  aria-label="X.com">
+                  <svg class="icon">
+                    <title>X (Formerly Twitter)</title>
+                    <use xlink:href="#twitter-icon"></use>
+                  </svg>
+                </a>
+              </li>
+            {% endif %}
+            {% if organizer.data.social.website not null %}
+              <li>
+                <a
+                  href="{{ organizer.data.social.website }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-central-park-green"
+                  aria-label="Website">
+                  <svg class="icon">
+                    <use xlink:href="#web-icon"></use>
+                  </svg>
+                </a>
+              </li>
+            {% endif %}
+          </ul>
+        {% endif %}
+      </div>
+    </li>
+  {%- endfor -%}
+</ul>
