@@ -6,10 +6,10 @@
   border-color: var(--theme-text-color);
 
   /* THEME-X */
-  @apply border-r-4 border-b-4 bg-mosaic-blue;
+  @apply border-b-4 border-r-4;
 
 
-  background: linear-gradient(to bottom, theme('colors.mosaic-blue') 50%, theme('colors.carolina-yellow') 50%);
+  background: linear-gradient(to bottom, transparent 50%, theme('colors.carolina-yellow') 50%);
   background-size: 100% 200%;
   background-position: top;
   transition: all .125s ease-out;
