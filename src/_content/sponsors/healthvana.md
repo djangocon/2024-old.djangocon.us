@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Bronze
 name: Healthvana
 date: 2022-08-05

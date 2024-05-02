@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Gold
 name: JBS Solutions
 date: 2022-09-15

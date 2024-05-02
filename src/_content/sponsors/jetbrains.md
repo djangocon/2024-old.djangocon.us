@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Gold
 name: Jetbrains
 date: 2023-09-11

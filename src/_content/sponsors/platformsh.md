@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Diamond
 name: Platform.sh
 date: 2023-06-29

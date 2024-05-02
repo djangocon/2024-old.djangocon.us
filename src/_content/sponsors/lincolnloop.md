@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Gold
 name: Lincoln Loop
 date: 2022-06-21

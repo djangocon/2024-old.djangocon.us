@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Bronze
 name: TestDriven.io
 date: 2022-08-08

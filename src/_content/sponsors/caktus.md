@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Platinum
 name: Caktus Consulting Group LLC
 date: 2023-08-24

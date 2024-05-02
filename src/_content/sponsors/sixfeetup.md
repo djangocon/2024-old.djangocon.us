@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Diamond
 name: Six Feet Up
 date: 2022-07-20
