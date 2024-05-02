@@ -21,6 +21,9 @@ module.exports = {
         'social-github': '#7041c0',
         'social-mastodon': '#6364FF',
       },
+      fontSize: {
+        '5xl': ['3rem', 1.1]
+      },
     },
   },
   plugins: [
