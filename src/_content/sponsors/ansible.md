@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Gold
 name: Ansible
 date: 2023-08-24
