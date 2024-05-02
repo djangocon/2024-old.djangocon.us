@@ -82,11 +82,15 @@
 
   .photo-effect::before {
     @apply absolute z-10;
-    @apply block w-full h-full;
+    @apply block w-full h-full rounded;
     content: '';
 
     opacity: 0.4;
     background: linear-gradient(126deg, theme('colors.mosaic-blue') 11.2%, theme('colors.lucky-orange') 69.95%, theme('colors.brick-red') 90.34%);
+  }
+
+  .photo-effect img {
+    @apply rounded;
   }
 }
 
